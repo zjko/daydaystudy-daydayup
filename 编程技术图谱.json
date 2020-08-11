@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
-  "focusKey": "68929564-e1bd-41be-9295-5dde175880a6",
+  "focusKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -42,6 +42,41 @@
       ]
     },
     {
+      "key": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+      "subKeys": [
+        "236ff65c-1fd3-47f3-898c-3c44e0a85195",
+        "910218fd-d03c-4d97-9aa1-36017b5e2a08",
+        "8d709f65-63cb-4a0f-856d-dd9811f80eed",
+        "dbdf3496-1acc-4d7f-8807-ae42c7a48a13",
+        "188792eb-66f4-47a1-905d-874b8a4d2a6c",
+        "44008792-cc89-4611-a3d7-f3b9149aa238",
+        "dd5c44d6-5fad-43ab-be9b-5b2529dd044e",
+        "60ce7193-1abe-4039-9de9-e92c63f9c01b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "J2EE 模式"
+        }
+      ]
+    },
+    {
+      "key": "06c6f258-57f9-49d8-85df-cb499f47f2f9",
+      "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "原型模式（Prototype Pattern）"
+        }
+      ]
+    },
+    {
       "key": "a36b6645-37bc-4bb1-b057-fb538db6e2d6",
       "parentKey": "fe0190ef-86ec-4c46-a319-93eea0adcfe2",
       "subKeys": [
@@ -53,6 +88,19 @@
         {
           "type": "CONTENT",
           "data": "网络接口层"
+        }
+      ]
+    },
+    {
+      "key": "02fc72a4-32e8-4a43-8d34-7c17c86bedb6",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "DAO"
         }
       ]
     },
@@ -70,6 +118,34 @@
       ]
     },
     {
+      "key": "fc46d59a-b527-4790-83aa-5df1ef08f1d7",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [
+        "c2593188-7d3d-4e96-b4c7-381ccd9631e6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "常量池"
+        }
+      ]
+    },
+    {
+      "key": "849fdd2d-7d76-4eae-b483-6325ea715caf",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "命令模式（Command Pattern）"
+        }
+      ]
+    },
+    {
       "key": "3e708968-c8b9-463a-977a-1932fa48995f",
       "parentKey": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
       "subKeys": [
@@ -82,6 +158,23 @@
         {
           "type": "CONTENT",
           "data": "数据库"
+        }
+      ]
+    },
+    {
+      "key": "8272e101-8cb0-431b-aea4-00ef1dc51e49",
+      "parentKey": "53aa9c9c-dec9-4622-a13c-87bff52e56b6",
+      "subKeys": [
+        "f4bbabaa-3926-419e-9a0a-608e7db0ddc9",
+        "3c635c8f-478b-405b-bcc0-a6ebafc02924",
+        "219f9680-a37a-4058-8224-e43742dd610a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Java堆"
         }
       ]
     },
@@ -221,6 +314,21 @@
       ]
     },
     {
+      "key": "effcf807-107c-4466-81c4-e42f0c69f492",
+      "parentKey": "53aa9c9c-dec9-4622-a13c-87bff52e56b6",
+      "subKeys": [
+        "098e1651-a2c9-44f8-a74a-ede71cf2fac2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "方法区"
+        }
+      ]
+    },
+    {
       "key": "5c1889a8-56cf-4cd7-a691-953c0277cea5",
       "parentKey": "19330261-06d6-46a9-ad75-64daecefaf90",
       "subKeys": [],
@@ -234,6 +342,63 @@
       ]
     },
     {
+      "key": "1d98df33-208c-4537-a601-55e114a74d0c",
+      "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "subKeys": [
+        "988ec886-52a3-42b2-9312-c26033607322",
+        "2f6b3a9d-ad45-4098-a60b-3061ff4adf13"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "内存管理"
+        }
+      ]
+    },
+    {
+      "key": "73336561-7a63-4707-9ea3-07c34effd75a",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "方法表集合"
+        }
+      ]
+    },
+    {
+      "key": "793931af-cf49-49ea-901a-e0d081c1d5c9",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "责任链模式（Chain of Responsibility Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "988ec886-52a3-42b2-9312-c26033607322",
+      "parentKey": "1d98df33-208c-4537-a601-55e114a74d0c",
+      "subKeys": [
+        "39c68aa1-372d-4a29-b77a-a565ffe4f76b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "物理内存"
+        }
+      ]
+    },
+    {
       "key": "3d2c7acd-7385-4f2a-b8b3-8d9665d99198",
       "parentKey": "7aa7427e-782b-4459-8247-bdc7962bb004",
       "subKeys": [],
@@ -243,6 +408,47 @@
         {
           "type": "CONTENT",
           "data": "常用于生产者消费者模型"
+        }
+      ]
+    },
+    {
+      "key": "470d8cf2-eeb5-4970-91e7-8416f7745977",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [
+        "5e74a913-d0bf-4546-986a-df85e07159d0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Context"
+        }
+      ]
+    },
+    {
+      "key": "bf6707e9-9a9d-488e-934d-3e142327ebb8",
+      "parentKey": "e101c947-5810-44d6-902f-7172661d1f7a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "d9e4b227-44a3-4df8-9f2f-6ab468185390",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Serial Old"
         }
       ]
     },
@@ -384,6 +590,71 @@
       ]
     },
     {
+      "key": "25f158e1-6159-4a79-8893-0a362c8b8912",
+      "parentKey": "700372af-1d5f-470c-ad62-59e29d3c787c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "线程安全与锁优化"
+        }
+      ]
+    },
+    {
+      "key": "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
+      "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "建造者模式（Builder Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "49104c8c-4af8-4e9e-b063-4b8ad497be7b",
+      "parentKey": "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "针对接口编程，依赖于抽象而不依赖于具体。"
+        }
+      ]
+    },
+    {
+      "key": "3c635c8f-478b-405b-bcc0-a6ebafc02924",
+      "parentKey": "8272e101-8cb0-431b-aea4-00ef1dc51e49",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "静态变量"
+        }
+      ]
+    },
+    {
+      "key": "8c320993-8755-49ca-92d8-1f3e7da8be1c",
+      "parentKey": "4fab64f5-e94d-468b-84df-bcd3512e2645",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "对象创建"
+        }
+      ]
+    },
+    {
       "key": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
       "parentKey": "4b12ce90-98e8-4be2-9502-6999bf6fc64b",
       "subKeys": [
@@ -404,6 +675,37 @@
       ]
     },
     {
+      "key": "fd68f222-af7e-4160-8c26-42697d579a6a",
+      "parentKey": "c9092260-7e2c-4ac3-a7eb-4879977abda7",
+      "subKeys": [
+        "e6e28467-bf78-400d-9aba-1c853a2c3f7b",
+        "f84bf497-8731-438d-87c3-e82191b1a4ae",
+        "e1b8ac16-64c2-4873-9b2e-19882ed2903e",
+        "60b9e3c2-e880-4cfe-a20c-8144922cc7d4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "OutOfMemoryError异常"
+        }
+      ]
+    },
+    {
+      "key": "a35d6930-5d98-4845-99e9-6ccbfbcbbec9",
+      "parentKey": "a3bbd7dc-971c-49a7-9225-e6c4ae78c528",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "描述类的访问属性，是Class还是Interface，是public还是abstract，是否为final\n一共预留了16位，当前定义了8位"
+        }
+      ]
+    },
+    {
       "key": "d72910dc-ee1a-4ffa-8f03-54477d65ccc5",
       "parentKey": "8cb1e776-2552-4d03-9999-3057bdc54826",
       "subKeys": [
@@ -415,6 +717,58 @@
         {
           "type": "CONTENT",
           "data": "HashSet"
+        }
+      ]
+    },
+    {
+      "key": "5e74a913-d0bf-4546-986a-df85e07159d0",
+      "parentKey": "470d8cf2-eeb5-4970-91e7-8416f7745977",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Spring上下文是一个配置文件，向Spring框架提供上下文信息。\n包括企业服务，如JNDI、电子邮件、国际化、校验和调度功能。"
+        }
+      ]
+    },
+    {
+      "key": "42460c7b-8400-4d4b-b389-fa0e4e6b0dc9",
+      "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "空间分配担保"
+        }
+      ]
+    },
+    {
+      "key": "90217982-0288-4c10-89df-4f519cf8e40a",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "外部命令导致系统缓慢"
+        }
+      ]
+    },
+    {
+      "key": "e42f9665-9913-4192-a41d-e73a38b85673",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Parallel Old"
         }
       ]
     },
@@ -450,6 +804,19 @@
       ]
     },
     {
+      "key": "6a524db6-1a70-476c-8c5b-055dcb1dd7c4",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "WEB"
+        }
+      ]
+    },
+    {
       "key": "42e26013-0fe7-42db-9655-e1bd26a59e0e",
       "parentKey": "97243745-e283-41d5-8522-e2ccb79c9254",
       "subKeys": [],
@@ -476,6 +843,45 @@
       ]
     },
     {
+      "key": "219f9680-a37a-4058-8224-e43742dd610a",
+      "parentKey": "8272e101-8cb0-431b-aea4-00ef1dc51e49",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "其他"
+        }
+      ]
+    },
+    {
+      "key": "3f69bdb6-703a-493e-bfc9-e2ec93974389",
+      "parentKey": "dac0f24c-c3ec-427e-84b7-5aed52530643",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "cf2633a2-60c7-49f1-8a3f-1a85defc4364",
+      "parentKey": "85f749e0-401d-404d-bf16-785eed0919d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "使用多个隔离的接口，比使用单个接口要好"
+        }
+      ]
+    },
+    {
       "key": "9a3f2669-badb-4063-af4d-21fcc3a16623",
       "parentKey": "0af26b12-b694-4e8b-ae6c-c6c2350e830d",
       "subKeys": [
@@ -491,15 +897,48 @@
       ]
     },
     {
+      "key": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+      "parentKey": "fad8e722-4970-4020-b1dd-9aab74281f2b",
+      "subKeys": [
+        "2631cffa-b521-4f0a-8a51-69eb1b5d00ff",
+        "148456bf-6683-435f-a021-7d6084d48794",
+        "20698cea-71c1-4a6e-9465-0ea058dac75d",
+        "533c68ff-46be-44eb-bbdd-6c4c6bbf3c7a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "垃圾回收算法"
+        }
+      ]
+    },
+    {
       "key": "4daf6479-6497-4b06-8d85-8ab683a9356f",
       "parentKey": "502be031-4a4b-4620-bd1b-021a407ed3dd",
-      "subKeys": [],
+      "subKeys": [
+        "aa083569-e799-42f5-8577-a399b0f206a6"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "三次握手"
+        }
+      ]
+    },
+    {
+      "key": "be068a34-a533-471f-a87f-4382de4d704f",
+      "parentKey": "0e417ed3-8a84-408f-ba4a-f94e781c6e3b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "尽量使用合成/聚合的方式，而不是使用继承。"
         }
       ]
     },
@@ -513,6 +952,36 @@
         {
           "type": "CONTENT",
           "data": "PolarDB"
+        }
+      ]
+    },
+    {
+      "key": "b11db092-b77f-4e14-ab84-885d5194bd57",
+      "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "工厂模式（Factory Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "46137015-33f2-4a19-b103-a88685c87b52",
+      "parentKey": "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
+      "subKeys": [
+        "3b67131c-e24f-4bf8-8c4a-cefd8ec73426",
+        "06bb2ba2-d8e0-4834-aaa9-0b1aa7446edb",
+        "262a053c-08a0-47e4-aba0-24960f7f92dc"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "线程私有"
         }
       ]
     },
@@ -546,6 +1015,19 @@
       ]
     },
     {
+      "key": "a3d99af1-489b-4dd1-b8d4-80dc5311256a",
+      "parentKey": "e101c947-5810-44d6-902f-7172661d1f7a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "引用计数"
+        }
+      ]
+    },
+    {
       "key": "698e66b2-5711-4481-8b23-3748f9edbe31",
       "parentKey": "b87fa674-cd34-457d-b7f5-0fd8c1a37cf9",
       "subKeys": [],
@@ -572,6 +1054,19 @@
       ]
     },
     {
+      "key": "0f8e68bd-49b5-4401-ac6b-56ed2444aa69",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "策略模式（Strategy Pattern）"
+        }
+      ]
+    },
+    {
       "key": "b87fa674-cd34-457d-b7f5-0fd8c1a37cf9",
       "parentKey": "6411be60-0835-48a8-a529-d50a6c784fe3",
       "subKeys": [
@@ -586,6 +1081,22 @@
         {
           "type": "CONTENT",
           "data": "常用架构"
+        }
+      ]
+    },
+    {
+      "key": "700372af-1d5f-470c-ad62-59e29d3c787c",
+      "parentKey": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
+      "subKeys": [
+        "0357b216-df4e-4d7f-a8ad-5e6d4efecbf7",
+        "25f158e1-6159-4a79-8893-0a362c8b8912"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "高效并发"
         }
       ]
     },
@@ -622,7 +1133,8 @@
       "parentKey": "6411be60-0835-48a8-a529-d50a6c784fe3",
       "subKeys": [
         "3e708968-c8b9-463a-977a-1932fa48995f",
-        "578d6a5b-6f47-4496-b28c-6104a7a17929"
+        "578d6a5b-6f47-4496-b28c-6104a7a17929",
+        "04378613-7a82-4ee2-a0cc-ed6f425ab94e"
       ],
       "collapse": false,
       "style": null,
@@ -630,6 +1142,73 @@
         {
           "type": "CONTENT",
           "data": "常用应用"
+        }
+      ]
+    },
+    {
+      "key": "27b1a870-4321-4e36-93b8-b9c3e8b7d685",
+      "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "BSS段，全局变量"
+        }
+      ]
+    },
+    {
+      "key": "5284230d-c318-44f7-8560-2e36ee239713",
+      "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "抽象工厂模式（Abstract Factory Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "0f8932ca-f7ca-41be-8854-cdf9fdacf5ed",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "服务器JVM进程崩溃"
+        }
+      ]
+    },
+    {
+      "key": "85f749e0-401d-404d-bf16-785eed0919d9",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "cf2633a2-60c7-49f1-8a3f-1a85defc4364"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "接口隔离原则（Interface Segregation Principle）"
+        }
+      ]
+    },
+    {
+      "key": "7d14a61a-5ec5-4a51-9f70-8729fffbc6ec",
+      "parentKey": "030e93a1-3bbe-4dbd-9be7-4616a777dd8f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "当子问题的结果可以作为父问题的直接过程时，应当使用动态规划"
         }
       ]
     },
@@ -643,6 +1222,32 @@
         {
           "type": "CONTENT",
           "data": "其他"
+        }
+      ]
+    },
+    {
+      "key": "20698cea-71c1-4a6e-9465-0ea058dac75d",
+      "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "标记整理算法"
+        }
+      ]
+    },
+    {
+      "key": "a2466c18-b25f-43b7-ae7c-d14a08e52beb",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "享元模式（Flyweight Pattern）"
         }
       ]
     },
@@ -662,6 +1267,32 @@
       ]
     },
     {
+      "key": "329b7e47-9c9b-4f64-a1a1-3332164550f9",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "装饰器模式（Decorator Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "8417e552-c986-4cda-8452-653f93ef4c43",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "CMS"
+        }
+      ]
+    },
+    {
       "key": "01143430-f43f-46bf-a39b-ef77b0c22ef2",
       "parentKey": "cfd9dd24-297c-485e-8ab4-ffcdbc8b7ffd",
       "subKeys": [],
@@ -671,6 +1302,49 @@
         {
           "type": "CONTENT",
           "data": "支持随机访问，克隆，以及线程安全"
+        }
+      ]
+    },
+    {
+      "key": "6ae3cba3-aaf1-4ede-8e54-7663f9a20049",
+      "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "单例模式（Singleton Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "0357b216-df4e-4d7f-a8ad-5e6d4efecbf7",
+      "parentKey": "700372af-1d5f-470c-ad62-59e29d3c787c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "内存模型与线程"
+        }
+      ]
+    },
+    {
+      "key": "c9092260-7e2c-4ac3-a7eb-4879977abda7",
+      "parentKey": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+      "subKeys": [
+        "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
+        "4fab64f5-e94d-468b-84df-bcd3512e2645",
+        "fd68f222-af7e-4160-8c26-42697d579a6a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "内存"
         }
       ]
     },
@@ -742,6 +1416,32 @@
       ]
     },
     {
+      "key": "6edc3c26-9e86-44d5-a202-e76c0614812e",
+      "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "深度优先"
+        }
+      ]
+    },
+    {
+      "key": "955eedde-c75d-418e-8642-32478077dd71",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "集群间同步导致的内存溢出"
+        }
+      ]
+    },
+    {
       "key": "046b0e6d-361e-4308-8b12-8779b60cfad4",
       "parentKey": "578d6a5b-6f47-4496-b28c-6104a7a17929",
       "subKeys": [
@@ -775,6 +1475,45 @@
       ]
     },
     {
+      "key": "c8307128-e38b-44f5-a588-1c69566d20d8",
+      "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 动态对象年龄判定"
+        }
+      ]
+    },
+    {
+      "key": "bf3d19db-fb4c-4698-90e7-ee2bebdfa4ef",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ORM"
+        }
+      ]
+    },
+    {
+      "key": "beb70431-bce9-41f3-acad-1a6266075d87",
+      "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "贪心算法"
+        }
+      ]
+    },
+    {
       "key": "1a756746-ab7c-4582-8984-65ed3a7f3d41",
       "parentKey": "de5d95fd-e266-4cb6-9317-99c106bc52d1",
       "subKeys": [],
@@ -784,6 +1523,19 @@
         {
           "type": "CONTENT",
           "data": "OATP"
+        }
+      ]
+    },
+    {
+      "key": "e6e28467-bf78-400d-9aba-1c853a2c3f7b",
+      "parentKey": "fd68f222-af7e-4160-8c26-42697d579a6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "堆溢出"
         }
       ]
     },
@@ -800,6 +1552,34 @@
         {
           "type": "CONTENT",
           "data": "数据结构与算法"
+        }
+      ]
+    },
+    {
+      "key": "1d02cc44-1572-493d-8bb6-d866e5f76c50",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "7deb69b7-3cbe-4c78-af7c-cff02e40cbc4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "里氏代换原则（Liskov Substitution Principle）"
+        }
+      ]
+    },
+    {
+      "key": "9de26c03-ac19-4266-b064-d4a3c560356a",
+      "parentKey": "d8672d7e-6519-456a-9379-067b6938ef34",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "以bean的方式组织和管理Java应用中的各个组件及其关系。\nBeanFactory使用控制反转(IoC)模式将应用的配置和依赖性\n规范与实际的应用程序代码分开。"
         }
       ]
     },
@@ -847,6 +1627,32 @@
       ]
     },
     {
+      "key": "dd5c44d6-5fad-43ab-be9b-5b2529dd044e",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "服务定位器模式（Service Locator Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "cccef76c-0b83-4591-9c44-e10247c5439a",
+      "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "IO管理"
+        }
+      ]
+    },
+    {
       "key": "1404f8d7-27e5-45fd-a1af-25a98e29e0d5",
       "parentKey": "502be031-4a4b-4620-bd1b-021a407ed3dd",
       "subKeys": [],
@@ -856,6 +1662,19 @@
         {
           "type": "CONTENT",
           "data": "四次握手"
+        }
+      ]
+    },
+    {
+      "key": "f33713aa-8af2-447a-848c-3b5e102095a4",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Serial"
         }
       ]
     },
@@ -872,6 +1691,40 @@
         {
           "type": "CONTENT",
           "data": "NoSQL"
+        }
+      ]
+    },
+    {
+      "key": "2631cffa-b521-4f0a-8a51-69eb1b5d00ff",
+      "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "标记清除法"
+        }
+      ]
+    },
+    {
+      "key": "df1d4d34-568b-447a-a237-950d491367ae",
+      "parentKey": "b3c121f7-5e58-4df6-bdb8-851e8135949c",
+      "subKeys": [
+        "dd542cee-58fc-4639-b7d7-2b70cbdb12aa",
+        "fc46d59a-b527-4790-83aa-5df1ef08f1d7",
+        "a3bbd7dc-971c-49a7-9225-e6c4ae78c528",
+        "f47fd5c3-9520-4c73-af62-c282d9666a79",
+        "d06f595f-dbae-4eda-9250-1808edeeb9bd",
+        "73336561-7a63-4707-9ea3-07c34effd75a",
+        "0b45bd6d-6ddf-4b99-b698-6a9563d17388"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "类文件结构"
         }
       ]
     },
@@ -898,6 +1751,21 @@
         {
           "type": "CONTENT",
           "data": "TS/JS"
+        }
+      ]
+    },
+    {
+      "key": "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [
+        "8bc541b6-88f8-44df-bc93-294be878af04"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "netty"
         }
       ]
     },
@@ -945,6 +1813,21 @@
       ]
     },
     {
+      "key": "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "2900a250-0bed-47d8-b9f3-33ea3ec0f4ca"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "开闭原则（Open Close Principle）"
+        }
+      ]
+    },
+    {
       "key": "4829f297-4402-45fd-ad11-d30a0a631a66",
       "parentKey": "97243745-e283-41d5-8522-e2ccb79c9254",
       "subKeys": [],
@@ -967,6 +1850,36 @@
         {
           "type": "CONTENT",
           "data": "统计性能优于二叉树，其子树也为红黑树"
+        }
+      ]
+    },
+    {
+      "key": "2ca9e3bf-e86c-4b02-8319-a41b6b556490",
+      "parentKey": "04378613-7a82-4ee2-a0cc-ed6f425ab94e",
+      "subKeys": [
+        "a51b7789-4389-412f-8a30-74a85ed94c45"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ElasticSearch"
+        }
+      ]
+    },
+    {
+      "key": "f4bbabaa-3926-419e-9a0a-608e7db0ddc9",
+      "parentKey": "8272e101-8cb0-431b-aea4-00ef1dc51e49",
+      "subKeys": [
+        "e64d5170-eaac-4136-80db-02e6ff5e95e4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "运行时常量池"
         }
       ]
     },
@@ -1012,6 +1925,19 @@
       ]
     },
     {
+      "key": "a742992c-339c-4178-906e-c0e7e067f203",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "堆外内存导致的溢出错误"
+        }
+      ]
+    },
+    {
       "key": "0af26b12-b694-4e8b-ae6c-c6c2350e830d",
       "parentKey": "54d86e7b-c655-4402-88f0-c7bb2dd51fb5",
       "subKeys": [
@@ -1024,6 +1950,19 @@
         {
           "type": "CONTENT",
           "data": "HashMap"
+        }
+      ]
+    },
+    {
+      "key": "8c47071f-a723-4d89-89f8-9dcbe3841923",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "观察者模式（Observer Pattern）"
         }
       ]
     },
@@ -1041,10 +1980,27 @@
       ]
     },
     {
+      "key": "0549783d-c163-441c-8bf4-23583aea0cac",
+      "parentKey": "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "直接内存"
+        }
+      ]
+    },
+    {
       "key": "c590bf13-d449-4d6d-917c-c7cc103f692c",
       "parentKey": "6ae6f444-5393-456c-b4ce-036aecc8039a",
       "subKeys": [
-        "e25714d1-045e-42b5-be85-8d5799d38607"
+        "e25714d1-045e-42b5-be85-8d5799d38607",
+        "beb70431-bce9-41f3-acad-1a6266075d87",
+        "6edc3c26-9e86-44d5-a202-e76c0614812e",
+        "4eea4afc-4d24-4e53-8bc7-a5859992e32c",
+        "030e93a1-3bbe-4dbd-9be7-4616a777dd8f"
       ],
       "collapse": false,
       "style": null,
@@ -1052,6 +2008,49 @@
         {
           "type": "CONTENT",
           "data": "算法策略"
+        }
+      ]
+    },
+    {
+      "key": "4fab64f5-e94d-468b-84df-bcd3512e2645",
+      "parentKey": "c9092260-7e2c-4ac3-a7eb-4879977abda7",
+      "subKeys": [
+        "8c320993-8755-49ca-92d8-1f3e7da8be1c",
+        "2b7a3012-ae7c-443c-aff2-1fde49668c57",
+        "86b91c00-98b0-49ea-8ab1-5ef6f0f70b21"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "HotSpot虚拟机对象"
+        }
+      ]
+    },
+    {
+      "key": "533c68ff-46be-44eb-bbdd-6c4c6bbf3c7a",
+      "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分代收集算法"
+        }
+      ]
+    },
+    {
+      "key": "46d7ec25-bd54-41a5-a7ae-0489b1b53c8c",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "代理模式（Proxy Pattern）"
         }
       ]
     },
@@ -1074,6 +2073,45 @@
       ]
     },
     {
+      "key": "262a053c-08a0-47e4-aba0-24960f7f92dc",
+      "parentKey": "46137015-33f2-4a19-b103-a88685c87b52",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "本地方法栈"
+        }
+      ]
+    },
+    {
+      "key": "e4aaba3d-0d94-4b33-93f7-48b4f2d8a98f",
+      "parentKey": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "SpringBoot"
+        }
+      ]
+    },
+    {
+      "key": "86b91c00-98b0-49ea-8ab1-5ef6f0f70b21",
+      "parentKey": "4fab64f5-e94d-468b-84df-bcd3512e2645",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "访问定位"
+        }
+      ]
+    },
+    {
       "key": "b81c4187-bc87-45fc-8058-102217a9f661",
       "parentKey": "1260c98c-04ea-44c4-8f39-de0ba13fc4d4",
       "subKeys": [
@@ -1085,6 +2123,26 @@
         {
           "type": "CONTENT",
           "data": "List"
+        }
+      ]
+    },
+    {
+      "key": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "parentKey": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+      "subKeys": [
+        "ce9e6d4c-4d12-4498-96b9-c8d3967789e2",
+        "955eedde-c75d-418e-8642-32478077dd71",
+        "a742992c-339c-4178-906e-c0e7e067f203",
+        "90217982-0288-4c10-89df-4f519cf8e40a",
+        "0f8932ca-f7ca-41be-8854-cdf9fdacf5ed",
+        "fc746071-23a9-4f61-84f1-7552602ba29e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "JVM调优"
         }
       ]
     },
@@ -1102,10 +2160,42 @@
       ]
     },
     {
+      "key": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+      "subKeys": [
+        "793931af-cf49-49ea-901a-e0d081c1d5c9",
+        "849fdd2d-7d76-4eae-b483-6325ea715caf",
+        "bc4e6e5e-06fd-456f-8484-4bf9c792aafd",
+        "943481b4-517c-45fc-b3ce-8baad272f2e2",
+        "a77da590-81aa-49b1-b4e2-46b0bf7ecd6a",
+        "57fd5f44-d194-4459-891e-ec4e177cf829",
+        "8c47071f-a723-4d89-89f8-9dcbe3841923",
+        "56559c8d-8cb4-404b-b87f-011d36300128",
+        "c60eaf73-5c8c-41a9-9d58-0496cc4c1f70",
+        "0f8e68bd-49b5-4401-ac6b-56ed2444aa69",
+        "14d04f77-61d6-4980-b458-f23bd9952f91",
+        "7a6aebd5-af63-4409-bc57-a381ea773f86"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "行为型模式"
+        }
+      ]
+    },
+    {
       "key": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
       "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
-      "subKeys": [],
-      "collapse": false,
+      "subKeys": [
+        "b3746883-cc92-4839-a57e-f993310f0be6",
+        "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+        "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+        "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+        "f661da5b-7fb5-42d2-9650-fe4b30675498"
+      ],
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1128,15 +2218,106 @@
       ]
     },
     {
-      "key": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
-      "parentKey": "113fa7b6-4cf4-4520-a5f4-6d7592f29bfa",
+      "key": "910218fd-d03c-4d97-9aa1-36017b5e2a08",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
+          "data": "业务代表模式（Business Delegate Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "2b7a3012-ae7c-443c-aff2-1fde49668c57",
+      "parentKey": "4fab64f5-e94d-468b-84df-bcd3512e2645",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "内存布局"
+        }
+      ]
+    },
+    {
+      "key": "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
+      "parentKey": "dac0f24c-c3ec-427e-84b7-5aed52530643",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Git"
+        }
+      ]
+    },
+    {
+      "key": "859eaa6c-42ce-40ee-86c7-64ffd212dd25",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "过滤器模式（Filter、Criteria Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "parentKey": "113fa7b6-4cf4-4520-a5f4-6d7592f29bfa",
+      "subKeys": [
+        "06793448-d103-4750-b9d0-db279cfd46d5",
+        "1d98df33-208c-4537-a601-55e114a74d0c",
+        "cccef76c-0b83-4591-9c44-e10247c5439a",
+        "6def6e38-3277-43fb-83c0-4462aa04a95b",
+        "c4c2aba2-22bd-44e9-aae1-19ccaf3cb59b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
           "data": "Linux"
+        }
+      ]
+    },
+    {
+      "key": "d06f595f-dbae-4eda-9250-1808edeeb9bd",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "字段表集合"
+        }
+      ]
+    },
+    {
+      "key": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "parentKey": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
+      "subKeys": [
+        "bccaa0b6-7d26-4389-81a6-7c962e7b5d83",
+        "bf3d19db-fb4c-4698-90e7-ee2bebdfa4ef",
+        "6a524db6-1a70-476c-8c5b-055dcb1dd7c4",
+        "02fc72a4-32e8-4a43-8d34-7c17c86bedb6",
+        "470d8cf2-eeb5-4970-91e7-8416f7745977",
+        "d8672d7e-6519-456a-9379-067b6938ef34"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "基本"
         }
       ]
     },
@@ -1149,7 +2330,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": ""
+          "data": "快速排序"
         }
       ]
     },
@@ -1171,15 +2352,43 @@
       ]
     },
     {
-      "key": "349a7d96-2f89-433a-b07b-0aa71ad0b904",
-      "parentKey": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
+      "key": "bf4055d4-cd88-4ae4-b8b2-324be4ac1b40",
+      "parentKey": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
+          "data": "SpringMVC"
+        }
+      ]
+    },
+    {
+      "key": "349a7d96-2f89-433a-b07b-0aa71ad0b904",
+      "parentKey": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
+      "subKeys": [
+        "0d38f2c4-bfb4-481a-bbdb-11ce07093719"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
           "data": "Tablestore"
+        }
+      ]
+    },
+    {
+      "key": "39c68aa1-372d-4a29-b77a-a565ffe4f76b",
+      "parentKey": "988ec886-52a3-42b2-9312-c26033607322",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "物理内存按照分页管理，例如每一页分为4k大小，\n页内存是内存管理的最小单位"
         }
       ]
     },
@@ -1193,6 +2402,39 @@
         {
           "type": "CONTENT",
           "data": "插入排序"
+        }
+      ]
+    },
+    {
+      "key": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+      "subKeys": [
+        "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
+        "1d02cc44-1572-493d-8bb6-d866e5f76c50",
+        "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
+        "85f749e0-401d-404d-bf16-785eed0919d9",
+        "e21ba59c-7374-433f-94af-d3b7b65ed29e",
+        "0e417ed3-8a84-408f-ba4a-f94e781c6e3b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "六大原则"
+        }
+      ]
+    },
+    {
+      "key": "e64d5170-eaac-4136-80db-02e6ff5e95e4",
+      "parentKey": "f4bbabaa-3926-419e-9a0a-608e7db0ddc9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Java8 将常量池和静态变量也放到了堆内存中进行管理"
         }
       ]
     },
@@ -1228,6 +2470,19 @@
       ]
     },
     {
+      "key": "6d148774-8dc7-488c-a177-d1fd33c1b691",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "桥接模式（Bridge Pattern）"
+        }
+      ]
+    },
+    {
       "key": "54d86e7b-c655-4402-88f0-c7bb2dd51fb5",
       "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
       "subKeys": [
@@ -1241,6 +2496,38 @@
         {
           "type": "CONTENT",
           "data": "Map"
+        }
+      ]
+    },
+    {
+      "key": "72526e04-2333-4185-878d-99422769044b",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ParNew"
+        }
+      ]
+    },
+    {
+      "key": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "parentKey": "6def6e38-3277-43fb-83c0-4462aa04a95b",
+      "subKeys": [
+        "3510971d-6d0b-4944-b37e-96b79c94a3c4",
+        "0ffc0d6e-df50-4265-b0f2-c93a9c75b887",
+        "27b1a870-4321-4e36-93b8-b9c3e8b7d685",
+        "d03617e7-8633-4f04-9b63-9ac72cfa9883",
+        "7ff95784-6218-4718-9f03-e28f2f3ad081"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "结构"
         }
       ]
     },
@@ -1263,6 +2550,45 @@
       ]
     },
     {
+      "key": "80ffaab0-b9e9-4c70-82df-b0eea3ed6a22",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "外观模式（Facade Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "c4c2aba2-22bd-44e9-aae1-19ccaf3cb59b",
+      "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "文件管理"
+        }
+      ]
+    },
+    {
+      "key": "3510971d-6d0b-4944-b37e-96b79c94a3c4",
+      "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "代码段"
+        }
+      ]
+    },
+    {
       "key": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
       "parentKey": null,
       "subKeys": [
@@ -1274,6 +2600,52 @@
         {
           "type": "CONTENT",
           "data": "编程技术思维导图"
+        }
+      ]
+    },
+    {
+      "key": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
+      "subKeys": [
+        "25044711-52c5-4e1e-b0a5-833f9b61a21d",
+        "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "框架"
+        }
+      ]
+    },
+    {
+      "key": "bc4e6e5e-06fd-456f-8484-4bf9c792aafd",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "解释器模式（Interpreter Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "e101c947-5810-44d6-902f-7172661d1f7a",
+      "parentKey": "fad8e722-4970-4020-b1dd-9aab74281f2b",
+      "subKeys": [
+        "a3d99af1-489b-4dd1-b8d4-80dc5311256a",
+        "5d9eff80-d750-49e5-8d14-db1b2130848b",
+        "bf6707e9-9a9d-488e-934d-3e142327ebb8"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "判断对象已死"
         }
       ]
     },
@@ -1309,12 +2681,92 @@
       "subKeys": [
         "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "操作系统原理"
+        }
+      ]
+    },
+    {
+      "key": "030e93a1-3bbe-4dbd-9be7-4616a777dd8f",
+      "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
+      "subKeys": [
+        "7d14a61a-5ec5-4a51-9f70-8729fffbc6ec"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "动态规划"
+        }
+      ]
+    },
+    {
+      "key": "aa083569-e799-42f5-8577-a399b0f206a6",
+      "parentKey": "4daf6479-6497-4b06-8d85-8ab683a9356f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "第一次握手：建立连接时，客户端发送syn包（syn=j）到服务器，并进入SYN_SENT状态，等待服务器确认；SYN：同步序列编号（Synchronize Sequence Numbers）。\n第二次握手：服务器收到syn包，必须确认客户的SYN（ack=j+1），同时自己也发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态；\n第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1），此包发送完毕，客户端和服务器进入ESTABLISHED（TCP连接成功）状态，完成三次握手。"
+        }
+      ]
+    },
+    {
+      "key": "2f6b3a9d-ad45-4098-a60b-3061ff4adf13",
+      "parentKey": "1d98df33-208c-4537-a601-55e114a74d0c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "虚内存"
+        }
+      ]
+    },
+    {
+      "key": "57fd5f44-d194-4459-891e-ec4e177cf829",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "备忘录模式（Memento Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "b6674f7e-7d2a-432b-ab64-e756cfbde6ee",
+      "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "编译原理"
+        }
+      ]
+    },
+    {
+      "key": "8d709f65-63cb-4a0f-856d-dd9811f80eed",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "组合实体模式（Composite Entity Pattern）"
         }
       ]
     },
@@ -1351,6 +2803,47 @@
       ]
     },
     {
+      "key": "204f98d8-9763-488c-bc12-cd056673b409",
+      "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "大对象进入老年代"
+        }
+      ]
+    },
+    {
+      "key": "a3bbd7dc-971c-49a7-9225-e6c4ae78c528",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [
+        "a35d6930-5d98-4845-99e9-6ccbfbcbbec9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "访问标识"
+        }
+      ]
+    },
+    {
+      "key": "e1b8ac16-64c2-4873-9b2e-19882ed2903e",
+      "parentKey": "fd68f222-af7e-4160-8c26-42697d579a6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "方法区 运行时常量池溢出"
+        }
+      ]
+    },
+    {
       "key": "be48008b-6aba-480c-acb0-43c6f9ad20cb",
       "parentKey": "9372572f-3e4f-436b-88fb-458439e18cd5",
       "subKeys": [],
@@ -1364,6 +2857,32 @@
       ]
     },
     {
+      "key": "3b67131c-e24f-4bf8-8c4a-cefd8ec73426",
+      "parentKey": "46137015-33f2-4a19-b103-a88685c87b52",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "程序计数器"
+        }
+      ]
+    },
+    {
+      "key": "60ce7193-1abe-4039-9de9-e92c63f9c01b",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "传输对象模式（Transfer Object Pattern）"
+        }
+      ]
+    },
+    {
       "key": "6fdff040-8b05-4b6e-8ef5-281ae213e9d4",
       "parentKey": "9209cac0-d45c-4d79-827d-b7d636a57f15",
       "subKeys": [],
@@ -1373,6 +2892,19 @@
         {
           "type": "CONTENT",
           "data": "哈希"
+        }
+      ]
+    },
+    {
+      "key": "bd658816-609b-4cfa-956b-507909226817",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Parallel Scavenge"
         }
       ]
     },
@@ -1431,6 +2963,19 @@
       ]
     },
     {
+      "key": "8bc541b6-88f8-44df-bc93-294be878af04",
+      "parentKey": "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "网络IO多路复用 epoll和select的区别"
+        }
+      ]
+    },
+    {
       "key": "d70c762e-11cb-4d3e-8a59-343b9f923feb",
       "parentKey": "065af608-e05f-4fa5-849c-0bf9f471522f",
       "subKeys": [],
@@ -1444,6 +2989,37 @@
       ]
     },
     {
+      "key": "0d38f2c4-bfb4-481a-bbdb-11ce07093719",
+      "parentKey": "349a7d96-2f89-433a-b07b-0aa71ad0b904",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "特点是没有数据量级压力，缺点是按次计费，不适合频繁读取"
+        }
+      ]
+    },
+    {
+      "key": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [
+        "e4aaba3d-0d94-4b33-93f7-48b4f2d8a98f",
+        "bf4055d4-cd88-4ae4-b8b2-324be4ac1b40",
+        "cd9b35e8-98a6-4ad9-9b25-30d839b0642d",
+        "9871768d-61b0-4ec7-9906-4f2242d4c746"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Spring"
+        }
+      ]
+    },
+    {
       "key": "26b94749-5540-4f95-86fb-7d8a361928f8",
       "parentKey": "9372572f-3e4f-436b-88fb-458439e18cd5",
       "subKeys": [],
@@ -1453,6 +3029,32 @@
         {
           "type": "CONTENT",
           "data": "归并排序"
+        }
+      ]
+    },
+    {
+      "key": "55314698-d350-470a-a44a-dcc8b36956ce",
+      "parentKey": "e21ba59c-7374-433f-94af-d3b7b65ed29e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。"
+        }
+      ]
+    },
+    {
+      "key": "60b9e3c2-e880-4cfe-a20c-8144922cc7d4",
+      "parentKey": "fd68f222-af7e-4160-8c26-42697d579a6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "本地直接内存溢出"
         }
       ]
     },
@@ -1488,6 +3090,47 @@
       ]
     },
     {
+      "key": "bccaa0b6-7d26-4389-81a6-7c962e7b5d83",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "AOP"
+        }
+      ]
+    },
+    {
+      "key": "04378613-7a82-4ee2-a0cc-ed6f425ab94e",
+      "parentKey": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
+      "subKeys": [
+        "2ca9e3bf-e86c-4b02-8319-a41b6b556490"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 其他"
+        }
+      ]
+    },
+    {
+      "key": "ce9e6d4c-4d12-4498-96b9-c8d3967789e2",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "高性能硬件上的程序部署策略"
+        }
+      ]
+    },
+    {
       "key": "5dd08ace-8fe0-468c-922f-60210a588398",
       "parentKey": "a36b6645-37bc-4bb1-b057-fb538db6e2d6",
       "subKeys": [],
@@ -1497,6 +3140,34 @@
         {
           "type": "CONTENT",
           "data": "Ethernet、IEEE 802.*"
+        }
+      ]
+    },
+    {
+      "key": "14d04f77-61d6-4980-b458-f23bd9952f91",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "模板模式（Template Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "b3c121f7-5e58-4df6-bdb8-851e8135949c",
+      "parentKey": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
+      "subKeys": [
+        "df1d4d34-568b-447a-a237-950d491367ae"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "虚拟机执行子系统"
         }
       ]
     },
@@ -1578,6 +3249,19 @@
       ]
     },
     {
+      "key": "c60eaf73-5c8c-41a9-9d58-0496cc4c1f70",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "空对象模式（Null Object Pattern）"
+        }
+      ]
+    },
+    {
       "key": "6144c889-27fd-4812-a098-b5b354e57258",
       "parentKey": "25edcab5-e330-43d0-bedd-49ce29b55099",
       "subKeys": [],
@@ -1617,6 +3301,32 @@
       ]
     },
     {
+      "key": "41973934-e53b-4fcf-b35c-a48c4aae943f",
+      "parentKey": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "性能监控与故障处理工具"
+        }
+      ]
+    },
+    {
+      "key": "06793448-d103-4750-b9d0-db279cfd46d5",
+      "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "CPU管理"
+        }
+      ]
+    },
+    {
       "key": "0b604d51-e0f3-4876-9008-4cb272614265",
       "parentKey": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
       "subKeys": [
@@ -1632,6 +3342,45 @@
       ]
     },
     {
+      "key": "cd9b35e8-98a6-4ad9-9b25-30d839b0642d",
+      "parentKey": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "SpringCloud"
+        }
+      ]
+    },
+    {
+      "key": "943481b4-517c-45fc-b3ce-8baad272f2e2",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "迭代器模式（Iterator Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "f7482efc-967b-4ae4-a2ba-1e7199ebf20f",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "G1"
+        }
+      ]
+    },
+    {
       "key": "7aa7427e-782b-4459-8247-bdc7962bb004",
       "parentKey": "5b5b54e9-6b88-4651-8903-2c87ba3f30f3",
       "subKeys": [
@@ -1643,6 +3392,55 @@
         {
           "type": "CONTENT",
           "data": "BlockingQueue"
+        }
+      ]
+    },
+    {
+      "key": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+      "parentKey": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
+      "subKeys": [
+        "c9092260-7e2c-4ac3-a7eb-4879977abda7",
+        "fad8e722-4970-4020-b1dd-9aab74281f2b",
+        "41973934-e53b-4fcf-b35c-a48c4aae943f",
+        "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "自动内存管理机制"
+        }
+      ]
+    },
+    {
+      "key": "dd542cee-58fc-4639-b7d7-2b70cbdb12aa",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [
+        "07e1b369-bc39-4014-9ceb-c665786410b4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " 魔数 "
+        }
+      ]
+    },
+    {
+      "key": "53aa9c9c-dec9-4622-a13c-87bff52e56b6",
+      "parentKey": "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
+      "subKeys": [
+        "8272e101-8cb0-431b-aea4-00ef1dc51e49",
+        "effcf807-107c-4466-81c4-e42f0c69f492"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "线程共享"
         }
       ]
     },
@@ -1666,12 +3464,40 @@
         "e8e26def-09cc-490f-a031-8569670bb767",
         "f74236d0-09aa-4337-8fd4-2dcd3ca52083"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "数据库原理"
+        }
+      ]
+    },
+    {
+      "key": "46cebed1-366c-44a8-8d99-83b5480410a4",
+      "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "长期存活的对象将进入老年代"
+        }
+      ]
+    },
+    {
+      "key": "e21ba59c-7374-433f-94af-d3b7b65ed29e",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "55314698-d350-470a-a44a-dcc8b36956ce"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "迪米特法则，又称最少知道原则（Demeter Principle）"
         }
       ]
     },
@@ -1715,10 +3541,24 @@
       ]
     },
     {
+      "key": "a77da590-81aa-49b1-b4e2-46b0bf7ecd6a",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "中介者模式（Mediator Pattern）"
+        }
+      ]
+    },
+    {
       "key": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "parentKey": "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
       "subKeys": [
-        "974909ea-2099-4c5b-9440-57fc3ff32da2"
+        "974909ea-2099-4c5b-9440-57fc3ff32da2",
+        "c6d55a98-62d1-4580-a8f4-7744a6874ec6"
       ],
       "collapse": false,
       "style": null,
@@ -1781,6 +3621,32 @@
       ]
     },
     {
+      "key": "098e1651-a2c9-44f8-a74a-ede71cf2fac2",
+      "parentKey": "effcf807-107c-4466-81c4-e42f0c69f492",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Java8中，方法区已经从永久代中放到了\"元空间\"，即系统内存"
+        }
+      ]
+    },
+    {
+      "key": "148456bf-6683-435f-a021-7d6084d48794",
+      "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "复制算法"
+        }
+      ]
+    },
+    {
       "key": "55c5b415-dc0b-4550-b545-5903e18285b2",
       "parentKey": "b81c4187-bc87-45fc-8058-102217a9f661",
       "subKeys": [
@@ -1819,12 +3685,27 @@
       "subKeys": [
         "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "网络原理"
+        }
+      ]
+    },
+    {
+      "key": "d8672d7e-6519-456a-9379-067b6938ef34",
+      "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
+      "subKeys": [
+        "9de26c03-ac19-4266-b064-d4a3c560356a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Core"
         }
       ]
     },
@@ -1858,6 +3739,32 @@
       ]
     },
     {
+      "key": "7ff95784-6218-4718-9f03-e28f2f3ad081",
+      "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "堆 动态分配的内存区域，垃圾回收算法的主要工作区"
+        }
+      ]
+    },
+    {
+      "key": "44008792-cc89-4611-a3d7-f3b9149aa238",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "拦截过滤器模式（Intercepting Filter Pattern）"
+        }
+      ]
+    },
+    {
       "key": "da67c62d-a065-4f6d-a988-6ece1e6c8f62",
       "parentKey": "fe0190ef-86ec-4c46-a319-93eea0adcfe2",
       "subKeys": [
@@ -1870,6 +3777,41 @@
         {
           "type": "CONTENT",
           "data": "运输层"
+        }
+      ]
+    },
+    {
+      "key": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+      "parentKey": "fad8e722-4970-4020-b1dd-9aab74281f2b",
+      "subKeys": [
+        "f33713aa-8af2-447a-848c-3b5e102095a4",
+        "72526e04-2333-4185-878d-99422769044b",
+        "bd658816-609b-4cfa-956b-507909226817",
+        "d9e4b227-44a3-4df8-9f2f-6ab468185390",
+        "e42f9665-9913-4192-a41d-e73a38b85673",
+        "8417e552-c986-4cda-8452-653f93ef4c43",
+        "f7482efc-967b-4ae4-a2ba-1e7199ebf20f",
+        "0398460c-76c9-4673-b123-4d73990520fc"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "垃圾收集器"
+        }
+      ]
+    },
+    {
+      "key": "236ff65c-1fd3-47f3-898c-3c44e0a85195",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MVC 模式（MVC Pattern）"
         }
       ]
     },
@@ -1924,7 +3866,8 @@
         "e2592f36-09e9-45f9-8f9c-e8073857e706",
         "4b12ce90-98e8-4be2-9502-6999bf6fc64b",
         "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
-        "01b9bbe2-9c59-4b03-a103-7478e4662d2a"
+        "01b9bbe2-9c59-4b03-a103-7478e4662d2a",
+        "b6674f7e-7d2a-432b-ab64-e756cfbde6ee"
       ],
       "collapse": false,
       "style": null,
@@ -1932,6 +3875,86 @@
         {
           "type": "CONTENT",
           "data": "计算机科学"
+        }
+      ]
+    },
+    {
+      "key": "f47fd5c3-9520-4c73-af62-c282d9666a79",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "类索引、父类索引与接口索引集合"
+        }
+      ]
+    },
+    {
+      "key": "06bb2ba2-d8e0-4834-aaa9-0b1aa7446edb",
+      "parentKey": "46137015-33f2-4a19-b103-a88685c87b52",
+      "subKeys": [
+        "18ed8298-a56c-44fa-8a46-90d24721b5a8"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Java虚拟机栈"
+        }
+      ]
+    },
+    {
+      "key": "56559c8d-8cb4-404b-b87f-011d36300128",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "状态模式（State Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "07e1b369-bc39-4014-9ceb-c665786410b4",
+      "parentKey": "dd542cee-58fc-4639-b7d7-2b70cbdb12aa",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "用来标识文件类型的标识符，例如gif，jpeg都会有。\nClass文件前4byte为#CAFEBABE，后4byte为class版本号"
+        }
+      ]
+    },
+    {
+      "key": "a51b7789-4389-412f-8a30-74a85ed94c45",
+      "parentKey": "2ca9e3bf-e86c-4b02-8319-a41b6b556490",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "dbdf3496-1acc-4d7f-8807-ae42c7a48a13",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据访问对象模式（Data Access Object Pattern）"
         }
       ]
     },
@@ -1945,6 +3968,19 @@
         {
           "type": "CONTENT",
           "data": "可靠、全双工、流量控制"
+        }
+      ]
+    },
+    {
+      "key": "7deb69b7-3cbe-4c78-af7c-cff02e40cbc4",
+      "parentKey": "1d02cc44-1572-493d-8bb6-d866e5f76c50",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "任何基类可以出现的地方，子类一定可以出现。"
         }
       ]
     },
@@ -1990,6 +4026,23 @@
       ]
     },
     {
+      "key": "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
+      "parentKey": "c9092260-7e2c-4ac3-a7eb-4879977abda7",
+      "subKeys": [
+        "0549783d-c163-441c-8bf4-23583aea0cac",
+        "46137015-33f2-4a19-b103-a88685c87b52",
+        "53aa9c9c-dec9-4622-a13c-87bff52e56b6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "运行时数据区域"
+        }
+      ]
+    },
+    {
       "key": "abcf4788-72ae-4ac6-87ea-f6d1ca33ce3d",
       "parentKey": "19330261-06d6-46a9-ad75-64daecefaf90",
       "subKeys": [
@@ -2002,6 +4055,58 @@
         {
           "type": "CONTENT",
           "data": "HTTP"
+        }
+      ]
+    },
+    {
+      "key": "f84bf497-8731-438d-87c3-e82191b1a4ae",
+      "parentKey": "fd68f222-af7e-4160-8c26-42697d579a6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "虚拟机栈和本地方法栈溢出"
+        }
+      ]
+    },
+    {
+      "key": "0b45bd6d-6ddf-4b99-b698-6a9563d17388",
+      "parentKey": "df1d4d34-568b-447a-a237-950d491367ae",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "属性表集合"
+        }
+      ]
+    },
+    {
+      "key": "d03617e7-8633-4f04-9b63-9ac72cfa9883",
+      "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "栈 局部变量"
+        }
+      ]
+    },
+    {
+      "key": "1b83d034-6cf6-4ab0-90a0-7a61ef07e1b3",
+      "parentKey": "6def6e38-3277-43fb-83c0-4462aa04a95b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "进程虚内存与物理内存转换，虚内存需要加上偏移量转换为物理内存"
         }
       ]
     },
@@ -2019,15 +4124,48 @@
       ]
     },
     {
-      "key": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
-      "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
+      "key": "0398460c-76c9-4673-b123-4d73990520fc",
+      "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
+          "data": "GC日志理解"
+        }
+      ]
+    },
+    {
+      "key": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
+      "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
+      "subKeys": [
+        "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+        "b3c121f7-5e58-4df6-bdb8-851e8135949c",
+        "700372af-1d5f-470c-ad62-59e29d3c787c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
           "data": "JVM"
+        }
+      ]
+    },
+    {
+      "key": "6def6e38-3277-43fb-83c0-4462aa04a95b",
+      "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
+      "subKeys": [
+        "1d807448-a266-47da-a1c8-9e6b945dae0e",
+        "1b83d034-6cf6-4ab0-90a0-7a61ef07e1b3"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "进程管理"
         }
       ]
     },
@@ -2046,6 +4184,54 @@
         {
           "type": "CONTENT",
           "data": "应用层"
+        }
+      ]
+    },
+    {
+      "key": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+      "subKeys": [
+        "c0472135-161e-4a26-ac95-2cbf018f3aaa",
+        "6d148774-8dc7-488c-a177-d1fd33c1b691",
+        "859eaa6c-42ce-40ee-86c7-64ffd212dd25",
+        "b148f2f7-64b3-46f7-953b-e56b7275e0c9",
+        "329b7e47-9c9b-4f64-a1a1-3332164550f9",
+        "80ffaab0-b9e9-4c70-82df-b0eea3ed6a22",
+        "a2466c18-b25f-43b7-ae7c-d14a08e52beb",
+        "46d7ec25-bd54-41a5-a7ae-0489b1b53c8c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "结构型模式"
+        }
+      ]
+    },
+    {
+      "key": "2900a250-0bed-47d8-b9f3-33ea3ec0f4ca",
+      "parentKey": "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "对扩展开放，对修改关闭。"
+        }
+      ]
+    },
+    {
+      "key": "5d9eff80-d750-49e5-8d14-db1b2130848b",
+      "parentKey": "e101c947-5810-44d6-902f-7172661d1f7a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "可达性分析算法"
         }
       ]
     },
@@ -2093,6 +4279,19 @@
       ]
     },
     {
+      "key": "0ffc0d6e-df50-4265-b0f2-c93a9c75b887",
+      "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据段"
+        }
+      ]
+    },
+    {
       "key": "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
       "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
       "subKeys": [
@@ -2122,6 +4321,21 @@
       ]
     },
     {
+      "key": "0e417ed3-8a84-408f-ba4a-f94e781c6e3b",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "be068a34-a533-471f-a87f-4382de4d704f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "合成复用原则（Composite Reuse Principle）"
+        }
+      ]
+    },
+    {
       "key": "910a3183-33db-4e56-884c-fc772f32a7c3",
       "parentKey": "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737",
       "subKeys": [],
@@ -2135,6 +4349,32 @@
       ]
     },
     {
+      "key": "c0472135-161e-4a26-ac95-2cbf018f3aaa",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "适配器模式（Adapter Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "fc746071-23a9-4f61-84f1-7552602ba29e",
+      "parentKey": "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "不恰当的数据结构导致内存占用过大"
+        }
+      ]
+    },
+    {
       "key": "e8e26def-09cc-490f-a031-8569670bb767",
       "parentKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
       "subKeys": [],
@@ -2144,6 +4384,54 @@
         {
           "type": "CONTENT",
           "data": "关系型数据库"
+        }
+      ]
+    },
+    {
+      "key": "dac0f24c-c3ec-427e-84b7-5aed52530643",
+      "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
+      "subKeys": [
+        "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
+        "3f69bdb6-703a-493e-bfc9-e2ec93974389"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "工具软件"
+        }
+      ]
+    },
+    {
+      "key": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "parentKey": "fad8e722-4970-4020-b1dd-9aab74281f2b",
+      "subKeys": [
+        "9d44f475-b93b-4765-b937-bc6794418a15",
+        "204f98d8-9763-488c-bc12-cd056673b409",
+        "46cebed1-366c-44a8-8d99-83b5480410a4",
+        "c8307128-e38b-44f5-a588-1c69566d20d8",
+        "42460c7b-8400-4d4b-b389-fa0e4e6b0dc9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分配与回收策略"
+        }
+      ]
+    },
+    {
+      "key": "188792eb-66f4-47a1-905d-874b8a4d2a6c",
+      "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "前端控制器模式（Front Controller Pattern）"
         }
       ]
     },
@@ -2174,6 +4462,21 @@
       ]
     },
     {
+      "key": "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
+      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
+      "subKeys": [
+        "49104c8c-4af8-4e9e-b063-4b8ad497be7b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "依赖倒转原则（Dependence Inversion Principle）"
+        }
+      ]
+    },
+    {
       "key": "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb",
       "parentKey": "653920a9-c872-49df-b089-5fb604dcb5fa",
       "subKeys": [
@@ -2185,6 +4488,25 @@
         {
           "type": "CONTENT",
           "data": "网络协议"
+        }
+      ]
+    },
+    {
+      "key": "b3746883-cc92-4839-a57e-f993310f0be6",
+      "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+      "subKeys": [
+        "b11db092-b77f-4e14-ab84-885d5194bd57",
+        "5284230d-c318-44f7-8560-2e36ee239713",
+        "6ae3cba3-aaf1-4ede-8e54-7663f9a20049",
+        "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
+        "06c6f258-57f9-49d8-85df-cb499f47f2f9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "创建型模式"
         }
       ]
     },
@@ -2228,6 +4550,19 @@
       ]
     },
     {
+      "key": "c2593188-7d3d-4e96-b4c7-381ccd9631e6",
+      "parentKey": "fc46d59a-b527-4790-83aa-5df1ef08f1d7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "和编译型语言不同的是，Java不需要“链接”，使用的都是动态链接"
+        }
+      ]
+    },
+    {
       "key": "62cace29-cb2b-4638-b3b3-88f07aba0e42",
       "parentKey": "258817f2-2408-444e-9e10-bed0f67a05a6",
       "subKeys": [
@@ -2240,6 +4575,19 @@
         {
           "type": "CONTENT",
           "data": "ARP"
+        }
+      ]
+    },
+    {
+      "key": "4eea4afc-4d24-4e53-8bc7-a5859992e32c",
+      "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "广度优先"
         }
       ]
     },
@@ -2272,6 +4620,19 @@
       ]
     },
     {
+      "key": "7a6aebd5-af63-4409-bc57-a381ea773f86",
+      "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "访问者模式（Visitor Pattern）"
+        }
+      ]
+    },
+    {
       "key": "085f0d0d-9b87-4705-9256-3825506f8d81",
       "parentKey": "8cb1e776-2552-4d03-9999-3057bdc54826",
       "subKeys": [
@@ -2287,13 +4648,27 @@
       ]
     },
     {
+      "key": "18ed8298-a56c-44fa-8a46-90d24721b5a8",
+      "parentKey": "06bb2ba2-d8e0-4834-aaa9-0b1aa7446edb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "局部变量表"
+        }
+      ]
+    },
+    {
       "key": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "parentKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
       "subKeys": [
         "c4452d30-9eb8-492a-962b-91e61f0f43ff",
         "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
         "f03209b6-8a4b-45a3-be5e-8b4cc8658138",
-        "477b232a-f67a-4b1d-9774-4688f6ed0ec4"
+        "477b232a-f67a-4b1d-9774-4688f6ed0ec4",
+        "dac0f24c-c3ec-427e-84b7-5aed52530643"
       ],
       "collapse": false,
       "style": null,
@@ -2301,6 +4676,19 @@
         {
           "type": "CONTENT",
           "data": "编程技术"
+        }
+      ]
+    },
+    {
+      "key": "b148f2f7-64b3-46f7-953b-e56b7275e0c9",
+      "parentKey": "6e42719a-9b80-4547-9ec1-ebf6275822a0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "组合模式（Composite Pattern）"
         }
       ]
     },
@@ -2317,6 +4705,37 @@
         {
           "type": "CONTENT",
           "data": "MyIsam"
+        }
+      ]
+    },
+    {
+      "key": "fad8e722-4970-4020-b1dd-9aab74281f2b",
+      "parentKey": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
+      "subKeys": [
+        "e101c947-5810-44d6-902f-7172661d1f7a",
+        "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
+        "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
+        "e54a1caf-8cd5-4af5-8e24-0927ce142612"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "垃圾回收(GC)与内存分配策略"
+        }
+      ]
+    },
+    {
+      "key": "9d44f475-b93b-4765-b937-bc6794418a15",
+      "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "对象优先在Eden分配"
         }
       ]
     },
