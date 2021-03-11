@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "editorRootTopicKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
-  "focusKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
+  "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
+  "focusKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -12,6 +12,7 @@
       "key": "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
+        "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
         "d1401824-be3d-4224-8b37-50d647db6e6a",
         "b0c69934-6ea3-4a8f-a1a5-d38b54e54d60",
         "9d6dff1e-ae21-47d3-bdc0-cf4ca3a91099",
@@ -31,7 +32,9 @@
     {
       "key": "4c21fad8-a05b-42da-ba8e-c567c201cef1",
       "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
-      "subKeys": [],
+      "subKeys": [
+        "52c27118-fd19-4fdb-972d-ec7d79bc5168"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -54,7 +57,7 @@
         "dd5c44d6-5fad-43ab-be9b-5b2529dd044e",
         "60ce7193-1abe-4039-9de9-e92c63f9c01b"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -188,7 +191,7 @@
         "26b94749-5540-4f95-86fb-7d8a361928f8",
         "3b485e6d-6406-443e-9375-a6f476b8f689"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -200,15 +203,17 @@
     {
       "key": "458dfd32-7403-4a56-bd4d-ae7cf693be53",
       "parentKey": "ca140c20-dd9e-482f-beb3-f0c13cd3bbb9",
-      "subKeys": [
-        "9413645d-e53d-4ca0-abd8-d43ec5a5140e"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "索引"
+        },
+        {
+          "type": "DESC",
+          "data": "InnoDB使用的是聚簇索引，（聚簇值指的就是主键值）将主键组织到一棵B\\+树中，而行数据就储存在叶子节点上，\n若使用\"where id = 14\"这样的条件查找主键，则按照B\\+树的检索算法即可查找到对应的叶节点，\n之后获得行数据。若对Name列进行条件搜索，则需要两个步骤：第一步在辅助索引B\\+树中检索Name，\n到达其叶子节点获取对应的主键。第二步使用主键在主索引B\\+树种再执行一次B\\+树检索操作，\n最终到达叶子节点即可获取整行数据。\n\n这种先用查找条件获取主键键值，再通过键值获取数据的过程称之为“回表”\n若键值本身就是所需要的数据，这样可以避免回表过程"
         }
       ]
     },
@@ -414,15 +419,17 @@
     {
       "key": "470d8cf2-eeb5-4970-91e7-8416f7745977",
       "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
-      "subKeys": [
-        "5e74a913-d0bf-4546-986a-df85e07159d0"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "Context"
+        },
+        {
+          "type": "DESC",
+          "data": "Spring上下文是一个配置文件，向Spring框架提供上下文信息。\n包括企业服务，如JNDI、电子邮件、国际化、校验和调度功能。"
         }
       ]
     },
@@ -616,19 +623,6 @@
       ]
     },
     {
-      "key": "49104c8c-4af8-4e9e-b063-4b8ad497be7b",
-      "parentKey": "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "针对接口编程，依赖于抽象而不依赖于具体。"
-        }
-      ]
-    },
-    {
       "key": "3c635c8f-478b-405b-bcc0-a6ebafc02924",
       "parentKey": "8272e101-8cb0-431b-aea4-00ef1dc51e49",
       "subKeys": [],
@@ -651,6 +645,23 @@
         {
           "type": "CONTENT",
           "data": "对象创建"
+        }
+      ]
+    },
+    {
+      "key": "fb6d45ea-7058-48d1-9fc2-ba80dc35f970",
+      "parentKey": "0b604d51-e0f3-4876-9008-4cb272614265",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "红黑树"
+        },
+        {
+          "type": "DESC",
+          "data": "虽然平衡树解决了二叉查找树退化为近似链表的缺点，能够把查找时间控制在 O\\(logn\\)，不过却不是最佳的，因为平衡树要求每个节点的左子树和右子树的高度差至多等于1，这个要求实在是太严了，导致每次进行插入/删除节点的时候，几乎都会破坏平衡树的第二个规则，进而都需要通过左旋和右旋来进行调整，使之再次成为一颗符合要求的平衡树。\n\n**红黑树的特性（红黑树是一种平衡树）**\n显然，如果在插入、删除很频繁的场景中，平衡树需要频繁调整，这会使平衡树的性能大打折扣，为了解决这个问题，于是有了红黑树，红黑树具有如下特点：\n①每个节点或者是黑色，或者是红色。\n②根节点是黑色。\n③每个叶子节点\\(NIL\\)是黑色。 \\[注意：这里叶子节点，是指为空\\(NIL或NULL\\)的叶子节点\\]\n④如果一个节点是红色的，则它的子节点必须是黑色的。\n⑤从一个节点到该节点的子孙节点的所有路径上包含相同数目的黑节点。\\[这里指到叶子节点的路径\\]\n\njava中使用到红黑树的有**TreeSet和JDK1.8的HashMap**。红黑树的插入和删除都要满足以上5个特性，操作非常复杂，为什么要使用红黑树？原因：\n红黑树是一种平衡树，复杂的定义和规则都是为了保证树的平衡性。如果树不保证平衡性就变成一个链表了。\n保证平衡性的最大的目的就是降低树的高度，因为树的查找性能取决于树的高度。所以树的高度越低搜索的效率越高！\n\n\n\n"
         }
       ]
     },
@@ -717,19 +728,6 @@
         {
           "type": "CONTENT",
           "data": "HashSet"
-        }
-      ]
-    },
-    {
-      "key": "5e74a913-d0bf-4546-986a-df85e07159d0",
-      "parentKey": "470d8cf2-eeb5-4970-91e7-8416f7745977",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "Spring上下文是一个配置文件，向Spring框架提供上下文信息。\n包括企业服务，如JNDI、电子邮件、国际化、校验和调度功能。"
         }
       ]
     },
@@ -856,28 +854,15 @@
       ]
     },
     {
-      "key": "3f69bdb6-703a-493e-bfc9-e2ec93974389",
-      "parentKey": "dac0f24c-c3ec-427e-84b7-5aed52530643",
+      "key": "ebbd4bdf-95d7-4710-a637-95ac6a313f35",
+      "parentKey": "b09614d3-3d42-4394-ba66-7b5e2b9b33eb",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": ""
-        }
-      ]
-    },
-    {
-      "key": "cf2633a2-60c7-49f1-8a3f-1a85defc4364",
-      "parentKey": "85f749e0-401d-404d-bf16-785eed0919d9",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "使用多个隔离的接口，比使用单个接口要好"
+          "data": "概率论"
         }
       ]
     },
@@ -917,28 +902,17 @@
     {
       "key": "4daf6479-6497-4b06-8d85-8ab683a9356f",
       "parentKey": "502be031-4a4b-4620-bd1b-021a407ed3dd",
-      "subKeys": [
-        "aa083569-e799-42f5-8577-a399b0f206a6"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "三次握手"
-        }
-      ]
-    },
-    {
-      "key": "be068a34-a533-471f-a87f-4382de4d704f",
-      "parentKey": "0e417ed3-8a84-408f-ba4a-f94e781c6e3b",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "尽量使用合成/聚合的方式，而不是使用继承。"
+          "data": "三次握手"
+        },
+        {
+          "type": "DESC",
+          "data": "第一次握手：建立连接时，客户端发送syn包（syn=j）到服务器，并进入SYN\\_SENT状态，等待服务器确认；SYN：同步序列编号（Synchronize Sequence Numbers）。\n第二次握手：服务器收到syn包，必须确认客户的SYN（ack=j\\+1），同时自己也发送一个SYN包（syn=k），即SYN\\+ACK包，此时服务器进入SYN\\_RECV状态；\n第三次握手：客户端收到服务器的SYN\\+ACK包，向服务器发送确认包ACK\\(ack=k\\+1），此包发送完毕，客户端和服务器进入ESTABLISHED（TCP连接成功）状态，完成三次握手。\n\n举个栗子：把客户端比作男孩，服务器比作女孩。用他们的交往来说明“三次握手”过程：\n\n（1）男孩喜欢女孩，于是写了一封信告诉女孩：我爱你，请和我交往吧！;写完信之后，男孩焦急地等待，因为不知道信能否顺利传达给女孩。\n\n（2）女孩收到男孩的情书后，心花怒放，原来我们是两情相悦呀！于是给男孩写了一封回信：我收到你的情书了，也明白了你的心意，其实，我也喜欢你！我愿意和你交往！;\n\n写完信之后，女孩也焦急地等待，因为不知道回信能否能顺利传达给男孩。\n\n（3）男孩收到回信之后很开心，因为发出的情书女孩收到了，并且从回信中知道了女孩喜欢自己，并且愿意和自己交往。然后男孩又写了一封信告诉女孩：你的心意和信我都收到了，谢谢你，还有我爱你！\n\n女孩收到男孩的回信之后，也很开心，因为发出的情书男孩收到了。由此男孩女孩双方都知道了彼此的心意，之后就快乐地交流起来了~~\n\n这就是通俗版的“三次握手”，期间一共往来了三封信也就是“三次握手”，以此确认两个方向上的数据传输通道是否正常。\n\n为了防止服务器端开启一些无用的连接增加服务器开销以及防止已失效的连接请求报文段突然又传送到了服务端，因而产生错误。\n\n由于网络传输是有延时的\\(要通过网络光纤和各种中间代理服务器\\)，在传输的过程中，比如客户端发起了SYN=1创建连接的请求\\(第一次握手\\)。\n\n如果服务器端就直接创建了这个连接并返回包含SYN、ACK和Seq等内容的数据包给客户端，这个数据包因为网络传输的原因丢失了，丢失之后客户端就一直没有接收到服务器返回的数据包。\n\n客户端可能设置了一个超时时间，时间到了就关闭了连接创建的请求。再重新发出创建连接的请求，而服务器端是不知道的，如果没有第三次握手告诉服务器端客户端收的到服务器端传输的数据的话，\n\n服务器端是不知道客户端有没有接收到服务器端返回的信息的。"
         }
       ]
     },
@@ -995,6 +969,19 @@
         {
           "type": "CONTENT",
           "data": "离散数学"
+        }
+      ]
+    },
+    {
+      "key": "5cba51d4-a0b3-4520-8083-fccf51cc27ef",
+      "parentKey": "0b604d51-e0f3-4876-9008-4cb272614265",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "二叉树"
         }
       ]
     },
@@ -1063,6 +1050,23 @@
         {
           "type": "CONTENT",
           "data": "策略模式（Strategy Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "49a21ab6-03b1-44f0-ad51-0df744cd498b",
+      "parentKey": "0b604d51-e0f3-4876-9008-4cb272614265",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "B/B+树"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://segmentfault.com/a/1190000020416577](https://segmentfault.com/a/1190000020416577)\n\nB/B\\+树是为了磁盘或其它存储设备而设计的一种**平衡多路查找树**\\(相对于二叉,B树每个内节点有多个分支\\),与红黑树相比,在相同的的节点的情况下,一颗B/B\\+树的高度远远小于红黑树的高度\\(在下面B/B\\+树的性能分析中会提到\\).B/B\\+树上操作的时间通常由存取磁盘的时间和CPU计算时间这两部分构成,而CPU的速度非常快,所以B树的操作效率取决于访问磁盘的次数,关键字总数相同的情况下B树的高度越小，磁盘I/O所花的时间越少.\n\nB/B\\+树是一种平衡树，一个节点内多个值，因此高度比平衡树要低，所以查找速度快。B\\+树符合磁盘存储特性因此读取效率高。\n[https://blog.csdn.net/chai471793/article/details/99563704?utm\\_medium=distribute.pc\\_relevant.none\\-task\\-blog\\-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault\\-1.control&dist\\_request\\_id=1328626.22597.16154491436922919&depth\\_1\\-utm\\_source=distribute.pc\\_relevant.none\\-task\\-blog\\-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault\\-1.control](https://blog.csdn.net/chai471793/article/details/99563704?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.control&dist_request_id=1328626.22597.16154491436922919&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.control)\n﻿\n（1）B\\+跟B树不同B\\+树的非叶子节点不保存关键字记录的指针，只进行数据索引，这样使得B\\+树每个非叶子节点所能保存的关键字大大增加；\n（2）B\\+树叶子节点保存了父节点的所有关键字记录的指针，所有数据地址必须要到叶子节点才能获取到。所以每次数据查询的次数都一样；\n（3）B\\+树叶子节点的关键字从小到大有序排列，左边结尾数据都会保存右边节点开始数据的指针。\n（4）非叶子节点的子节点数=关键字数（来源百度百科）（根据各种资料 这里有两种算法的实现方式，另一种为非叶节点的关键字数=子节点数\\-1（来源维基百科\\)，虽然他们数据排列结构不一样，但其原理还是一样的Mysql 的B\\+树是用第一种方式实现）;"
         }
       ]
     },
@@ -1185,21 +1189,6 @@
       ]
     },
     {
-      "key": "85f749e0-401d-404d-bf16-785eed0919d9",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "cf2633a2-60c7-49f1-8a3f-1a85defc4364"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "接口隔离原则（Interface Segregation Principle）"
-        }
-      ]
-    },
-    {
       "key": "7d14a61a-5ec5-4a51-9f70-8729fffbc6ec",
       "parentKey": "030e93a1-3bbe-4dbd-9be7-4616a777dd8f",
       "subKeys": [],
@@ -1254,15 +1243,17 @@
     {
       "key": "af3e81b3-b02b-4664-bfec-667b92376ee6",
       "parentKey": "0b604d51-e0f3-4876-9008-4cb272614265",
-      "subKeys": [
-        "277b9942-8d05-41c5-b9ba-c2e25ae63045"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "平衡二叉树"
+        },
+        {
+          "type": "DESC",
+          "data": "基于二分查找形态的数据结构，其中每个子树 左小 右大\n如下所示：\n            35\n      17         39\n9        28              65\n\n缺点：\n增删困难，会破坏结构\n\n1️⃣概念\n平衡二叉树是基于二分法的策略提高数据的查找速度的二叉树的数据结构。\n\n2️⃣规则\n平衡二叉树是采用二分法思维把数据按规则组装成一个树形结构的数据，用这个树形结构的数据减少无关数据的检索，大大的提升了数据检索的速度；平衡二叉树的数据结构组装过程有以下规则：\n①非叶子节点只能允许最多两个子节点存在。\n②每一个非叶子节点数据分布规则为左边的子节点小当前节点的值，右边的子节点大于当前节点的值\\(这里值是基于自己的算法规则而定的，比如hash值\\)。\n\n平衡树的层级结构：平衡二叉树的查询性能和树的层级\\(高度h\\)成反比，h值越小查询越快。为了保证树的结构左右两端数据大致平衡。降低二叉树的查询难度一般会采用一种算法机制实现节点数据结构的平衡，实现了这种算法的有比如Treap、红黑树。使用平衡二叉树能保证数据的左右两边的节点层级相差不会大于1，通过这样避免树形结构由于删除增加变成线性链表影响查询效率，保证数据平衡的情况下查找数据的速度近于二分法查找：\n\n3️⃣平衡二叉树特点：\n①非叶子节点最多拥有两个子节点。\n②非叶子节点值大于左边子节点、小于右边子节点。\n③树的左右两边的层级数相差不会大于1。\n④没有值相等重复的节点。"
         }
       ]
     },
@@ -1556,21 +1547,6 @@
       ]
     },
     {
-      "key": "1d02cc44-1572-493d-8bb6-d866e5f76c50",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "7deb69b7-3cbe-4c78-af7c-cff02e40cbc4"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "里氏代换原则（Liskov Substitution Principle）"
-        }
-      ]
-    },
-    {
       "key": "9de26c03-ac19-4266-b064-d4a3c560356a",
       "parentKey": "d8672d7e-6519-456a-9379-067b6938ef34",
       "subKeys": [],
@@ -1661,7 +1637,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "四次握手"
+          "data": "四次挥手"
+        },
+        {
+          "type": "DESC",
+          "data": "（1）首先客户端想要释放连接，向服务器端发送一段TCP报文，其中：\n\n标记位为FIN，表示“请求释放连接“；\n序号为Seq=U；\n随后客户端进入FIN\\-WAIT\\-1阶段，即半关闭阶段。并且停止在客户端到服务器端方向上发送数据，但是客户端仍然能接收从服务器端传输过来的数据。\n注意：这里不发送的是正常连接时传输的数据\\(非确认报文\\)，而不是一切数据，所以客户端仍然能发送ACK确认报文。\n\n（2）服务器端接收到从客户端发出的TCP报文之后，确认了客户端想要释放连接，随后服务器端结束ESTABLISHED阶段，进入CLOSE\\-WAIT阶段（半关闭状态）并返回一段TCP报文，其中：\n\n标记位为ACK，表示“接收到客户端发送的释放连接的请求”；\n序号为Seq=V；\n确认号为Ack=U\\+1，表示是在收到客户端报文的基础上，将其序号Seq值加1作为本段报文确认号Ack的值；\n随后服务器端开始准备释放服务器端到客户端方向上的连接。\n客户端收到从服务器端发出的TCP报文之后，确认了服务器收到了客户端发出的释放连接请求，随后客户端结束FIN\\-WAIT\\-1阶段，进入FIN\\-WAIT\\-2阶段\n\n前\"两次挥手\"既让服务器端知道了客户端想要释放连接，也让客户端知道了服务器端了解了自己想要释放连接的请求。于是，可以确认关闭客户端到服务器端方向上的连接了\n\n（3）服务器端自从发出ACK确认报文之后，经过CLOSED\\-WAIT阶段，做好了释放服务器端到客户端方向上的连接准备，再次向客户端发出一段TCP报文，其中：\n\n标记位为FIN，ACK，表示“已经准备好释放连接了”。注意：这里的ACK并不是确认收到服务器端报文的确认报文。\n序号为Seq=W；\n确认号为Ack=U\\+1；表示是在收到客户端报文的基础上，将其序号Seq值加1作为本段报文确认号Ack的值。\n随后服务器端结束CLOSE\\-WAIT阶段，进入LAST\\-ACK阶段。并且停止在服务器端到客户端的方向上发送数据，但是服务器端仍然能够接收从客户端传输过来的数据。\n\n（4）客户端收到从服务器端发出的TCP报文，确认了服务器端已做好释放连接的准备，结束FIN\\-WAIT\\-2阶段，进入TIME\\-WAIT阶段，并向服务器端发送一段报文，其中：\n\n标记位为ACK，表示“接收到服务器准备好释放连接的信号”。\n序号为Seq=U\\+1；表示是在收到了服务器端报文的基础上，将其确认号Ack值作为本段报文序号的值。\n确认号为Ack=W\\+1；表示是在收到了服务器端报文的基础上，将其序号Seq值作为本段报文确认号的值。\n随后客户端开始在TIME\\-WAIT阶段等待2MSL"
         }
       ]
     },
@@ -1737,7 +1717,20 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "2.0支持多路复用，非强制支持http，新的二进制传输，多路复用，header压缩，服务端发送"
+          "data": "2.0支持多路复用，非强制支持http，新的二进制传输，header压缩（差异发送），服务端发送"
+        }
+      ]
+    },
+    {
+      "key": "ee6b0910-783b-4c36-914e-f7e075c1e859",
+      "parentKey": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "并发设计原则"
         }
       ]
     },
@@ -1813,21 +1806,6 @@
       ]
     },
     {
-      "key": "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "2900a250-0bed-47d8-b9f3-33ea3ec0f4ca"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "开闭原则（Open Close Principle）"
-        }
-      ]
-    },
-    {
       "key": "4829f297-4402-45fd-ad11-d30a0a631a66",
       "parentKey": "97243745-e283-41d5-8522-e2ccb79c9254",
       "subKeys": [],
@@ -1841,24 +1819,9 @@
       ]
     },
     {
-      "key": "bd0940e6-d67e-4ca7-9625-801ae68d4b85",
-      "parentKey": "277b9942-8d05-41c5-b9ba-c2e25ae63045",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "统计性能优于二叉树，其子树也为红黑树"
-        }
-      ]
-    },
-    {
       "key": "2ca9e3bf-e86c-4b02-8319-a41b6b556490",
       "parentKey": "04378613-7a82-4ee2-a0cc-ed6f425ab94e",
-      "subKeys": [
-        "a51b7789-4389-412f-8a30-74a85ed94c45"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -1884,21 +1847,6 @@
       ]
     },
     {
-      "key": "277b9942-8d05-41c5-b9ba-c2e25ae63045",
-      "parentKey": "af3e81b3-b02b-4664-bfec-667b92376ee6",
-      "subKeys": [
-        "bd0940e6-d67e-4ca7-9625-801ae68d4b85"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "红黑树"
-        }
-      ]
-    },
-    {
       "key": "d9ac859b-b412-4f59-ad4b-4fc28a012e33",
       "parentKey": "abcf4788-72ae-4ac6-87ea-f6d1ca33ce3d",
       "subKeys": [],
@@ -1907,7 +1855,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "超文本传输协议"
+          "data": "http/1.x 各版本差异"
+        },
+        {
+          "type": "DESC",
+          "data": "## Http1\\.x\n\n缺陷：线程阻塞，在同一时间，同一域名的请求有一定数量限制，超过限制数目的请求会被阻塞\nhttp1\\.0\n缺陷：浏览器与服务器只保持短暂的连接，浏览器的每次请求都需要与服务器建立一个TCP连接（TCP连接的新建成本很高，因为需要客户端和服务器三次握手），服务器完成请求处理后立即断开TCP连接，服务器不跟踪每个客户也不记录过去的请求；\n解决方案：\n\n添加头信息——非标准的Connection字段Connection: keep\\-alive\n\n## http1\\.1：\n\n改进点：\n持久连接\n引入了持久连接，即TCP连接默认不关闭，可以被多个请求复用，不用声明Connection: keep\\-alive\\(对于同一个域名，大多数浏览器允许同时建立6个持久连接\\)\n管道机制\n即在同一个TCP连接里面，客户端可以同时发送多个请求。\n分块传输编码\n即服务端没产生一块数据，就发送一块，采用”流模式”而取代”缓存模式”。\n新增请求方式\n\nPUT:请求服务器存储一个资源;\nDELETE：请求服务器删除标识的资源；\nOPTIONS：请求查询服务器的性能，或者查询与资源相关的选项和需求；\nTRACE：请求服务器回送收到的请求信息，主要用于测试或诊断；\nCONNECT：保留将来使用\n\n缺点：\n虽然允许复用TCP连接，但是同一个TCP连接里面，所有的数据通信是按次序进行的。服务器只有处理完一个请求，才会接着处理下一个请求。如果前面的处理特别慢，后面就会有许多请求排队等着。这将导致“队头堵塞”\n避免方式：一是减少请求数，二是同时多开持久连接"
         }
       ]
     },
@@ -2002,12 +1954,25 @@
         "4eea4afc-4d24-4e53-8bc7-a5859992e32c",
         "030e93a1-3bbe-4dbd-9be7-4616a777dd8f"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "算法策略"
+        }
+      ]
+    },
+    {
+      "key": "5bc8fdb8-5531-4c88-9f25-6a77d737cb0f",
+      "parentKey": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "内存布局"
         }
       ]
     },
@@ -2099,6 +2064,23 @@
       ]
     },
     {
+      "key": "bc2138cd-c76f-4848-9bb0-e7f4319a34b7",
+      "parentKey": "abcf4788-72ae-4ac6-87ea-f6d1ca33ce3d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "https"
+        },
+        {
+          "type": "DESC",
+          "data": "HTTP协议通常承载于TCP协议之上，在HTTP和TCP之间添加一个安全协议层（SSL或TSL），这个时候，就成了我们常说的HTTPS.\n1、HTTPS主要作用\n* （1）对数据进行加密，并建立一个信息安全通道，来保证传输过程中的数据安全;\n* （2）对网站服务器进行真实身份认证。2、HTTPS和HTTP的区别\n* 1、HTTPS是加密传输协议，HTTP是名文传输协议;\n* 2、HTTPS需要用到SSL证书，而HTTP不用;\n* 3、HTTPS比HTTP更加安全，对搜索引擎更友好，利于SEO,\n* 4、 HTTPS标准端口443，HTTP标准端口80;\n* 5、 HTTPS基于传输层，HTTP基于应用层;\n\n\n\n## HTTPS和HTTP的工作过程区别\n\n**HTTP 包含动作：**\n浏览器打开一个 TCP 连接\n浏览器发送 HTTP 请求到服务器端\n服务器发送 HTTP 回应信息到浏览器\nTCP 连接关闭\n**SSL 包含动作：**\n验证服务器端\n客户端和服务器端选择加密算法和密码，确保双方都支持\n验证客户端\\(可选\\)\n使用公钥加密技术来生成共享加密数据\n创建一个加密的 SSL 连接\n基于该 SSL 连接传递 HTTP 请求\n\n\n## HTTPS加密方式\n\n对称加密：加密和解密都是使用的同一个密钥；\n非对称加密：\n加密使用的密钥和解密使用的密钥是不相同的，分别称为：公钥、私钥；\n公钥和算法都是公开的，私钥是保密的。\n非对称加密过程：\n服务端生成配对的公钥和私钥\n私钥保存在服务端，公钥发送给客户端\n客户端使用公钥加密明文传输给服务端\n服务端使用私钥解密密文得到明文\n数字签名：签名就是在信息的后面再加上一段内容，可以证明信息没有被修改过。"
+        }
+      ]
+    },
+    {
       "key": "86b91c00-98b0-49ea-8ab1-5ef6f0f70b21",
       "parentKey": "4fab64f5-e94d-468b-84df-bcd3512e2645",
       "subKeys": [],
@@ -2176,7 +2158,7 @@
         "14d04f77-61d6-4980-b458-f23bd9952f91",
         "7a6aebd5-af63-4409-bc57-a381ea773f86"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2195,7 +2177,7 @@
         "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
         "f661da5b-7fb5-42d2-9650-fe4b30675498"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -2408,20 +2390,17 @@
     {
       "key": "f661da5b-7fb5-42d2-9650-fe4b30675498",
       "parentKey": "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
-      "subKeys": [
-        "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
-        "1d02cc44-1572-493d-8bb6-d866e5f76c50",
-        "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
-        "85f749e0-401d-404d-bf16-785eed0919d9",
-        "e21ba59c-7374-433f-94af-d3b7b65ed29e",
-        "0e417ed3-8a84-408f-ba4a-f94e781c6e3b"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "六大原则"
+        },
+        {
+          "type": "DESC",
+          "data": "**开闭原则**  对扩展开放，对修改关闭。\n**里氏代换原则 **任何基类可以出现的地方，子类一定可以出现。\n**依赖倒转原则 **依赖抽象\\(接口\\) 而不是依赖具体\n**接口隔离原则 **使用多个隔离的接口，比使用单个接口要好\n**（迪米特）最少知道原则** 一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。\n**合成复用原则** 尽量使用合成/聚合的方式，而不是使用继承。"
         }
       ]
     },
@@ -2479,6 +2458,29 @@
         {
           "type": "CONTENT",
           "data": "桥接模式（Bridge Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "parentKey": "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
+      "subKeys": [
+        "5bc8fdb8-5531-4c88-9f25-6a77d737cb0f",
+        "777491ce-ecbd-4b30-9b60-934da746dacd",
+        "7bbdb561-3b35-4dc9-aab3-baa3eca7433e",
+        "ee6b0910-783b-4c36-914e-f7e075c1e859",
+        "6ae62ad9-06eb-41a5-a2ee-8e2044c68dd2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通识"
+        },
+        {
+          "type": "DESC",
+          "data": ""
         }
       ]
     },
@@ -2610,7 +2612,7 @@
         "25044711-52c5-4e1e-b0a5-833f9b61a21d",
         "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2663,19 +2665,6 @@
       ]
     },
     {
-      "key": "9413645d-e53d-4ca0-abd8-d43ec5a5140e",
-      "parentKey": "458dfd32-7403-4a56-bd4d-ae7cf693be53",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "InnoDB使用的是聚簇索引，将主键组织到一棵B+树中，而行数据就储存在叶子节点上，\n若使用\"where id = 14\"这样的条件查找主键，则按照B+树的检索算法即可查找到对应的叶节点，\n之后获得行数据。若对Name列进行条件搜索，则需要两个步骤：第一步在辅助索引B+树中检索Name，\n到达其叶子节点获取对应的主键。第二步使用主键在主索引B+树种再执行一次B+树检索操作，\n最终到达叶子节点即可获取整行数据。"
-        }
-      ]
-    },
-    {
       "key": "113fa7b6-4cf4-4520-a5f4-6d7592f29bfa",
       "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
       "subKeys": [
@@ -2702,19 +2691,6 @@
         {
           "type": "CONTENT",
           "data": "动态规划"
-        }
-      ]
-    },
-    {
-      "key": "aa083569-e799-42f5-8577-a399b0f206a6",
-      "parentKey": "4daf6479-6497-4b06-8d85-8ab683a9356f",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "第一次握手：建立连接时，客户端发送syn包（syn=j）到服务器，并进入SYN_SENT状态，等待服务器确认；SYN：同步序列编号（Synchronize Sequence Numbers）。\n第二次握手：服务器收到syn包，必须确认客户的SYN（ack=j+1），同时自己也发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态；\n第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1），此包发送完毕，客户端和服务器进入ESTABLISHED（TCP连接成功）状态，完成三次握手。"
         }
       ]
     },
@@ -2780,7 +2756,7 @@
         "de26c5d9-cd4a-435c-b962-771d05bc6ec2",
         "c4d3b7d4-deab-4ea2-92d9-68b858ba2db8"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2963,6 +2939,19 @@
       ]
     },
     {
+      "key": "52c27118-fd19-4fdb-972d-ec7d79bc5168",
+      "parentKey": "4c21fad8-a05b-42da-ba8e-c567c201cef1",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "会有定时垃圾回收，产生大量IO"
+        }
+      ]
+    },
+    {
       "key": "8bc541b6-88f8-44df-bc93-294be878af04",
       "parentKey": "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1",
       "subKeys": [],
@@ -3029,19 +3018,6 @@
         {
           "type": "CONTENT",
           "data": "归并排序"
-        }
-      ]
-    },
-    {
-      "key": "55314698-d350-470a-a44a-dcc8b36956ce",
-      "parentKey": "e21ba59c-7374-433f-94af-d3b7b65ed29e",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。"
         }
       ]
     },
@@ -3185,6 +3161,19 @@
       ]
     },
     {
+      "key": "7bbdb561-3b35-4dc9-aab3-baa3eca7433e",
+      "parentKey": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "值传递与引用传递"
+        }
+      ]
+    },
+    {
       "key": "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737",
       "parentKey": "477b232a-f67a-4b1d-9774-4688f6ed0ec4",
       "subKeys": [
@@ -3201,6 +3190,19 @@
         {
           "type": "CONTENT",
           "data": "客户端"
+        }
+      ]
+    },
+    {
+      "key": "6ae62ad9-06eb-41a5-a2ee-8e2044c68dd2",
+      "parentKey": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "垃圾回收算法"
         }
       ]
     },
@@ -3330,7 +3332,10 @@
       "key": "0b604d51-e0f3-4876-9008-4cb272614265",
       "parentKey": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
       "subKeys": [
-        "af3e81b3-b02b-4664-bfec-667b92376ee6"
+        "af3e81b3-b02b-4664-bfec-667b92376ee6",
+        "fb6d45ea-7058-48d1-9fc2-ba80dc35f970",
+        "5cba51d4-a0b3-4520-8083-fccf51cc27ef",
+        "49a21ab6-03b1-44f0-ad51-0df744cd498b"
       ],
       "collapse": false,
       "style": null,
@@ -3404,7 +3409,7 @@
         "41973934-e53b-4fcf-b35c-a48c4aae943f",
         "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3464,7 +3469,7 @@
         "e8e26def-09cc-490f-a031-8569670bb767",
         "f74236d0-09aa-4337-8fd4-2dcd3ca52083"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3483,21 +3488,6 @@
         {
           "type": "CONTENT",
           "data": "长期存活的对象将进入老年代"
-        }
-      ]
-    },
-    {
-      "key": "e21ba59c-7374-433f-94af-d3b7b65ed29e",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "55314698-d350-470a-a44a-dcc8b36956ce"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "迪米特法则，又称最少知道原则（Demeter Principle）"
         }
       ]
     },
@@ -3554,11 +3544,29 @@
       ]
     },
     {
+      "key": "b5865bb6-c01b-49e7-b0f3-6d50c358ebb1",
+      "parentKey": "e8e26def-09cc-490f-a031-8569670bb767",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "三范式"
+        },
+        {
+          "type": "DESC",
+          "data": "第一范式\\(1NF\\):字段不可分，强调列的原子性\n第二范式\\(2NF\\):首先是1NF，然后有主键，并且非主键字段完全依赖主键\n第三范式\\(3NF\\):首先是2NF，非主键字段不能相互依赖，即不能通过传递依赖"
+        }
+      ]
+    },
+    {
       "key": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "parentKey": "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
       "subKeys": [
         "974909ea-2099-4c5b-9440-57fc3ff32da2",
-        "c6d55a98-62d1-4580-a8f4-7744a6874ec6"
+        "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+        "222800b0-29b3-4336-831f-34307436c012"
       ],
       "collapse": false,
       "style": null,
@@ -3691,6 +3699,10 @@
         {
           "type": "CONTENT",
           "data": "网络原理"
+        },
+        {
+          "type": "DESC",
+          "data": ""
         }
       ]
     },
@@ -3735,6 +3747,19 @@
         {
           "type": "CONTENT",
           "data": "RocketMQ"
+        }
+      ]
+    },
+    {
+      "key": "32e31504-3c00-4f1c-851d-2c7934d20c6a",
+      "parentKey": "b09614d3-3d42-4394-ba66-7b5e2b9b33eb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "排列组合"
         }
       ]
     },
@@ -3933,15 +3958,15 @@
       ]
     },
     {
-      "key": "a51b7789-4389-412f-8a30-74a85ed94c45",
-      "parentKey": "2ca9e3bf-e86c-4b02-8319-a41b6b556490",
+      "key": "222800b0-29b3-4336-831f-34307436c012",
+      "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": ""
+          "data": " 多线程"
         }
       ]
     },
@@ -3972,19 +3997,6 @@
       ]
     },
     {
-      "key": "7deb69b7-3cbe-4c78-af7c-cff02e40cbc4",
-      "parentKey": "1d02cc44-1572-493d-8bb6-d866e5f76c50",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "任何基类可以出现的地方，子类一定可以出现。"
-        }
-      ]
-    },
-    {
       "key": "f03209b6-8a4b-45a3-be5e-8b4cc8658138",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
@@ -4002,8 +4014,11 @@
     {
       "key": "b09614d3-3d42-4394-ba66-7b5e2b9b33eb",
       "parentKey": "6ae6f444-5393-456c-b4ce-036aecc8039a",
-      "subKeys": [],
-      "collapse": false,
+      "subKeys": [
+        "32e31504-3c00-4f1c-851d-2c7934d20c6a",
+        "ebbd4bdf-95d7-4710-a637-95ac6a313f35"
+      ],
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4047,7 +4062,8 @@
       "parentKey": "19330261-06d6-46a9-ad75-64daecefaf90",
       "subKeys": [
         "d9ac859b-b412-4f59-ad4b-4fc28a012e33",
-        "88df6190-e789-423d-87fc-d39d10c81759"
+        "88df6190-e789-423d-87fc-d39d10c81759",
+        "bc2138cd-c76f-4848-9bb0-e7f4319a34b7"
       ],
       "collapse": false,
       "style": null,
@@ -4055,6 +4071,10 @@
         {
           "type": "CONTENT",
           "data": "HTTP"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://blog.csdn.net/tcy83/article/details/104931715?utm\\_medium=distribute.pc\\_relevant.none\\-task\\-blog\\-baidujs\\_title\\-0&spm=1001.2101.3001.4242](https://blog.csdn.net/tcy83/article/details/104931715?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)\n\n## Http与Https的区别：\n\nHTTP 的URL 以http:// 开头，而HTTPS 的URL 以https:// 开头\nHTTP 是不安全的，而 HTTPS 是安全的\nHTTP 标准端口是80 ，而 HTTPS 的标准端口是443\n在OSI 网络模型中，HTTP工作于应用层，而HTTPS 的安全传输机制工作在传输层\nHTTP 无法加密，而HTTPS 对传输的数据进行加密\nHTTP无需证书，而HTTPS 需要CA机构wosign的颁发的SSL证书\n\n\n\n## 什么是Http协议无状态协议?怎么解决Http协议无状态协议?\n\n无状态协议对于事务处理没有记忆能力。缺少状态意味着如果后续处理需要前面的信息\n\n也就是说，当客户端一次HTTP请求完成以后，客户端再发送一次HTTP请求，HTTP并不知道当前客户端是一个”老用户“。\n可以使用Cookie来解决无状态的问题，Cookie就相当于一个通行证，第一次访问的时候给客户端发送一个Cookie，当客户端再次来的时候，拿着Cookie\\(通行证\\)，那么服务器就知道这个是”老用户“。\n\n\n## URI和URL的区别\n\nURI，是uniform resource identifier，统一资源标识符，用来唯一的标识一个资源。\n\nWeb上可用的每种资源如HTML文档、图像、视频片段、程序等都是一个来URI来定位的\nURI一般由三部组成：\n①访问资源的命名机制\n②存放资源的主机名\n③资源自身的名称，由路径表示，着重强调于资源。\nURL是uniform resource locator，统一资源定位器，它是一种具体的URI，即URL可以用来标识一个资源，而且还指明了如何locate这个资源。\n\nURL是Internet上用来描述信息资源的字符串，主要用在各种WWW客户程序和服务器程序上，特别是著名的Mosaic。\n采用URL可以用一种统一的格式来描述各种信息资源，包括文件、服务器的地址和目录等。URL一般由三部组成：\n①协议\\(或称为服务方式\\)\n②存有该资源的主机IP地址\\(有时也包括端口号\\)\n③主机资源的具体地址。如目录和文件名等\nURN，uniform resource name，统一资源命名，是通过名字来标识资源，比如mailto:java\\-net@java.sun.com。\n\nURI是以一种抽象的，高层次概念定义统一资源标识，而URL和URN则是具体的资源标识的方式。URL和URN都是一种URI。笼统地说，每个 URL 都是 URI，但不一定每个 URI 都是 URL。这是因为 URI 还包括一个子类，即统一资源名称 \\(URN\\)，它命名资源但不指定如何定位资源。上面的 mailto、news 和 isbn URI 都是 URN 的示例。\n在Java的URI中，一个URI实例可以代表绝对的，也可以是相对的，只要它符合URI的语法规则。而URL类则不仅符合语义，还包含了定位该资源的信息，因此它不能是相对的。\n\n在Java类库中，URI类不包含任何访问资源的方法，它唯一的作用就是解析。\n\n相反的是，URL类可以打开一个到达资源的流。\n\n\n## HTTPS工作原理\n\n一、首先HTTP请求服务端生成证书，客户端对证书的有效期、合法性、域名是否与请求的域名一致、证书的公钥（RSA加密）等进行校验；\n二、客户端如果校验通过后，就根据证书的公钥的有效， 生成随机数，随机数使用公钥进行加密（RSA加密）；\n三、消息体产生的后，对它的摘要进行MD5（或者SHA1）算法加密，此时就得到了RSA签名；\n四、发送给服务端，此时只有服务端（RSA私钥）能解密。\n五、解密得到的随机数，再用AES加密，作为密钥（此时的密钥只有客户端和服务端知道）。\n\n\n\n## 一次完整的HTTP请求所经历的7个步骤\n\n建立TCP连接\\-\\>发送请求行\\-\\>发送请求头\\-\\>（到达服务器）发送状态行\\-\\>发送响应头\\-\\>发送响应数据\\-\\>断TCP连接\n\n\n\n"
         }
       ]
     },
@@ -4200,25 +4220,12 @@
         "a2466c18-b25f-43b7-ae7c-d14a08e52beb",
         "46d7ec25-bd54-41a5-a7ae-0489b1b53c8c"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "结构型模式"
-        }
-      ]
-    },
-    {
-      "key": "2900a250-0bed-47d8-b9f3-33ea3ec0f4ca",
-      "parentKey": "9aef744c-3ba4-4ef0-8118-2281b9aa0b52",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "对扩展开放，对修改关闭。"
         }
       ]
     },
@@ -4321,21 +4328,6 @@
       ]
     },
     {
-      "key": "0e417ed3-8a84-408f-ba4a-f94e781c6e3b",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "be068a34-a533-471f-a87f-4382de4d704f"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "合成复用原则（Composite Reuse Principle）"
-        }
-      ]
-    },
-    {
       "key": "910a3183-33db-4e56-884c-fc772f32a7c3",
       "parentKey": "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737",
       "subKeys": [],
@@ -4377,7 +4369,10 @@
     {
       "key": "e8e26def-09cc-490f-a031-8569670bb767",
       "parentKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
-      "subKeys": [],
+      "subKeys": [
+        "b5865bb6-c01b-49e7-b0f3-6d50c358ebb1",
+        "9cefa5f8-960f-4787-b367-d14635ff2683"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -4391,8 +4386,7 @@
       "key": "dac0f24c-c3ec-427e-84b7-5aed52530643",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
-        "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
-        "3f69bdb6-703a-493e-bfc9-e2ec93974389"
+        "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4"
       ],
       "collapse": false,
       "style": null,
@@ -4462,21 +4456,6 @@
       ]
     },
     {
-      "key": "99cb1494-8d2d-4633-abdf-f0a68a947cc4",
-      "parentKey": "f661da5b-7fb5-42d2-9650-fe4b30675498",
-      "subKeys": [
-        "49104c8c-4af8-4e9e-b063-4b8ad497be7b"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "依赖倒转原则（Dependence Inversion Principle）"
-        }
-      ]
-    },
-    {
       "key": "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb",
       "parentKey": "653920a9-c872-49df-b089-5fb604dcb5fa",
       "subKeys": [
@@ -4501,7 +4480,7 @@
         "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
         "06c6f258-57f9-49d8-85df-cb499f47f2f9"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4533,6 +4512,23 @@
         {
           "type": "CONTENT",
           "data": "具备事务能力"
+        }
+      ]
+    },
+    {
+      "key": "9cefa5f8-960f-4787-b367-d14635ff2683",
+      "parentKey": "e8e26def-09cc-490f-a031-8569670bb767",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "事务管理（ACID）\r"
+        },
+        {
+          "type": "DESC",
+          "data": "**原子性（Atomicity）**\n原子性是指事务是一个不可分割的工作单位，事务中的操作要么都发生，要么都不发生。\n**一致性（Consistency）**\n事务前后数据的完整性必须保持一致。\n**隔离性（Isolation）**\n事务的隔离性是多个用户并发访问数据库时，数据库为每一个用户开启的事务，不能被其他事务的操作数据所干扰，多个并发事务之间要相互隔离。\n**持久性（Durability）**\n持久性是指一个事务一旦被提交，它对数据库中数据的改变就是永久性的，接下来即使数据库发生故障也不应该对其有任何影响"
         }
       ]
     },
@@ -4601,6 +4597,19 @@
         {
           "type": "CONTENT",
           "data": "集群选举算法"
+        }
+      ]
+    },
+    {
+      "key": "777491ce-ecbd-4b30-9b60-934da746dacd",
+      "parentKey": "27e348b3-6753-4e0f-afb5-ea77a0de6ace",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "编译解释与执行"
         }
       ]
     },
@@ -4775,7 +4784,8 @@
       },
       "rootTopic": {
         "contentStyle": {
-          "fontSize": "36px"
+          "fontSize": "36px",
+          "borderWidth": "0px"
         },
         "subLinkStyle": {
           "lineType": "curve",
