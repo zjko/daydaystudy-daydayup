@@ -1,10 +1,25 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "458dfd32-7403-4a56-bd4d-ae7cf693be53",
+  "focusKey": "f66b8670-98b1-452e-a762-892cb6de2beb",
   "extData": {
     "TOPIC_REFERENCE": {
-      "reference": {}
+      "reference": {
+        "39c68aa1-372d-4a29-b77a-a565ffe4f76b": {
+          "keyList": [],
+          "dataMap": {}
+        },
+        "988ec886-52a3-42b2-9312-c26033607322": {
+          "keyList": [],
+          "dataMap": {}
+        },
+        "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3": {
+          "keyList": [
+            "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
+          ],
+          "dataMap": {}
+        }
+      }
     }
   },
   "topics": [
@@ -195,6 +210,19 @@
       ]
     },
     {
+      "key": "9122a158-12a5-4518-a8c2-d6c4b7dfeec2",
+      "parentKey": "c4c2aba2-22bd-44e9-aae1-19ccaf3cb59b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ext4"
+        }
+      ]
+    },
+    {
       "key": "9372572f-3e4f-436b-88fb-458439e18cd5",
       "parentKey": "6ae6f444-5393-456c-b4ce-036aecc8039a",
       "subKeys": [
@@ -290,7 +318,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "应用"
+          "data": "学科应用"
         }
       ]
     },
@@ -310,15 +338,17 @@
     {
       "key": "effcf807-107c-4466-81c4-e42f0c69f492",
       "parentKey": "53aa9c9c-dec9-4622-a13c-87bff52e56b6",
-      "subKeys": [
-        "098e1651-a2c9-44f8-a74a-ede71cf2fac2"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "方法区"
+        },
+        {
+          "type": "DESC",
+          "data": "Java8中，方法区已经从永久代中放到了\"元空间\"，即系统内存"
         }
       ]
     },
@@ -410,6 +440,32 @@
       ]
     },
     {
+      "key": "80b48f4b-a14d-4e4e-a64e-395c2194593b",
+      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "属性修饰符"
+        }
+      ]
+    },
+    {
+      "key": "3e439bc5-7df4-430d-8a70-dc577447d96a",
+      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "方法修饰符"
+        }
+      ]
+    },
+    {
       "key": "d9e4b227-44a3-4df8-9f2f-6ab468185390",
       "parentKey": "3f0aad9f-711f-472a-b33e-7cfc6e51000a",
       "subKeys": [],
@@ -478,19 +534,6 @@
         {
           "type": "CONTENT",
           "data": "OLAP + OLTP一体化"
-        }
-      ]
-    },
-    {
-      "key": "01b9bbe2-9c59-4b03-a103-7478e4662d2a",
-      "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "软件构建"
         }
       ]
     },
@@ -575,6 +618,19 @@
       ]
     },
     {
+      "key": "69dbd8bd-3752-4a1c-a1c2-c21807a26f3c",
+      "parentKey": "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "IPv6"
+        }
+      ]
+    },
+    {
       "key": "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
       "parentKey": "b3746883-cc92-4839-a57e-f993310f0be6",
       "subKeys": [],
@@ -639,14 +695,29 @@
         "805a9f06-a892-4d6f-9dcc-c24cd0777350",
         "3e4e11a8-4b68-4202-b38c-b4744782ee21",
         "0b604d51-e0f3-4876-9008-4cb272614265",
-        "1238d3f5-ce0d-4ff7-90ed-18faf5ef98bb"
+        "1238d3f5-ce0d-4ff7-90ed-18faf5ef98bb",
+        "2e8778f6-c8cf-4123-8460-da893987ab8f",
+        "331b788b-d64f-4600-887d-f9316f5d9407"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "数据结构"
+          "data": "* 数据结构"
+        }
+      ]
+    },
+    {
+      "key": "c1b6523e-101d-4118-afe7-c0cfb5ec9af5",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Druid"
         }
       ]
     },
@@ -699,6 +770,23 @@
       ]
     },
     {
+      "key": "2e8778f6-c8cf-4123-8460-da893987ab8f",
+      "parentKey": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* 散列表hash"
+        },
+        {
+          "type": "DESC",
+          "data": "## 哈希值计算方法\n\n1. **直接寻址法 **取关键字或关键字的某个线性函数值为散列地址。即H\\(key\\)=key或H\\(key\\) = a·key \\+ b，其中a和b为常数（这种散列函数叫做自身函数）。若其中H\\(key）中已经有值了，就往下一个找，直到H\\(key）中没有值了，就放进去。\n\n**2\\. 数字分析法 **分析一组数据，比如一组员工的出生年月日，这时我们发现出生年月日的前几位数字大体相同，这样的话，出现冲突的几率就会很大，但是我们发现年月日的后几位表示月份和具体日期的数字差别很大，如果用后面的数字来构成散列地址，则冲突的几率会明显降低。因此数字分析法就是找出数字的规律，尽可能利用这些数据来构造冲突几率较低的散列地址。\n**3\\. 平方取中法 **当无法确定关键字中哪几位分布较均匀时，可以先求出关键字的平方值，然后按需要取平方值的中间几位作为哈希地址。这是因为：平方后中间几位和关键字中每一位都相关，故不同关键字会以较高的概率产生不同的哈希地址。\n例：我们把英文字母在字母表中的位置序号作为该英文字母的内部编码。例如K的内部编码为11，E的内部编码为05，Y的内部编码为25，A的内部编码为01, B的内部编码为02。由此组成关键字“KEYA”的内部代码为11052501，同理我们可以得到关键字“KYAB”、“AKEY”、“BKEY”的内部编码。之后对关键字进行平方运算后，取出第7到第9位作为该关键字哈希地址\n**4\\.  折叠法 **将关键字分割成位数相同的几部分，最后一部分位数可以不同，然后取这几部分的叠加和（去除进位）作为散列地址。数位叠加可以有移位叠加和间界叠加两种方法。移位叠加是将分割后的每一部分的最低位对齐，然后相加；间界叠加是从一端向另一端沿分割界来回折叠，然后对齐相加。\n**5\\. 随机数法 **选择一随机函数，取关键字的随机值作为散列地址，即H\\(key\\)=random\\(key\\)其中random为随机函数,通常用于关键字长度不等的场合。\n**6\\. 除留余数法 **取关键字被某个不大于散列表表长m的数p除后所得的余数为散列地址。即 H\\(key\\) = key MOD p,p<=m。不仅可以对关键字直接取模，也可在折叠、平方取中等运算之后取模。对p的选择很重要，一般取素数或m，若p选的不好，容易产生同义词。\n\n\n## 处理冲突\n\n1. 开放寻址法：Hi=\\(H\\(key\\) \\+ di\\) MOD m,i=1,2，…，k\\(k<=m\\-1），其中H\\(key）为散列函数，m为散列表长，di为增量序列，可有下列三种取法：1\\.1. di=1,2,3，…，m\\-1，称线性探测再散列；1\\.2. di=1^2,\\-1^2,2^2,\\-2^2，⑶^2，…，±（k\\)^2,\\(k<=m/2）称二次探测再散列；1\\.3. di=伪随机数序列，称伪随机探测再散列。\n1. 再散列法：Hi=RHi\\(key\\),i=1,2，…，k RHi均是不同的散列函数，即在同义词产生地址冲突时计算另一个散列函数地址，直到冲突不再发生，这种方法不易产生“聚集”，但增加了计算时间。\n\n3\\. 链地址法（拉链法）\n4\\. 建立一个公共溢出区\n\n\n## 连接知识点\n\n**布隆过滤器 **用于判断元素是否存在于一个集合当中，常用来检测缓存命中问题\n缺点是有误判率， 并且删除困难\n用一个非常长的向量来存储所有元素哈希\n[https://www.cnblogs.com/liyulong1982/p/6013002.html](https://www.cnblogs.com/liyulong1982/p/6013002.html)"
+        }
+      ]
+    },
+    {
       "key": "42460c7b-8400-4d4b-b389-fa0e4e6b0dc9",
       "parentKey": "e54a1caf-8cd5-4af5-8e24-0927ce142612",
       "subKeys": [],
@@ -708,6 +796,19 @@
         {
           "type": "CONTENT",
           "data": "空间分配担保"
+        }
+      ]
+    },
+    {
+      "key": "64520e87-c9d1-4991-9b18-6bacdbfad93c",
+      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "常用关键字"
         }
       ]
     },
@@ -808,6 +909,19 @@
       ]
     },
     {
+      "key": "c177232c-0fdb-4033-bffd-90aa51a20e17",
+      "parentKey": "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "常用命令"
+        }
+      ]
+    },
+    {
       "key": "42e26013-0fe7-42db-9655-e1bd26a59e0e",
       "parentKey": "97243745-e283-41d5-8522-e2ccb79c9254",
       "subKeys": [],
@@ -817,6 +931,19 @@
         {
           "type": "CONTENT",
           "data": "服务注册中心"
+        }
+      ]
+    },
+    {
+      "key": "9d785d5c-8e3f-420c-8349-c0eeeee7da7f",
+      "parentKey": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* nginx"
         }
       ]
     },
@@ -836,7 +963,9 @@
     {
       "key": "ebbd4bdf-95d7-4710-a637-95ac6a313f35",
       "parentKey": "b09614d3-3d42-4394-ba66-7b5e2b9b33eb",
-      "subKeys": [],
+      "subKeys": [
+        "85ca2ea5-3447-46c8-a9ab-dad9d20aa6c2"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -858,6 +987,21 @@
         {
           "type": "CONTENT",
           "data": "LinkedHashMap"
+        }
+      ]
+    },
+    {
+      "key": "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
+      "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
+      "subKeys": [
+        "d70d0ed5-4987-4b0d-9425-0a4e79dbebe7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "并发问题"
         }
       ]
     },
@@ -997,6 +1141,19 @@
       ]
     },
     {
+      "key": "af7cafa9-e2db-4053-865e-9724acc5e4d9",
+      "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "网络编程"
+        }
+      ]
+    },
+    {
       "key": "698e66b2-5711-4481-8b23-3748f9edbe31",
       "parentKey": "b87fa674-cd34-457d-b7f5-0fd8c1a37cf9",
       "subKeys": [],
@@ -1084,6 +1241,19 @@
       ]
     },
     {
+      "key": "189ebcb2-d59b-4cbe-868c-2b31a2e53e0d",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "dubbo"
+        }
+      ]
+    },
+    {
       "key": "700372af-1d5f-470c-ad62-59e29d3c787c",
       "parentKey": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
       "subKeys": [
@@ -1134,7 +1304,9 @@
         "3e708968-c8b9-463a-977a-1932fa48995f",
         "578d6a5b-6f47-4496-b28c-6104a7a17929",
         "04378613-7a82-4ee2-a0cc-ed6f425ab94e",
-        "59a3b149-29ec-4a36-af9d-510736b9dde2"
+        "59a3b149-29ec-4a36-af9d-510736b9dde2",
+        "9d785d5c-8e3f-420c-8349-c0eeeee7da7f",
+        "b9012452-28c5-47c0-8fe3-5a562ec390b7"
       ],
       "collapse": false,
       "style": null,
@@ -1249,7 +1421,7 @@
         },
         {
           "type": "DESC",
-          "data": "基于二分查找形态的数据结构，其中每个子树 左小 右大\n如下所示：\n            35\n      17         39\n9        28              65\n\n缺点：\n增删困难，会破坏结构\n\n1️⃣概念\n平衡二叉树是基于二分法的策略提高数据的查找速度的二叉树的数据结构。\n\n2️⃣规则\n平衡二叉树是采用二分法思维把数据按规则组装成一个树形结构的数据，用这个树形结构的数据减少无关数据的检索，大大的提升了数据检索的速度；平衡二叉树的数据结构组装过程有以下规则：\n①非叶子节点只能允许最多两个子节点存在。\n②每一个非叶子节点数据分布规则为左边的子节点小当前节点的值，右边的子节点大于当前节点的值\\(这里值是基于自己的算法规则而定的，比如hash值\\)。\n\n平衡树的层级结构：平衡二叉树的查询性能和树的层级\\(高度h\\)成反比，h值越小查询越快。为了保证树的结构左右两端数据大致平衡。降低二叉树的查询难度一般会采用一种算法机制实现节点数据结构的平衡，实现了这种算法的有比如Treap、红黑树。使用平衡二叉树能保证数据的左右两边的节点层级相差不会大于1，通过这样避免树形结构由于删除增加变成线性链表影响查询效率，保证数据平衡的情况下查找数据的速度近于二分法查找：\n\n3️⃣平衡二叉树特点：\n①非叶子节点最多拥有两个子节点。\n②非叶子节点值大于左边子节点、小于右边子节点。\n③树的左右两边的层级数相差不会大于1。\n④没有值相等重复的节点。"
+          "data": "基于二分查找形态的数据结构，其中每个子树 左小 右大\n如下所示：\n```none\n        35\n  17         39\n\n```\n  9        28              65\n\n缺点：\n增删困难，会破坏结构\n\n1️⃣概念\n平衡二叉树是基于二分法的策略提高数据的查找速度的二叉树的数据结构。\n\n2️⃣规则\n平衡二叉树是采用二分法思维把数据按规则组装成一个树形结构的数据，用这个树形结构的数据减少无关数据的检索，大大的提升了数据检索的速度；平衡二叉树的数据结构组装过程有以下规则：\n①非叶子节点只能允许最多两个子节点存在。\n②每一个非叶子节点数据分布规则为左边的子节点小当前节点的值，右边的子节点大于当前节点的值\\(这里值是基于自己的算法规则而定的，比如hash值\\)。\n\n平衡树的层级结构：平衡二叉树的查询性能和树的层级\\(高度h\\)成反比，h值越小查询越快。为了保证树的结构左右两端数据大致平衡。降低二叉树的查询难度一般会采用一种算法机制实现节点数据结构的平衡，实现了这种算法的有比如Treap、红黑树。使用平衡二叉树能保证数据的左右两边的节点层级相差不会大于1，通过这样避免树形结构由于删除增加变成线性链表影响查询效率，保证数据平衡的情况下查找数据的速度近于二分法查找：\n\n3️⃣平衡二叉树特点：\n①非叶子节点最多拥有两个子节点。\n②非叶子节点值大于左边子节点、小于右边子节点。\n③树的左右两边的层级数相差不会大于1。\n④没有值相等重复的节点。"
         }
       ]
     },
@@ -1416,6 +1588,19 @@
       ]
     },
     {
+      "key": "76184108-9ffc-4acd-808d-5de63b6ef090",
+      "parentKey": "b6674f7e-7d2a-432b-ab64-e756cfbde6ee",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "语法分析"
+        }
+      ]
+    },
+    {
       "key": "5d3b9ce4-e4f9-4a37-9917-b471a6ca7a89",
       "parentKey": "bc9d0274-2db5-496c-83cc-62f7bc377a82",
       "subKeys": [],
@@ -1559,7 +1744,7 @@
         "6ae6f444-5393-456c-b4ce-036aecc8039a",
         "b1b680a9-99ff-40ac-a470-a310212cd0b4"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1712,7 +1897,7 @@
         "73336561-7a63-4707-9ea3-07c34effd75a",
         "0b45bd6d-6ddf-4b99-b698-6a9563d17388"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1834,6 +2019,19 @@
         {
           "type": "CONTENT",
           "data": "常见面试问题"
+        }
+      ]
+    },
+    {
+      "key": "14e8a81f-fde0-444d-a9ea-3f721ea64687",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Mybatis"
         }
       ]
     },
@@ -1976,7 +2174,7 @@
         "4eea4afc-4d24-4e53-8bc7-a5859992e32c",
         "030e93a1-3bbe-4dbd-9be7-4616a777dd8f"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -2140,6 +2338,10 @@
         {
           "type": "CONTENT",
           "data": "List"
+        },
+        {
+          "type": "DESC",
+          "data": ""
         }
       ]
     },
@@ -2217,7 +2419,7 @@
         "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
         "f661da5b-7fb5-42d2-9650-fe4b30675498"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2261,7 +2463,33 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "容器"
+          "data": "docker"
+        }
+      ]
+    },
+    {
+      "key": "b9012452-28c5-47c0-8fe3-5a562ec390b7",
+      "parentKey": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tomcat"
+        }
+      ]
+    },
+    {
+      "key": "28b84132-fada-4a62-b336-feca914e9294",
+      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Object对象"
         }
       ]
     },
@@ -2287,7 +2515,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Git"
+          "data": "Git版本控制"
         }
       ]
     },
@@ -2387,6 +2615,21 @@
       ]
     },
     {
+      "key": "c57de290-31de-4dcb-a697-dd75bf74d3ce",
+      "parentKey": "ad1d53be-725d-4a1c-ad48-eb62a01416be",
+      "subKeys": [
+        "f66b8670-98b1-452e-a762-892cb6de2beb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "主键"
+        }
+      ]
+    },
+    {
       "key": "bf4055d4-cd88-4ae4-b8b2-324be4ac1b40",
       "parentKey": "25044711-52c5-4e1e-b0a5-833f9b61a21d",
       "subKeys": [],
@@ -2402,7 +2645,13 @@
     {
       "key": "896dc098-40f0-4345-b45d-6b4084947356",
       "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
-      "subKeys": [],
+      "subKeys": [
+        "c4f72ec1-4f5a-4c1b-a663-7e70f1a750ef",
+        "80b48f4b-a14d-4e4e-a64e-395c2194593b",
+        "3e439bc5-7df4-430d-8a70-dc577447d96a",
+        "64520e87-c9d1-4991-9b18-6bacdbfad93c",
+        "28b84132-fada-4a62-b336-feca914e9294"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -2500,7 +2749,6 @@
       "key": "502be031-4a4b-4620-bd1b-021a407ed3dd",
       "parentKey": "da67c62d-a065-4f6d-a988-6ece1e6c8f62",
       "subKeys": [
-        "36ae9519-9b5f-4654-8dc5-1590f62f6904",
         "fd431e2a-6590-4ab7-b2b8-1fa1951059dd",
         "4daf6479-6497-4b06-8d85-8ab683a9356f",
         "1404f8d7-27e5-45fd-a1af-25a98e29e0d5"
@@ -2511,6 +2759,10 @@
         {
           "type": "CONTENT",
           "data": "TCP"
+        },
+        {
+          "type": "DESC",
+          "data": "可靠、全双工、流量控制"
         }
       ]
     },
@@ -2620,12 +2872,25 @@
         "c7d78193-2269-42ac-a150-e30efa8ea0a3",
         "54d86e7b-c655-4402-88f0-c7bb2dd51fb5"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "基础工具类"
+        }
+      ]
+    },
+    {
+      "key": "85ca2ea5-3447-46c8-a9ab-dad9d20aa6c2",
+      "parentKey": "ebbd4bdf-95d7-4710-a637-95ac6a313f35",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "高斯分布"
         }
       ]
     },
@@ -2645,7 +2910,9 @@
     {
       "key": "c4c2aba2-22bd-44e9-aae1-19ccaf3cb59b",
       "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
-      "subKeys": [],
+      "subKeys": [
+        "9122a158-12a5-4518-a8c2-d6c4b7dfeec2"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -2688,14 +2955,18 @@
       "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "subKeys": [
         "25044711-52c5-4e1e-b0a5-833f9b61a21d",
-        "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1"
+        "8f7d9b3b-f1a2-4ad6-84c7-e547a6b676f1",
+        "14e8a81f-fde0-444d-a9ea-3f721ea64687",
+        "c1b6523e-101d-4118-afe7-c0cfb5ec9af5",
+        "189ebcb2-d59b-4cbe-868c-2b31a2e53e0d",
+        "d8b9dd6a-d83b-4b47-ba0c-514d9543b3c6"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "常用框架"
+          "data": "重点框架"
         }
       ]
     },
@@ -2747,12 +3018,12 @@
       "subKeys": [
         "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "操作系统原理"
+          "data": "单机操作系统原理"
         }
       ]
     },
@@ -2801,9 +3072,11 @@
       "key": "b6674f7e-7d2a-432b-ab64-e756cfbde6ee",
       "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
       "subKeys": [
-        "f9d83fe8-5596-4265-84d7-5a6faa26e8c2"
+        "f9d83fe8-5596-4265-84d7-5a6faa26e8c2",
+        "76184108-9ffc-4acd-808d-5de63b6ef090",
+        "2fcb3ec5-8274-4e5e-bef2-0ef5e5162fec"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2989,6 +3262,10 @@
         {
           "type": "CONTENT",
           "data": "数组"
+        },
+        {
+          "type": "DESC",
+          "data": "顺序存储，固定长度\n访问o\\(1\\)  增删需要挪位o\\(n\\)\n\n常见复杂结构处理：\n**动态扩容： 达到负载因子后，申请一个容量\\*2的新结构，并将数据copy到新的列表中**"
         }
       ]
     },
@@ -3009,14 +3286,15 @@
       "key": "57007d78-5464-41d5-a545-c7d6654347ee",
       "parentKey": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
       "subKeys": [
-        "9209cac0-d45c-4d79-827d-b7d636a57f15"
+        "9209cac0-d45c-4d79-827d-b7d636a57f15",
+        "1a052b6c-6b13-4923-9f24-342384691266"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Redis"
+          "data": "* Redis"
         }
       ]
     },
@@ -3227,6 +3505,19 @@
       ]
     },
     {
+      "key": "ebad35c0-f0eb-41ca-890b-37233ea8076f",
+      "parentKey": "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "指令运算符"
+        }
+      ]
+    },
+    {
       "key": "b3c121f7-5e58-4df6-bdb8-851e8135949c",
       "parentKey": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
       "subKeys": [
@@ -3358,19 +3649,6 @@
       ]
     },
     {
-      "key": "de4b0b7c-aaf2-4e49-bc54-2713ce7a742a",
-      "parentKey": "62cace29-cb2b-4638-b3b3-88f07aba0e42",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "ARP欺骗"
-        }
-      ]
-    },
-    {
       "key": "41973934-e53b-4fcf-b35c-a48c4aae943f",
       "parentKey": "70fd9139-b191-4972-ac64-c7d23e1eeb37",
       "subKeys": [],
@@ -3405,7 +3683,7 @@
         "5cba51d4-a0b3-4520-8083-fccf51cc27ef",
         "49a21ab6-03b1-44f0-ad51-0df744cd498b"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3449,7 +3727,27 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "G1"
+          "data": "* G1"
+        },
+        {
+          "type": "DESC",
+          "data": "G1还解决的问题是：CMS在GC后，无法compact内存。\n\n"
+        }
+      ]
+    },
+    {
+      "key": "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3",
+      "parentKey": "dac0f24c-c3ec-427e-84b7-5aed52530643",
+      "subKeys": [
+        "ebad35c0-f0eb-41ca-890b-37233ea8076f",
+        "c177232c-0fdb-4033-bffd-90aa51a20e17"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Shell"
         }
       ]
     },
@@ -3479,7 +3777,7 @@
         "41973934-e53b-4fcf-b35c-a48c4aae943f",
         "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3545,6 +3843,19 @@
         {
           "type": "CONTENT",
           "data": "数据库原理"
+        }
+      ]
+    },
+    {
+      "key": "c4f72ec1-4f5a-4c1b-a663-7e70f1a750ef",
+      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "类修饰符"
         }
       ]
     },
@@ -3653,6 +3964,7 @@
         "222800b0-29b3-4336-831f-34307436c012",
         "896dc098-40f0-4345-b45d-6b4084947356",
         "2644ade5-99d1-4f5f-ba9b-2d9f6e3b83c5",
+        "af7cafa9-e2db-4053-865e-9724acc5e4d9",
         "eae1115c-681d-4910-b5e6-2e433523c02c"
       ],
       "collapse": false,
@@ -3661,6 +3973,21 @@
         {
           "type": "CONTENT",
           "data": "Java"
+        }
+      ]
+    },
+    {
+      "key": "ad1d53be-725d-4a1c-ad48-eb62a01416be",
+      "parentKey": "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
+      "subKeys": [
+        "c57de290-31de-4dcb-a697-dd75bf74d3ce"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "表设计规范"
         }
       ]
     },
@@ -3716,19 +4043,6 @@
       ]
     },
     {
-      "key": "098e1651-a2c9-44f8-a74a-ede71cf2fac2",
-      "parentKey": "effcf807-107c-4466-81c4-e42f0c69f492",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "Java8中，方法区已经从永久代中放到了\"元空间\"，即系统内存"
-        }
-      ]
-    },
-    {
       "key": "148456bf-6683-435f-a021-7d6084d48794",
       "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
       "subKeys": [],
@@ -3780,7 +4094,7 @@
       "subKeys": [
         "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3982,7 +4296,6 @@
         "e2592f36-09e9-45f9-8f9c-e8073857e706",
         "4b12ce90-98e8-4be2-9502-6999bf6fc64b",
         "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
-        "01b9bbe2-9c59-4b03-a103-7478e4662d2a",
         "b6674f7e-7d2a-432b-ab64-e756cfbde6ee"
       ],
       "collapse": false,
@@ -4004,6 +4317,19 @@
         {
           "type": "CONTENT",
           "data": "类索引、父类索引与接口索引集合"
+        }
+      ]
+    },
+    {
+      "key": "b13bdcf7-52be-4999-b7cf-7e27441efc93",
+      "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分布式"
         }
       ]
     },
@@ -4078,19 +4404,6 @@
       ]
     },
     {
-      "key": "36ae9519-9b5f-4654-8dc5-1590f62f6904",
-      "parentKey": "502be031-4a4b-4620-bd1b-021a407ed3dd",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "可靠、全双工、流量控制"
-        }
-      ]
-    },
-    {
       "key": "f03209b6-8a4b-45a3-be5e-8b4cc8658138",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
@@ -4112,7 +4425,7 @@
         "32e31504-3c00-4f1c-851d-2c7934d20c6a",
         "ebbd4bdf-95d7-4710-a637-95ac6a313f35"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4148,6 +4461,23 @@
         {
           "type": "CONTENT",
           "data": "运行时数据区域"
+        }
+      ]
+    },
+    {
+      "key": "f66b8670-98b1-452e-a762-892cb6de2beb",
+      "parentKey": "c57de290-31de-4dcb-a697-dd75bf74d3ce",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* uuid 自增主键 还是其他？"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://tech.meituan.com/2017/04/21/mt\\-leaf.html](https://tech.meituan.com/2017/04/21/mt-leaf.html) **美团方案**\n\n\n## UUID\n\nUUID\\(Universally Unique Identifier\\)的标准型式包含32个16进制数字，以连字号分为五段，形式为8\\-4\\-4\\-4\\-12的36个字符，示例：550e8400\\-e29b\\-41d4\\-a716\\-446655440000，到目前为止业界一共有5种方式生成UUID，详情见IETF发布的UUID规范 A Universally Unique IDentifier \\(UUID\\) URN Namespace。\n**优点**： 性能非常高：本地生成，没有网络消耗。\n**缺点：**\n不易于存储：UUID太长，16字节128位，通常以36长度的字符串表示，很多场景不适用。\n信息不安全：基于MAC地址生成UUID的算法可能会造成MAC地址泄露，这个漏洞曾被用于寻找梅丽莎病毒的制作者位置。\n\nID作为主键时在特定的环境会存在一些问题，比如做DB主键的场景下，UUID就非常不适用：\n① MySQL官方有明确的建议主键要尽量越短越好\\[4\\]，36个字符长度的UUID不符合要求。\nAll indexes other than the clustered index are known as secondary indexes. In InnoDB, each record in a secondary index contains the primary key columns for the row, as well as the columns specified for the secondary index. InnoDB uses this primary key value to search for the row in the clustered index._ If the primary key is long, the secondary indexes use more space, so it is advantageous to have a short primary key_.\n② 对MySQL索引不利：如果作为数据库主键，在InnoDB引擎下，UUID的无序性可能会引起数据位置频繁变动，严重影响性能。\n\n\n## 类snowflake（雪花算法）方案\n\n这种方案大致来说是一种以划分命名空间（UUID也算，由于比较常见，所以单独分析）来生成ID的一种算法，这种方案把64\\-bit分别划分成多段，分开来标示机器、时间等。\n41\\-bit的时间可以表示（1L<<41）/\\(1000L_3600_24\\*365\\)=69年的时间，10\\-bit机器可以分别表示1024台机器。如果我们对IDC划分有需求，还可以将10\\-bit分5\\-bit给IDC，分5\\-bit给工作机器。这样就可以表示32个IDC，每个IDC下可以有32台机器，可以根据自身需求定义。12个自增序列号可以表示2^12个ID，理论上snowflake方案的QPS约为409.6w/s，这种分配方式可以保证在任何一个IDC的任何一台机器在任意毫秒内生成的ID都是不同的。\n\n**优点：**\n毫秒数在高位，自增序列在低位，整个ID都是趋势递增的。\n不依赖数据库等第三方系统，以服务的方式部署，稳定性更高，生成ID的性能也是非常高的。\n可以根据自身业务特性分配bit位，非常灵活。\n**缺点：**\n强依赖机器时钟，如果机器上时钟回拨，会导致发号重复或者服务会处于不可用状态。\nMongoDB官方文档 ObjectID可以算作是和snowflake类似方法，通过“时间\\+机器码\\+pid\\+inc”共12个字节，通过4\\+3\\+2\\+3的方式最终标识成一个24长度的十六进制字符。\n\n\n## 数据库生成\n\n以MySQL举例，利用给字段设置auto\\_increment\\_increment和auto\\_increment\\_offset来保证ID自增，每次业务使用下列SQL读写MySQL得到ID号。\n**优点：**\n非常简单，利用现有数据库系统的功能实现，成本小，有DBA专业维护。\nID号单调自增，可以实现一些对ID有特殊要求的业务。\n**缺点：**\n强依赖DB，当DB异常时整个系统不可用，属于致命问题。配置主从复制可以尽可能的增加可用性，但是数据一致性在特殊情况下难以保证。主从切换时的不一致可能会导致重复发号。\nID发号性能瓶颈限制在单台MySQL的读写性能。\n\n\n## Leaf 美团当前方案\n\n\n"
         }
       ]
     },
@@ -4258,7 +4588,7 @@
         "b3c121f7-5e58-4df6-bdb8-851e8135949c",
         "700372af-1d5f-470c-ad62-59e29d3c787c"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4314,7 +4644,7 @@
         "a2466c18-b25f-43b7-ae7c-d14a08e52beb",
         "46d7ec25-bd54-41a5-a7ae-0489b1b53c8c"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4380,6 +4710,19 @@
       ]
     },
     {
+      "key": "2fcb3ec5-8274-4e5e-bef2-0ef5e5162fec",
+      "parentKey": "b6674f7e-7d2a-432b-ab64-e756cfbde6ee",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "语义分析"
+        }
+      ]
+    },
+    {
       "key": "0ffc0d6e-df50-4265-b0f2-c93a9c75b887",
       "parentKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
       "subKeys": [],
@@ -4397,14 +4740,16 @@
       "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
       "subKeys": [
         "de5d95fd-e266-4cb6-9317-99c106bc52d1",
-        "ca140c20-dd9e-482f-beb3-f0c13cd3bbb9"
+        "ca140c20-dd9e-482f-beb3-f0c13cd3bbb9",
+        "ad1d53be-725d-4a1c-ad48-eb62a01416be",
+        "09b13778-b4a6-40bd-9875-e4a3f3e2f496"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Mysql"
+          "data": "* Mysql"
         }
       ]
     },
@@ -4422,6 +4767,19 @@
       ]
     },
     {
+      "key": "d8b9dd6a-d83b-4b47-ba0c-514d9543b3c6",
+      "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "seata"
+        }
+      ]
+    },
+    {
       "key": "910a3183-33db-4e56-884c-fc772f32a7c3",
       "parentKey": "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737",
       "subKeys": [],
@@ -4431,6 +4789,32 @@
         {
           "type": "CONTENT",
           "data": "Android"
+        }
+      ]
+    },
+    {
+      "key": "1a052b6c-6b13-4923-9f24-342384691266",
+      "parentKey": "57007d78-5464-41d5-a545-c7d6654347ee",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "编码"
+        }
+      ]
+    },
+    {
+      "key": "09b13778-b4a6-40bd-9875-e4a3f3e2f496",
+      "parentKey": "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "性能优化"
         }
       ]
     },
@@ -4481,7 +4865,8 @@
       "key": "dac0f24c-c3ec-427e-84b7-5aed52530643",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
-        "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4"
+        "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
+        "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3"
       ],
       "collapse": false,
       "style": null,
@@ -4554,7 +4939,8 @@
       "key": "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb",
       "parentKey": "653920a9-c872-49df-b089-5fb604dcb5fa",
       "subKeys": [
-        "fe0190ef-86ec-4c46-a319-93eea0adcfe2"
+        "fe0190ef-86ec-4c46-a319-93eea0adcfe2",
+        "69dbd8bd-3752-4a1c-a1c2-c21807a26f3c"
       ],
       "collapse": false,
       "style": null,
@@ -4575,7 +4961,7 @@
         "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
         "06c6f258-57f9-49d8-85df-cb499f47f2f9"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4643,6 +5029,19 @@
       ]
     },
     {
+      "key": "d70d0ed5-4987-4b0d-9425-0a4e79dbebe7",
+      "parentKey": "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "缓存策略"
+        }
+      ]
+    },
+    {
       "key": "e25714d1-045e-42b5-be85-8d5799d38607",
       "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
       "subKeys": [],
@@ -4672,8 +5071,7 @@
       "key": "62cace29-cb2b-4638-b3b3-88f07aba0e42",
       "parentKey": "258817f2-2408-444e-9e10-bed0f67a05a6",
       "subKeys": [
-        "0ae8aaaf-8c97-4d24-8e78-547c0bce1c24",
-        "de4b0b7c-aaf2-4e49-bc54-2713ce7a742a"
+        "0ae8aaaf-8c97-4d24-8e78-547c0bce1c24"
       ],
       "collapse": false,
       "style": null,
@@ -4681,6 +5079,10 @@
         {
           "type": "CONTENT",
           "data": "ARP"
+        },
+        {
+          "type": "DESC",
+          "data": "反向地址转换协议。允许局域网的物理机器从网关服务器的 ARP 表或者缓存上请求其 IP 地址。"
         }
       ]
     },
@@ -4752,6 +5154,19 @@
       ]
     },
     {
+      "key": "331b788b-d64f-4600-887d-f9316f5d9407",
+      "parentKey": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "常见复杂结构"
+        }
+      ]
+    },
+    {
       "key": "7a6aebd5-af63-4409-bc57-a381ea773f86",
       "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
       "subKeys": [],
@@ -4800,9 +5215,11 @@
       "subKeys": [
         "c4452d30-9eb8-492a-962b-91e61f0f43ff",
         "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
+        "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
         "f03209b6-8a4b-45a3-be5e-8b4cc8658138",
         "477b232a-f67a-4b1d-9774-4688f6ed0ec4",
-        "dac0f24c-c3ec-427e-84b7-5aed52530643"
+        "dac0f24c-c3ec-427e-84b7-5aed52530643",
+        "b13bdcf7-52be-4999-b7cf-7e27441efc93"
       ],
       "collapse": false,
       "style": null,
