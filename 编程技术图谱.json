@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "f66b8670-98b1-452e-a762-892cb6de2beb",
+  "focusKey": "8417e552-c986-4cda-8452-653f93ef4c43",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {
@@ -183,7 +183,7 @@
         "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
         "01ca53ca-be72-48a3-93b5-4b8a28c7a248"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -996,7 +996,7 @@
       "subKeys": [
         "d70d0ed5-4987-4b0d-9425-0a4e79dbebe7"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1231,7 +1231,7 @@
         "8acb625f-46c2-4653-8078-7686f502d72c",
         "698e66b2-5711-4481-8b23-3748f9edbe31"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1308,12 +1308,12 @@
         "9d785d5c-8e3f-420c-8349-c0eeeee7da7f",
         "b9012452-28c5-47c0-8fe3-5a562ec390b7"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "常用应用"
+          "data": "常用软件/中间件"
         }
       ]
     },
@@ -1447,7 +1447,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "CMS"
+          "data": "* CMS"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://tech.meituan.com/2020/11/12/java\\-9\\-cms\\-gc.html](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)  美团\nJava中9种常见的CMS GC问题分析与解决"
         }
       ]
     },
@@ -2374,7 +2378,7 @@
         "cd101adc-32de-4bf5-865f-e0e0a1cae57e",
         "07489e3a-129f-4496-bbca-dd45e5df1553"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3018,7 +3022,7 @@
       "subKeys": [
         "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3108,7 +3112,7 @@
         "de26c5d9-cd4a-435c-b962-771d05bc6ec2",
         "c4d3b7d4-deab-4ea2-92d9-68b858ba2db8"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3556,7 +3560,7 @@
         "504a9231-5136-41aa-85df-4e04af86c015",
         "3076654c-668f-4544-b72f-b772ae414503"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3802,6 +3806,19 @@
       ]
     },
     {
+      "key": "0447762e-31c8-4780-9f12-080b2f188cbf",
+      "parentKey": "b13bdcf7-52be-4999-b7cf-7e27441efc93",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分布式系统"
+        }
+      ]
+    },
+    {
       "key": "53aa9c9c-dec9-4622-a13c-87bff52e56b6",
       "parentKey": "711b3e13-ecaa-47b7-a1d1-35ecd53dd05f",
       "subKeys": [
@@ -3837,7 +3854,7 @@
         "e8e26def-09cc-490f-a031-8569670bb767",
         "f74236d0-09aa-4337-8fd4-2dcd3ca52083"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4094,7 +4111,7 @@
       "subKeys": [
         "77e1bbec-c38c-4ca0-9b20-4f21f1ab98fb"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4323,8 +4340,10 @@
     {
       "key": "b13bdcf7-52be-4999-b7cf-7e27441efc93",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
-      "subKeys": [],
-      "collapse": false,
+      "subKeys": [
+        "0447762e-31c8-4780-9f12-080b2f188cbf"
+      ],
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4409,7 +4428,7 @@
       "subKeys": [
         "330f52ef-f847-46d8-80eb-045dc865d2c5"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4868,7 +4887,7 @@
         "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
         "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
