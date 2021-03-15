@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "8417e552-c986-4cda-8452-653f93ef4c43",
+  "focusKey": "9a3f2669-badb-4063-af4d-21fcc3a16623",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {
@@ -16,6 +16,12 @@
         "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3": {
           "keyList": [
             "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
+          ],
+          "dataMap": {}
+        },
+        "d871392a-8eef-49c3-bef1-18aa07338df3": {
+          "keyList": [
+            "fb6d45ea-7058-48d1-9fc2-ba80dc35f970"
           ],
           "dataMap": {}
         }
@@ -264,7 +270,8 @@
       "subKeys": [
         "97243745-e283-41d5-8522-e2ccb79c9254",
         "b87fa674-cd34-457d-b7f5-0fd8c1a37cf9",
-        "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da"
+        "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
+        "6605c6a9-0f4f-436f-86d0-1bad1849fdf5"
       ],
       "collapse": false,
       "style": null,
@@ -349,6 +356,19 @@
         {
           "type": "DESC",
           "data": "Java8中，方法区已经从永久代中放到了\"元空间\"，即系统内存"
+        }
+      ]
+    },
+    {
+      "key": "6853fb6e-ec19-48c2-988a-e22754962c1d",
+      "parentKey": "28b84132-fada-4a62-b336-feca914e9294",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "toString"
         }
       ]
     },
@@ -976,6 +996,19 @@
       ]
     },
     {
+      "key": "ea04547d-e4c1-461b-8c2d-0102403bd359",
+      "parentKey": "28b84132-fada-4a62-b336-feca914e9294",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* notify"
+        }
+      ]
+    },
+    {
       "key": "9a3f2669-badb-4063-af4d-21fcc3a16623",
       "parentKey": "0af26b12-b694-4e8b-ae6c-c6c2350e830d",
       "subKeys": [
@@ -987,21 +1020,10 @@
         {
           "type": "CONTENT",
           "data": "LinkedHashMap"
-        }
-      ]
-    },
-    {
-      "key": "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
-      "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
-      "subKeys": [
-        "d70d0ed5-4987-4b0d-9425-0a4e79dbebe7"
-      ],
-      "collapse": true,
-      "style": null,
-      "blocks": [
+        },
         {
-          "type": "CONTENT",
-          "data": "并发问题"
+          "type": "DESC",
+          "data": "HashMap是无序的，而LinkedHashMap 保证了HashMap的 插入顺序和访问顺序，迭代LinkedHashMap可以是插入顺序也可以 访问顺序，默认为插入顺序排序。\n\n\n**扩展：**\n使用LinkedHashMap做LRU缓存\npublic class LRU<K,V\\> extends LinkedHashMap<K, V\\> implements Map<K, V\\>\\{\n\n```\nprivate static final long serialVersionUID = 1L;\n\npublic LRU(int initialCapacity,\n         float loadFactor,\n                    boolean accessOrder) {\n    super(initialCapacity, loadFactor, accessOrder);\n}\n\n/** \n * @description 重写LinkedHashMap中的removeEldestEntry方法，当LRU中元素多余6个时，\n *              删除最不经常使用的元素\n * @author rico       \n * @created 2017年5月12日 上午11:32:51      \n * @param eldest\n * @return     \n * @see java.util.LinkedHashMap#removeEldestEntry(java.util.Map.Entry)     \n */  \n@Override\nprotected boolean removeEldestEntry(java.util.Map.Entry<K, V> eldest) {\n    // TODO Auto-generated method stub\n    if(size() > 6){\n        return true;\n    }\n    return false;\n}\n\npublic static void main(String[] args) {\n\n    LRU<Character, Integer> lru = new LRU<Character, Integer>(\n            16, 0.75f, true);\n\n    String s = \"abcdefghijkl\";\n    for (int i = 0; i < s.length(); i++) {\n        lru.put(s.charAt(i), i);\n    }\n    System.out.println(\"LRU中key为h的Entry的值为： \" + lru.get('h'));\n    System.out.println(\"LRU的大小 ：\" + lru.size());\n    System.out.println(\"LRU ：\" + lru);\n}\n\n```\n\\}"
         }
       ]
     },
@@ -1150,6 +1172,19 @@
         {
           "type": "CONTENT",
           "data": "网络编程"
+        }
+      ]
+    },
+    {
+      "key": "f591ed98-d6a7-4d77-8f87-2027b777de3a",
+      "parentKey": "28b84132-fada-4a62-b336-feca914e9294",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "hashcode"
         }
       ]
     },
@@ -1512,6 +1547,19 @@
       ]
     },
     {
+      "key": "8a9f08e5-a101-489e-9ecf-6bb5d1834f2e",
+      "parentKey": "982c078a-33e1-4543-91fc-b598e434df92",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "volatile "
+        }
+      ]
+    },
+    {
       "key": "c8fb0a0e-b93c-4857-aafd-88732e12a54b",
       "parentKey": "258817f2-2408-444e-9e10-bed0f67a05a6",
       "subKeys": [
@@ -1748,12 +1796,25 @@
         "6ae6f444-5393-456c-b4ce-036aecc8039a",
         "b1b680a9-99ff-40ac-a470-a310212cd0b4"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "数据结构与算法"
+        }
+      ]
+    },
+    {
+      "key": "5e4131b8-af29-4914-b8c5-4088b5d5a810",
+      "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Object"
         }
       ]
     },
@@ -2121,7 +2182,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "HashMap"
+          "data": "* HashMap"
         },
         {
           "type": "DESC",
@@ -2264,7 +2325,9 @@
     {
       "key": "2644ade5-99d1-4f5f-ba9b-2d9f6e3b83c5",
       "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
-      "subKeys": [],
+      "subKeys": [
+        "982c078a-33e1-4543-91fc-b598e434df92"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
@@ -2486,14 +2549,20 @@
     },
     {
       "key": "28b84132-fada-4a62-b336-feca914e9294",
-      "parentKey": "896dc098-40f0-4345-b45d-6b4084947356",
-      "subKeys": [],
+      "parentKey": "982c078a-33e1-4543-91fc-b598e434df92",
+      "subKeys": [
+        "5f7e4d78-2d13-43fb-acf7-f95adecfd331",
+        "ea04547d-e4c1-461b-8c2d-0102403bd359",
+        "893973f4-f61d-4c7f-b199-9b23c8755ec2",
+        "6853fb6e-ec19-48c2-988a-e22754962c1d",
+        "f591ed98-d6a7-4d77-8f87-2027b777de3a"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Object对象"
+          "data": "* Object对象"
         }
       ]
     },
@@ -2653,8 +2722,7 @@
         "c4f72ec1-4f5a-4c1b-a663-7e70f1a750ef",
         "80b48f4b-a14d-4e4e-a64e-395c2194593b",
         "3e439bc5-7df4-430d-8a70-dc577447d96a",
-        "64520e87-c9d1-4991-9b18-6bacdbfad93c",
-        "28b84132-fada-4a62-b336-feca914e9294"
+        "64520e87-c9d1-4991-9b18-6bacdbfad93c"
       ],
       "collapse": false,
       "style": null,
@@ -2874,7 +2942,9 @@
       "subKeys": [
         "1260c98c-04ea-44c4-8f39-de0ba13fc4d4",
         "c7d78193-2269-42ac-a150-e30efa8ea0a3",
-        "54d86e7b-c655-4402-88f0-c7bb2dd51fb5"
+        "54d86e7b-c655-4402-88f0-c7bb2dd51fb5",
+        "d5669475-329c-45a3-95ea-5cab77e3bdcd",
+        "5e4131b8-af29-4914-b8c5-4088b5d5a810"
       ],
       "collapse": false,
       "style": null,
@@ -2965,7 +3035,7 @@
         "189ebcb2-d59b-4cbe-868c-2b31a2e53e0d",
         "d8b9dd6a-d83b-4b47-ba0c-514d9543b3c6"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3022,7 +3092,7 @@
       "subKeys": [
         "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3099,6 +3169,19 @@
         {
           "type": "CONTENT",
           "data": "组合实体模式（Composite Entity Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "5534751e-5d66-44f0-a6c8-2b8def299a35",
+      "parentKey": "982c078a-33e1-4543-91fc-b598e434df92",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "synchronized"
         }
       ]
     },
@@ -3364,7 +3447,7 @@
         "9871768d-61b0-4ec7-9906-4f2242d4c746",
         "186adff0-72d3-4f4b-a865-c1003ae2606a"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3509,6 +3592,19 @@
       ]
     },
     {
+      "key": "5f7e4d78-2d13-43fb-acf7-f95adecfd331",
+      "parentKey": "28b84132-fada-4a62-b336-feca914e9294",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* wait"
+        }
+      ]
+    },
+    {
       "key": "ebad35c0-f0eb-41ca-890b-37233ea8076f",
       "parentKey": "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3",
       "subKeys": [],
@@ -3560,7 +3656,7 @@
         "504a9231-5136-41aa-85df-4e04af86c015",
         "3076654c-668f-4544-b72f-b772ae414503"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3682,9 +3778,9 @@
       "key": "0b604d51-e0f3-4876-9008-4cb272614265",
       "parentKey": "b1b680a9-99ff-40ac-a470-a310212cd0b4",
       "subKeys": [
+        "5cba51d4-a0b3-4520-8083-fccf51cc27ef",
         "af3e81b3-b02b-4664-bfec-667b92376ee6",
         "fb6d45ea-7058-48d1-9fc2-ba80dc35f970",
-        "5cba51d4-a0b3-4520-8083-fccf51cc27ef",
         "49a21ab6-03b1-44f0-ad51-0df744cd498b"
       ],
       "collapse": false,
@@ -3781,7 +3877,7 @@
         "41973934-e53b-4fcf-b35c-a48c4aae943f",
         "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4155,6 +4251,19 @@
       ]
     },
     {
+      "key": "893973f4-f61d-4c7f-b199-9b23c8755ec2",
+      "parentKey": "28b84132-fada-4a62-b336-feca914e9294",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "equals"
+        }
+      ]
+    },
+    {
       "key": "9abbc23e-8989-4010-b550-b3c294f165ff",
       "parentKey": "0d5b0f2c-fb63-4e11-8900-f73849e27804",
       "subKeys": [
@@ -4315,7 +4424,7 @@
         "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
         "b6674f7e-7d2a-432b-ab64-e756cfbde6ee"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4434,6 +4543,19 @@
         {
           "type": "CONTENT",
           "data": "基础科学"
+        }
+      ]
+    },
+    {
+      "key": "6605c6a9-0f4f-436f-86d0-1bad1849fdf5",
+      "parentKey": "6411be60-0835-48a8-a529-d50a6c784fe3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "并发场景"
         }
       ]
     },
@@ -4600,6 +4722,23 @@
       ]
     },
     {
+      "key": "982c078a-33e1-4543-91fc-b598e434df92",
+      "parentKey": "2644ade5-99d1-4f5f-ba9b-2d9f6e3b83c5",
+      "subKeys": [
+        "5534751e-5d66-44f0-a6c8-2b8def299a35",
+        "8a9f08e5-a101-489e-9ecf-6bb5d1834f2e",
+        "28b84132-fada-4a62-b336-feca914e9294"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "重要关键字"
+        }
+      ]
+    },
+    {
       "key": "c1f5a178-1516-4551-8aea-4a0d6cf52224",
       "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "subKeys": [
@@ -4607,7 +4746,7 @@
         "b3c121f7-5e58-4df6-bdb8-851e8135949c",
         "700372af-1d5f-470c-ad62-59e29d3c787c"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4629,6 +4768,23 @@
         {
           "type": "CONTENT",
           "data": "进程管理"
+        }
+      ]
+    },
+    {
+      "key": "d5669475-329c-45a3-95ea-5cab77e3bdcd",
+      "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "String"
+        },
+        {
+          "type": "DESC",
+          "data": "## String\n\n﻿String的值不可变（非常规下，可以使用反射修改String的值，但是不要这么做）\n\n"
         }
       ]
     },
@@ -4887,7 +5043,7 @@
         "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
         "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5044,19 +5200,6 @@
         {
           "type": "CONTENT",
           "data": "内部方法"
-        }
-      ]
-    },
-    {
-      "key": "d70d0ed5-4987-4b0d-9425-0a4e79dbebe7",
-      "parentKey": "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "缓存策略"
         }
       ]
     },
@@ -5234,7 +5377,6 @@
       "subKeys": [
         "c4452d30-9eb8-492a-962b-91e61f0f43ff",
         "7376438e-de34-4d2c-ba36-c35c3eaa4b53",
-        "5bf1ed8d-6c5f-41ba-801c-ec4d577de876",
         "f03209b6-8a4b-45a3-be5e-8b4cc8658138",
         "477b232a-f67a-4b1d-9774-4688f6ed0ec4",
         "dac0f24c-c3ec-427e-84b7-5aed52530643",
