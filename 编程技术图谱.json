@@ -1,15 +1,44 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "9a3f2669-badb-4063-af4d-21fcc3a16623",
+  "focusKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {
-        "39c68aa1-372d-4a29-b77a-a565ffe4f76b": {
-          "keyList": [],
+        "17fc267a-eae8-4d1d-886b-ea0836f47fbf": {
+          "keyList": [
+            "0447762e-31c8-4780-9f12-080b2f188cbf",
+            "e18e50bd-e789-4a7c-b0db-b06a42e55776"
+          ],
           "dataMap": {}
         },
         "988ec886-52a3-42b2-9312-c26033607322": {
+          "keyList": [],
+          "dataMap": {}
+        },
+        "d871392a-8eef-49c3-bef1-18aa07338df3": {
+          "keyList": [
+            "fb6d45ea-7058-48d1-9fc2-ba80dc35f970"
+          ],
+          "dataMap": {}
+        },
+        "2e8778f6-c8cf-4123-8460-da893987ab8f": {
+          "keyList": [
+            "d72910dc-ee1a-4ffa-8f03-54477d65ccc5",
+            "085f0d0d-9b87-4705-9256-3825506f8d81",
+            "0af26b12-b694-4e8b-ae6c-c6c2350e830d",
+            "d871392a-8eef-49c3-bef1-18aa07338df3",
+            "065af608-e05f-4fa5-849c-0bf9f471522f"
+          ],
+          "dataMap": {}
+        },
+        "25edcab5-e330-43d0-bedd-49ce29b55099": {
+          "keyList": [
+            "e9e903d8-df23-4ffa-8a22-5a2c74d5705d"
+          ],
+          "dataMap": {}
+        },
+        "39c68aa1-372d-4a29-b77a-a565ffe4f76b": {
           "keyList": [],
           "dataMap": {}
         },
@@ -19,9 +48,15 @@
           ],
           "dataMap": {}
         },
-        "d871392a-8eef-49c3-bef1-18aa07338df3": {
+        "e18e50bd-e789-4a7c-b0db-b06a42e55776": {
           "keyList": [
-            "fb6d45ea-7058-48d1-9fc2-ba80dc35f970"
+            "9cefa5f8-960f-4787-b367-d14635ff2683"
+          ],
+          "dataMap": {}
+        },
+        "e62b160b-b5b4-40ea-ba58-b50c66378b34": {
+          "keyList": [
+            "7cdb0e99-6973-403e-992c-91d032802363"
           ],
           "dataMap": {}
         }
@@ -52,7 +87,7 @@
     },
     {
       "key": "4c21fad8-a05b-42da-ba8e-c567c201cef1",
-      "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
+      "parentKey": "ca8af8fe-7b5f-425a-9b84-533639f5a41c",
       "subKeys": [
         "52c27118-fd19-4fdb-972d-ec7d79bc5168"
       ],
@@ -170,6 +205,21 @@
       ]
     },
     {
+      "key": "46bd533b-64c8-49f0-9c2f-b7ae823adf6d",
+      "parentKey": "f74236d0-09aa-4337-8fd4-2dcd3ca52083",
+      "subKeys": [
+        "57007d78-5464-41d5-a545-c7d6654347ee"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "KV存储"
+        }
+      ]
+    },
+    {
       "key": "849fdd2d-7d76-4eae-b483-6325ea715caf",
       "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
       "subKeys": [],
@@ -183,18 +233,15 @@
       ]
     },
     {
-      "key": "3e708968-c8b9-463a-977a-1932fa48995f",
-      "parentKey": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
-      "subKeys": [
-        "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
-        "01ca53ca-be72-48a3-93b5-4b8a28c7a248"
-      ],
-      "collapse": true,
+      "key": "c8a665de-6d6e-4f70-9762-4396495aaec5",
+      "parentKey": "45d9ee52-d401-49a3-8ccf-ef91e5244b92",
+      "subKeys": [],
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "数据库"
+          "data": "MongoDB"
         }
       ]
     },
@@ -284,14 +331,14 @@
     },
     {
       "key": "17fc267a-eae8-4d1d-886b-ea0836f47fbf",
-      "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
+      "parentKey": "ca8af8fe-7b5f-425a-9b84-533639f5a41c",
       "subKeys": [
         "39a695dc-4422-4658-bf42-93c034168665",
         "24f9a8bf-6423-440a-95dd-7df84f0f0b02",
         "60d48f62-8b3c-45af-a62b-c9a4da204c3d",
         "bad76db1-82f5-400b-9121-0450cfefbf4a"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -320,7 +367,7 @@
         "6411be60-0835-48a8-a529-d50a6c784fe3",
         "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -439,6 +486,19 @@
         {
           "type": "CONTENT",
           "data": "物理内存"
+        }
+      ]
+    },
+    {
+      "key": "655e1ed5-0ccd-4691-bf68-edde4352ad6e",
+      "parentKey": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "可串行化"
         }
       ]
     },
@@ -719,7 +779,7 @@
         "2e8778f6-c8cf-4123-8460-da893987ab8f",
         "331b788b-d64f-4600-887d-f9316f5d9407"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -916,6 +976,21 @@
       ]
     },
     {
+      "key": "a1a794e7-e88b-4a2b-993f-a6cf6ea3d792",
+      "parentKey": "f74236d0-09aa-4337-8fd4-2dcd3ca52083",
+      "subKeys": [
+        "349a7d96-2f89-433a-b07b-0aa71ad0b904"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "列存储"
+        }
+      ]
+    },
+    {
       "key": "6a524db6-1a70-476c-8c5b-055dcb1dd7c4",
       "parentKey": "9871768d-61b0-4ec7-9906-4f2242d4c746",
       "subKeys": [],
@@ -1064,7 +1139,7 @@
     },
     {
       "key": "2ffc6f18-60bf-41d6-8142-f81aa102325f",
-      "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
+      "parentKey": "ca8af8fe-7b5f-425a-9b84-533639f5a41c",
       "subKeys": [
         "7a0e3abb-8bae-400a-9bf0-45ed9536c8b2"
       ],
@@ -1336,14 +1411,13 @@
       "key": "846a2634-ccf3-4aab-88a5-2a8e1cf4b8da",
       "parentKey": "6411be60-0835-48a8-a529-d50a6c784fe3",
       "subKeys": [
-        "3e708968-c8b9-463a-977a-1932fa48995f",
         "578d6a5b-6f47-4496-b28c-6104a7a17929",
         "04378613-7a82-4ee2-a0cc-ed6f425ab94e",
         "59a3b149-29ec-4a36-af9d-510736b9dde2",
         "9d785d5c-8e3f-420c-8349-c0eeeee7da7f",
         "b9012452-28c5-47c0-8fe3-5a562ec390b7"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1392,19 +1466,6 @@
       ]
     },
     {
-      "key": "7d14a61a-5ec5-4a51-9f70-8729fffbc6ec",
-      "parentKey": "030e93a1-3bbe-4dbd-9be7-4616a777dd8f",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "当子问题的结果可以作为父问题的直接过程时，应当使用动态规划"
-        }
-      ]
-    },
-    {
       "key": "3076654c-668f-4544-b72f-b772ae414503",
       "parentKey": "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737",
       "subKeys": [],
@@ -1427,6 +1488,19 @@
         {
           "type": "CONTENT",
           "data": "标记整理算法"
+        }
+      ]
+    },
+    {
+      "key": "7415d6fd-3562-4a37-b6b2-8920ae51de09",
+      "parentKey": "f74236d0-09aa-4337-8fd4-2dcd3ca52083",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "图形数据库"
         }
       ]
     },
@@ -1534,6 +1608,19 @@
       ]
     },
     {
+      "key": "99e93e85-3c5f-4d5c-a1bc-53db10defd56",
+      "parentKey": "9cefa5f8-960f-4787-b367-d14635ff2683",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "原子性Atomicity"
+        }
+      ]
+    },
+    {
       "key": "fd431e2a-6590-4ab7-b2b8-1fa1951059dd",
       "parentKey": "502be031-4a4b-4620-bd1b-021a407ed3dd",
       "subKeys": [],
@@ -1603,13 +1690,18 @@
     {
       "key": "f74236d0-09aa-4337-8fd4-2dcd3ca52083",
       "parentKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
-      "subKeys": [],
-      "collapse": false,
+      "subKeys": [
+        "46bd533b-64c8-49f0-9c2f-b7ae823adf6d",
+        "a1a794e7-e88b-4a2b-993f-a6cf6ea3d792",
+        "45d9ee52-d401-49a3-8ccf-ef91e5244b92",
+        "7415d6fd-3562-4a37-b6b2-8920ae51de09"
+      ],
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "非关系型数据库"
+          "data": "非关系型数据库NoSQL"
         }
       ]
     },
@@ -1796,12 +1888,29 @@
         "6ae6f444-5393-456c-b4ce-036aecc8039a",
         "b1b680a9-99ff-40ac-a470-a310212cd0b4"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "数据结构与算法"
+        }
+      ]
+    },
+    {
+      "key": "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
+      "parentKey": "9cefa5f8-960f-4787-b367-d14635ff2683",
+      "subKeys": [
+        "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+        "8d2ea94a-83b2-4c90-8cc7-8e9c9975937b",
+        "5acbcaf5-f81e-42fd-9190-40c71bb675d1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "隔离性Isolation"
         }
       ]
     },
@@ -1866,6 +1975,19 @@
       ]
     },
     {
+      "key": "9e9db51c-8df6-41a9-b974-a9b3c2a44587",
+      "parentKey": "e18e50bd-e789-4a7c-b0db-b06a42e55776",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分布式解决方案"
+        }
+      ]
+    },
+    {
       "key": "dd5c44d6-5fad-43ab-be9b-5b2529dd044e",
       "parentKey": "6c54c2ac-cbd5-4f9f-9bcf-ca4658b58ccb",
       "subKeys": [],
@@ -1922,22 +2044,6 @@
       ]
     },
     {
-      "key": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
-      "parentKey": "3e708968-c8b9-463a-977a-1932fa48995f",
-      "subKeys": [
-        "349a7d96-2f89-433a-b07b-0aa71ad0b904",
-        "57007d78-5464-41d5-a545-c7d6654347ee"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "NoSQL"
-        }
-      ]
-    },
-    {
       "key": "2631cffa-b521-4f0a-8a51-69eb1b5d00ff",
       "parentKey": "4e5ecb7f-f4e5-4960-b0f5-ec6e1db7dc76",
       "subKeys": [],
@@ -1968,6 +2074,21 @@
         {
           "type": "CONTENT",
           "data": "类文件结构"
+        }
+      ]
+    },
+    {
+      "key": "b864601d-40dc-4ff3-9261-ace59a4fbd9f",
+      "parentKey": "e18e50bd-e789-4a7c-b0db-b06a42e55776",
+      "subKeys": [
+        "ab054a21-47dc-4504-83ec-24b63d77e12a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "开源解决方案"
         }
       ]
     },
@@ -2313,7 +2434,7 @@
         "258817f2-2408-444e-9e10-bed0f67a05a6",
         "a36b6645-37bc-4bb1-b057-fb538db6e2d6"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2735,7 +2856,7 @@
     },
     {
       "key": "349a7d96-2f89-433a-b07b-0aa71ad0b904",
-      "parentKey": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
+      "parentKey": "a1a794e7-e88b-4a2b-993f-a6cf6ea3d792",
       "subKeys": [
         "0d38f2c4-bfb4-481a-bbdb-11ce07093719"
       ],
@@ -2937,6 +3058,19 @@
       ]
     },
     {
+      "key": "035d1df9-a3d6-4188-8c50-04a8683a9235",
+      "parentKey": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "读已提交"
+        }
+      ]
+    },
+    {
       "key": "974909ea-2099-4c5b-9440-57fc3ff32da2",
       "parentKey": "d1401824-be3d-4224-8b37-50d647db6e6a",
       "subKeys": [
@@ -3035,7 +3169,7 @@
         "189ebcb2-d59b-4cbe-868c-2b31a2e53e0d",
         "d8b9dd6a-d83b-4b47-ba0c-514d9543b3c6"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3104,15 +3238,17 @@
     {
       "key": "030e93a1-3bbe-4dbd-9be7-4616a777dd8f",
       "parentKey": "c590bf13-d449-4d6d-917c-c7cc103f692c",
-      "subKeys": [
-        "7d14a61a-5ec5-4a51-9f70-8729fffbc6ec"
-      ],
+      "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "动态规划"
+        },
+        {
+          "type": "DESC",
+          "data": "当子问题的结果可以作为父问题的直接过程时，应当使用动态规划"
         }
       ]
     },
@@ -3314,6 +3450,19 @@
       ]
     },
     {
+      "key": "dd47eae5-8d0b-41f5-b185-d42ba1fdae1a",
+      "parentKey": "9cefa5f8-960f-4787-b367-d14635ff2683",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "一致性Consistency"
+        }
+      ]
+    },
+    {
       "key": "6fdff040-8b05-4b6e-8ef5-281ae213e9d4",
       "parentKey": "9209cac0-d45c-4d79-827d-b7d636a57f15",
       "subKeys": [],
@@ -3371,7 +3520,7 @@
     },
     {
       "key": "57007d78-5464-41d5-a545-c7d6654347ee",
-      "parentKey": "01ca53ca-be72-48a3-93b5-4b8a28c7a248",
+      "parentKey": "46bd533b-64c8-49f0-9c2f-b7ae823adf6d",
       "subKeys": [
         "9209cac0-d45c-4d79-827d-b7d636a57f15",
         "1a052b6c-6b13-4923-9f24-342384691266"
@@ -3656,7 +3805,7 @@
         "504a9231-5136-41aa-85df-4e04af86c015",
         "3076654c-668f-4544-b72f-b772ae414503"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3688,24 +3837,6 @@
         {
           "type": "CONTENT",
           "data": "单链接/多链接传输"
-        }
-      ]
-    },
-    {
-      "key": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
-      "parentKey": "3e708968-c8b9-463a-977a-1932fa48995f",
-      "subKeys": [
-        "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
-        "4c21fad8-a05b-42da-ba8e-c567c201cef1",
-        "2ffc6f18-60bf-41d6-8142-f81aa102325f",
-        "17fc267a-eae8-4d1d-886b-ea0836f47fbf"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "SQL"
         }
       ]
     },
@@ -3745,6 +3876,19 @@
         {
           "type": "CONTENT",
           "data": "链表"
+        }
+      ]
+    },
+    {
+      "key": "9d5e6ea4-c5a1-466f-b968-2cbb3556c782",
+      "parentKey": "9cefa5f8-960f-4787-b367-d14635ff2683",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "持久性Durability"
         }
       ]
     },
@@ -3806,6 +3950,19 @@
       ]
     },
     {
+      "key": "e8072d13-45ef-4eb1-8420-647c4a6b2421",
+      "parentKey": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "可重复读"
+        }
+      ]
+    },
+    {
       "key": "943481b4-517c-45fc-b3ce-8baad272f2e2",
       "parentKey": "04b94462-d1bc-4ce6-8562-b0cfdf74ffb1",
       "subKeys": [],
@@ -3848,6 +4005,28 @@
         {
           "type": "CONTENT",
           "data": "Shell"
+        }
+      ]
+    },
+    {
+      "key": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+      "parentKey": "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
+      "subKeys": [
+        "63f033ec-2850-4340-b000-9db967ea871a",
+        "035d1df9-a3d6-4188-8c50-04a8683a9235",
+        "e8072d13-45ef-4eb1-8420-647c4a6b2421",
+        "655e1ed5-0ccd-4691-bf68-edde4352ad6e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "事务隔离级别"
+        },
+        {
+          "type": "DESC",
+          "data": "隔离级别        脏读        不可重复读       幻读\n读未提交           Y                  Y                   Y\n读已提交           N                  Y                  Y\n可重复读           N                  N                  Y\n可串行化           N                  N                 N   \n\n**脏读：当前事务\\(A\\)中可以读到其他事务\\(B\\)未提交的数据（脏数据）**\n**不可重复读：在事务A中先后两次读取同一个数据，两次读取的结果不一样**\n**幻读：在事务A中按照某个条件先后两次查询数据库，两次查询结果的条数不同**"
         }
       ]
     },
@@ -3947,6 +4126,7 @@
       "key": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
       "parentKey": "c4452d30-9eb8-492a-962b-91e61f0f43ff",
       "subKeys": [
+        "9cefa5f8-960f-4787-b367-d14635ff2683",
         "e8e26def-09cc-490f-a031-8569670bb767",
         "f74236d0-09aa-4337-8fd4-2dcd3ca52083"
       ],
@@ -4152,6 +4332,22 @@
         {
           "type": "CONTENT",
           "data": "集群"
+        }
+      ]
+    },
+    {
+      "key": "e18e50bd-e789-4a7c-b0db-b06a42e55776",
+      "parentKey": "b13bdcf7-52be-4999-b7cf-7e27441efc93",
+      "subKeys": [
+        "9e9db51c-8df6-41a9-b974-a9b3c2a44587",
+        "b864601d-40dc-4ff3-9261-ace59a4fbd9f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分布式事务"
         }
       ]
     },
@@ -4424,7 +4620,7 @@
         "39f4f7cc-7ce3-46eb-b44c-a7b5799bc665",
         "b6674f7e-7d2a-432b-ab64-e756cfbde6ee"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4450,9 +4646,10 @@
       "key": "b13bdcf7-52be-4999-b7cf-7e27441efc93",
       "parentKey": "84bbeb91-2308-4a65-829c-a0466b00894e",
       "subKeys": [
-        "0447762e-31c8-4780-9f12-080b2f188cbf"
+        "0447762e-31c8-4780-9f12-080b2f188cbf",
+        "e18e50bd-e789-4a7c-b0db-b06a42e55776"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4528,6 +4725,19 @@
         {
           "type": "CONTENT",
           "data": "数据访问对象模式（Data Access Object Pattern）"
+        }
+      ]
+    },
+    {
+      "key": "8d2ea94a-83b2-4c90-8cc7-8e9c9975937b",
+      "parentKey": "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MVCC 多版本并发控制协议"
         }
       ]
     },
@@ -4746,7 +4956,7 @@
         "b3c121f7-5e58-4df6-bdb8-851e8135949c",
         "700372af-1d5f-470c-ad62-59e29d3c787c"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4842,6 +5052,24 @@
       ]
     },
     {
+      "key": "ca8af8fe-7b5f-425a-9b84-533639f5a41c",
+      "parentKey": "e8e26def-09cc-490f-a031-8569670bb767",
+      "subKeys": [
+        "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
+        "2ffc6f18-60bf-41d6-8142-f81aa102325f",
+        "4c21fad8-a05b-42da-ba8e-c567c201cef1",
+        "17fc267a-eae8-4d1d-886b-ea0836f47fbf"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据实例"
+        }
+      ]
+    },
+    {
       "key": "41a347c6-49ed-4420-9a90-ef19332a87af",
       "parentKey": "1260c98c-04ea-44c4-8f39-de0ba13fc4d4",
       "subKeys": [
@@ -4912,14 +5140,14 @@
     },
     {
       "key": "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
-      "parentKey": "0a8d5f3a-7a7d-4c44-b4d6-a65cb797ecd5",
+      "parentKey": "ca8af8fe-7b5f-425a-9b84-533639f5a41c",
       "subKeys": [
         "de5d95fd-e266-4cb6-9317-99c106bc52d1",
         "ca140c20-dd9e-482f-beb3-f0c13cd3bbb9",
         "ad1d53be-725d-4a1c-ad48-eb62a01416be",
         "09b13778-b4a6-40bd-9875-e4a3f3e2f496"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4981,6 +5209,21 @@
       ]
     },
     {
+      "key": "45d9ee52-d401-49a3-8ccf-ef91e5244b92",
+      "parentKey": "f74236d0-09aa-4337-8fd4-2dcd3ca52083",
+      "subKeys": [
+        "c8a665de-6d6e-4f70-9762-4396495aaec5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "文档存储"
+        }
+      ]
+    },
+    {
       "key": "09b13778-b4a6-40bd-9875-e4a3f3e2f496",
       "parentKey": "8e5f88ea-2583-430a-a8ff-6c68d7d20b28",
       "subKeys": [],
@@ -5024,15 +5267,15 @@
       "parentKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
       "subKeys": [
         "b5865bb6-c01b-49e7-b0f3-6d50c358ebb1",
-        "9cefa5f8-960f-4787-b367-d14635ff2683",
-        "583c5255-fb67-4951-991b-4febcd374f6e"
+        "583c5255-fb67-4951-991b-4febcd374f6e",
+        "ca8af8fe-7b5f-425a-9b84-533639f5a41c"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "关系型数据库"
+          "data": "* 关系型数据库"
         }
       ]
     },
@@ -5043,7 +5286,7 @@
         "24d196bc-d820-4f06-aa4a-90b6f2f3a3a4",
         "ec49a0af-a382-4c8d-bb5a-b6fea2e0eaa3"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -5173,18 +5416,36 @@
     },
     {
       "key": "9cefa5f8-960f-4787-b367-d14635ff2683",
-      "parentKey": "e8e26def-09cc-490f-a031-8569670bb767",
+      "parentKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
+      "subKeys": [
+        "99e93e85-3c5f-4d5c-a1bc-53db10defd56",
+        "dd47eae5-8d0b-41f5-b185-d42ba1fdae1a",
+        "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
+        "9d5e6ea4-c5a1-466f-b968-2cbb3556c782"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* 单机事务（ACID）\r"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://www.cnblogs.com/superming/p/13368771.html](https://blog.csdn.net/fuzhongmin05/article/details/70904190)\n[https://blog.csdn.net/fuzhongmin05/article/details/70904190](https://blog.csdn.net/fuzhongmin05/article/details/70904190)\n\n原子性：语句要么全执行，要么全不执行，是事务最核心的特性，事务本身就是以原子性来定义的；实现主要基于undo log\n持久性：保证事务提交后不会因为宕机等原因导致数据丢失；实现主要基于redo log\n隔离性：保证事务执行尽可能不受其他事务影响；InnoDB默认的隔离级别是RR，RR的实现主要基于锁机制（包含next\\-key lock）、MVCC（包括数据的隐藏列、基于undo log的版本链、ReadView）\n一致性：事务追求的最终目标，一致性的实现既需要数据库层面的保障，也需要应用层面的保障\n\n### MySQL事务的提交和回滚\n\n典型的mysql 事务提交如下：\n`start transaction;`\n`……  ``#一条或多条sql语句`\n`commit;`\n其中start transaction标识事务开始，commit提交事务，将执行结果写入到数据库。如果sql语句执行出现问题，会调用rollback，回滚所有已经执行成功的sql语句。当然，也可以在事务中直接使用rollback语句进行回滚。\n\nMySQL中默认采用的是自动提交（autocommit）模式，如果没有start transaction显式地开始一个事务，那么每个sql语句都会被当做一个事务执行提交操作。\n需要注意的是，autocommit参数是针对连接的，在一个连接中修改了参数，不会对其他连接产生影响。\n\n## ACID特征\n\n\n## 原子性（Atomicity）\n\n原子性是指一个事务是一个不可分割的工作单位，其中的操作要么都做，要么都不做；如果事务中一个sql语句执行失败，则已执行的语句也必须回滚，数据库退回到事务前的状态。\n\n### 实现原理：undo log\n\n在说明原子性原理之前，首先介绍一下MySQL的事务日志。MySQL的日志有很多种，如**二进制日志、错误日志、查询日志、慢查询日志**等，此外InnoDB存储引擎还提供了两种事务日志：**redo log\\(重做日志\\)和undo log\\(回滚日志\\)**。其中**redo log用于保证事务持久性；undo log则是事务原子性和隔离性实现的基础**。\n实现原子性的关键，是当事务回滚时能够撤销所有已经成功执行的sql语句。InnoDB实现回滚，靠的是undo log：当事务对数据库进行修改时，InnoDB会生成对应的undo log；如果事务执行失败或调用了rollback，导致事务需要回滚，便可以利用undo log中的信息将数据回滚到修改之前的样子。\nundo log属于逻辑日志，它记录的是sql执行相关的信息。当发生回滚时，InnoDB会根据undo log的内容做与之前相反的工作：对于每个insert，回滚时会执行delete；对于每个delete，回滚时会执行insert；对于每个update，回滚时会执行一个相反的update，把数据改回去。\n以update操作为例：当事务执行update时，其生成的undo log中会包含被修改行的主键\\(以便知道修改了哪些行\\)、修改了哪些列、这些列在修改前后的值等信息，回滚时便可以使用这些信息将数据还原到update之前的状态。\n\n## 一致性（Consistency）\n\n事务前后数据的完整性必须保持一致。\n与原子性、持久性侧重于研究事务本身不同，隔离性研究的是不同事务之间的相互影响。隔离性是指，事务内部的操作与其他事务是隔离的，并发执行的各个事务之间不能互相干扰。严格的隔离性，对应了事务隔离级别中的Serializable \\(可串行化\\)，但实际应用中出于性能方面的考虑很少会使用可串行化。\n隔离性追求的是并发情形下事务之间互不干扰。简单起见，我们主要考虑最简单的读操作和写操作\\(加锁读等特殊读操作会特殊说明\\)，那么隔离性的探讨，主要可以分为两个方面：\n\\(一个事务\\)写操作对\\(另一个事务\\)写操作的影响：锁机制保证隔离性\n\\(一个事务\\)写操作对\\(另一个事务\\)读操作的影响：MVCC保证隔离性\n\n\n## 隔离性（Isolation）\n\n事务的隔离性是多个用户并发访问数据库时，数据库为每一个用户开启的事务，不能被其他事务的操作数据所干扰，多个并发事务之间要相互隔离。\n\n\n\n## 持久性（Durability）\n\n持久性是指一个事务一旦被提交，它对数据库中数据的改变就是永久性的，接下来即使数据库发生故障也不应该对其有任何影响\n\n### 实现原理\n\nInnoDB作为MySQL的存储引擎，数据是存放在磁盘中的，但如果每次读写数据都需要磁盘IO，效率会很低。为此，InnoDB提供了缓存\\(Buffer Pool\\)，Buffer Pool中包含了磁盘中部分数据页的映射，作为访问数据库的缓冲：当从数据库读取数据时，会首先从Buffer Pool中读取，如果Buffer Pool中没有，则从磁盘读取后放入Buffer Pool；当向数据库写入数据时，会首先写入Buffer Pool，Buffer Pool中修改的数据会定期刷新到磁盘中（这一过程称为刷脏）。\nBuffer Pool的使用大大提高了读写数据的效率，但是也带了新的问题：如果MySQL宕机，而此时Buffer Pool中修改的数据还没有刷新到磁盘，就会导致数据的丢失，事务的持久性无法保证。\n于是，redo log被引入来解决这个问题：当数据修改时，除了修改Buffer Pool中的数据，还会在redo log记录这次操作；当事务提交时，会调用fsync接口对redo log进行刷盘。如果MySQL宕机，重启时可以读取redo log中的数据，对数据库进行恢复。redo log采用的是WAL（Write\\-ahead logging，预写式日志），所有修改先写入日志，再更新到Buffer Pool，保证了数据不会因MySQL宕机而丢失，从而满足了持久性要求。\n既然redo log也需要在事务提交时将日志写入磁盘，为什么它比直接将Buffer Pool中修改的数据写入磁盘\\(即刷脏\\)要快呢？主要有以下两方面的原因：\n**（1）刷脏是随机IO，因为每次修改的数据位置随机，但写redo log是追加操作，属于顺序IO。**\n**（2）刷脏是以数据页（Page）为单位的，MySQL默认页大小是16KB，一个Page上一个小修改都要整页写入；而redo log中只包含真正需要写入的部分，无效IO大大减少。**\n\n\n### redo log与binlog\n\n1. redo log与binlog我们知道，在MySQL中还存在binlog\\(二进制日志\\)也可以记录写操作并用于数据的恢复，但二者是有着根本的不同的：\n\n（1）作用不同：redo log是用于crash recovery的，保证MySQL宕机也不会影响持久性；binlog是用于point\\-in\\-time recovery的，保证服务器可以基于时间点恢复数据，此外binlog还用于主从复制。\n（2）层次不同：redo log是InnoDB存储引擎实现的，而binlog是MySQL的服务器层\\(可以参考文章前面对MySQL逻辑架构的介绍\\)实现的，同时支持InnoDB和其他存储引擎。\n（3）内容不同：redo log是物理日志，内容基于磁盘的Page；binlog的内容是二进制的，根据binlog\\_format参数的不同，可能基于sql语句、基于数据本身或者二者的混合。\n（4）写入时机不同：binlog在事务提交时写入；redo log的写入时机相对多元：\n前面曾提到：当事务提交时会调用fsync对redo log进行刷盘；这是默认情况下的策略，修改innodb\\_flush\\_log\\_at\\_trx\\_commit参数可以改变该策略，但事务的持久性将无法保证。\n除了事务提交时，还有其他刷盘时机：如master thread每秒刷盘一次redo log等，这样的好处是不一定要等到commit时刷盘，commit速度大大加快。"
+        }
+      ]
+    },
+    {
+      "key": "ab054a21-47dc-4504-83ec-24b63d77e12a",
+      "parentKey": "b864601d-40dc-4ff3-9261-ace59a4fbd9f",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "事务管理（ACID）\r"
-        },
-        {
-          "type": "DESC",
-          "data": "**原子性（Atomicity）**\n原子性是指事务是一个不可分割的工作单位，事务中的操作要么都发生，要么都不发生。\n**一致性（Consistency）**\n事务前后数据的完整性必须保持一致。\n**隔离性（Isolation）**\n事务的隔离性是多个用户并发访问数据库时，数据库为每一个用户开启的事务，不能被其他事务的操作数据所干扰，多个并发事务之间要相互隔离。\n**持久性（Durability）**\n持久性是指一个事务一旦被提交，它对数据库中数据的改变就是永久性的，接下来即使数据库发生故障也不应该对其有任何影响"
+          "data": "seata"
         }
       ]
     },
@@ -5448,6 +5709,36 @@
         {
           "type": "CONTENT",
           "data": "垃圾回收"
+        }
+      ]
+    },
+    {
+      "key": "5acbcaf5-f81e-42fd-9190-40c71bb675d1",
+      "parentKey": "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "锁机制"
+        },
+        {
+          "type": "DESC",
+          "data": "锁机制的基本原理可以概括为：事务在修改数据之前，需要先获得相应的锁；获得锁之后，事务便可以修改数据；该事务操作期间，这部分数据是锁定的，其他事务如果需要修改数据，需要等待当前事务提交或回滚后释放锁。\n\n\n### 行锁与表锁\n\n按照粒度，锁可以分为表锁、行锁以及其他位于二者之间的锁。表锁在操作数据时会锁定整张表，并发性能较差；行锁则只锁定需要操作的数据，并发性能好。但是由于加锁本身需要消耗资源\\(获得锁、检查锁、释放锁等都需要消耗资源\\)，因此在锁定数据较多情况下使用表锁可以节省大量资源。MySQL中不同的存储引擎支持的锁是不一样的，例如MyIsam只支持表锁，而InnoDB同时支持表锁和行锁，且出于性能考虑，绝大多数情况下使用的都是行锁。\n\n如何查看锁信息\n\n有多种方法可以查看InnoDB中锁的情况，例如：\n`select * from information_schema.innodb_locks; ``#锁的概况`\n`show engine innodb status; ``#InnoDB整体状态``，其中包括锁的情况`\n\n\n除了排它锁\\(写锁\\)之外，MySQL中还有共享锁\\(读锁\\)的概念。"
+        }
+      ]
+    },
+    {
+      "key": "63f033ec-2850-4340-b000-9db967ea871a",
+      "parentKey": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "读未提交"
         }
       ]
     },
