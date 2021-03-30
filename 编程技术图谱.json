@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "1d807448-a266-47da-a1c8-9e6b945dae0e",
+  "focusKey": "d03617e7-8633-4f04-9b63-9ac72cfa9883",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {
@@ -1467,7 +1467,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "BSS段，全局变量"
+          "data": "BSS段 全局变量"
+        },
+        {
+          "type": "DESC",
+          "data": ""
         }
       ]
     },
@@ -4660,7 +4664,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "堆 动态分配的内存区域，垃圾回收算法的主要工作区"
+          "data": "堆"
+        },
+        {
+          "type": "DESC",
+          "data": "动态分配的内存区域，垃圾回收算法的主要工作区"
         }
       ]
     },
@@ -5067,6 +5075,10 @@
         {
           "type": "CONTENT",
           "data": "栈 局部变量"
+        },
+        {
+          "type": "DESC",
+          "data": ""
         }
       ]
     },
