@@ -1,0 +1,264 @@
+{
+  "rootTopicKey": "f0786f06-af17-488a-990e-099a9d0216a5",
+  "editorRootTopicKey": "f0786f06-af17-488a-990e-099a9d0216a5",
+  "focusKey": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "f0786f06-af17-488a-990e-099a9d0216a5",
+      "parentKey": null,
+      "subKeys": [
+        "37d8c5b7-8899-4487-b690-ff92a18f1666",
+        "a57dd4f0-61f6-4b97-91df-a172f76cd8c7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "netty"
+        }
+      ]
+    },
+    {
+      "key": "36a4b105-55f0-4f26-be4d-8a018ee3e1a4",
+      "parentKey": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "EventloopGroup "
+        }
+      ]
+    },
+    {
+      "key": "8cfcccab-ed08-446a-9867-9e4dfad3d6bd",
+      "parentKey": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "为什么要用 Netty？"
+        },
+        {
+          "type": "DESC",
+          "data": "1. 统一的 API，支持多种传输类型，阻塞和非阻塞的。\n1. 简单而强大的线程模型。\n1. 自带编解码器解决 TCP 粘包/拆包问题。\n1. 自带各种协议栈。\n1. 真正的无连接数据包套接字支持。\n1. 比直接使用 Java 核心 API 有更高的吞吐量、更低的延迟、更低的资源消耗和更少的内存复制。\n1. 安全性不错，有完整的 SSL/TLS 以及 StartTLS 支持。\n1. 社区活跃\n1. 成熟稳定，经历了大型项目的使用和考验，而且很多开源项目都使用到了 Netty， 比如我们经常接触的 Dubbo、RocketMQ 等等。\n\n"
+        }
+      ]
+    },
+    {
+      "key": "42a6f90c-ce22-444f-bd34-02ce8298f81c",
+      "parentKey": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ChannelHandler 和 ChannelPipeline\r"
+        }
+      ]
+    },
+    {
+      "key": "f7b6f7ec-a372-4ce0-9b67-47c661201f3a",
+      "parentKey": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Netty 是什么？"
+        },
+        {
+          "type": "DESC",
+          "data": "1. Netty 是一个 基于 NIO 的 client\\-server\\(客户端服务器\\)框架，使用它可以快速简单地开发网络应用程序。\n1. 它极大地简化并优化了 TCP 和 UDP 套接字服务器等网络编程,并且性能以及安全性等很多方面甚至都要更好。\n1. 支持多种协议 如 FTP，SMTP，HTTP 以及各种二进制和基于文本的传统协议。\n\n\n用官方的总结就是：**Netty 成功地找到了一种在不妥协可维护性和性能的情况下实现易于开发，性能，稳定性和灵活性的方法。**\n\n除了上面介绍的之外，很多开源项目比如我们常用的 **Dubbo**、**RocketMQ**、**Elasticsearch**、**gRPC **等等都用到了 Netty。\n\n网络编程我愿意称 Netty 为王 。"
+        }
+      ]
+    },
+    {
+      "key": "37d8c5b7-8899-4487-b690-ff92a18f1666",
+      "parentKey": "f0786f06-af17-488a-990e-099a9d0216a5",
+      "subKeys": [
+        "7e3bf0a7-a40c-40d7-9f60-fa6b1c0c0ac9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "实战经验"
+        }
+      ]
+    },
+    {
+      "key": "7e3bf0a7-a40c-40d7-9f60-fa6b1c0c0ac9",
+      "parentKey": "37d8c5b7-8899-4487-b690-ff92a18f1666",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "管理用户与Channel的关系"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://my.oschina.net/u/4398116/blog/4473620](https://my.oschina.net/u/4398116/blog/4473620)\n\n\n\n"
+        }
+      ]
+    },
+    {
+      "key": "383ff160-3a24-4b44-96cf-69278cf16022",
+      "parentKey": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "EventLoop"
+        }
+      ]
+    },
+    {
+      "key": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+      "parentKey": "f0786f06-af17-488a-990e-099a9d0216a5",
+      "subKeys": [
+        "f7b6f7ec-a372-4ce0-9b67-47c661201f3a",
+        "8cfcccab-ed08-446a-9867-9e4dfad3d6bd",
+        "9f4d0dd5-e887-4073-b022-762bc3343262",
+        "3ae5b0e3-a64d-4246-8088-569294624a62"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "2021年4月7日 常见面试题"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://baijiahao.baidu.com/s?id=1669639041722396699&wfr=spider&for=pc](https://baijiahao.baidu.com/s?id=1669639041722396699&wfr=spider&for=pc)"
+        }
+      ]
+    },
+    {
+      "key": "5313eb0e-55b9-4f63-9a17-66144ec7ece6",
+      "parentKey": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ChannelFuture"
+        }
+      ]
+    },
+    {
+      "key": "9f4d0dd5-e887-4073-b022-762bc3343262",
+      "parentKey": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Netty 应用场景了解么？"
+        },
+        {
+          "type": "DESC",
+          "data": "**理论上来说，NIO 可以做的事情 ，使用 Netty 都可以做并且更好。Netty 主要用来做网络通信 :**\n\n1. 作为 RPC 框架的网络通信工具 ：我们在分布式系统中，不同服务节点之间经常需要相互调用，这个时候就需要 RPC 框架了。不同服务节点之间的通信是如何做的呢？可以使用 Netty 来做。比如我调用另外一个节点的方法的话，至少是要让对方知道我调用的是哪个类中的哪个方法以及相关参数吧！\n1. 实现一个自己的 HTTP 服务器 ：通过 Netty 我们可以自己实现一个简单的 HTTP 服务器，这个大家应该不陌生。说到 HTTP 服务器的话，作为 Java 后端开发，我们一般使用 Tomcat 比较多。一个最基本的 HTTP 服务器可要以处理常见的 HTTP Method 的请求，比如 POST 请求、GET 请求等等。\n1. 实现一个即时通讯系统 ：使用 Netty 我们可以实现一个可以聊天类似微信的即时通讯系统，这方面的开源项目还蛮多的，可以自行去 Github 找一找。\n1. 实现消息推送系统 ：市面上有很多消息推送系统都是基于 Netty 来做的。\n\n\n游戏开发、物联网设备、基础应用必不可少\n......"
+        }
+      ]
+    },
+    {
+      "key": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "parentKey": "a57dd4f0-61f6-4b97-91df-a172f76cd8c7",
+      "subKeys": [
+        "e94926b4-1043-4fec-bcd7-4e41a178dcc1",
+        "383ff160-3a24-4b44-96cf-69278cf16022",
+        "5313eb0e-55b9-4f63-9a17-66144ec7ece6",
+        "42a6f90c-ce22-444f-bd34-02ce8298f81c",
+        "36a4b105-55f0-4f26-be4d-8a018ee3e1a4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Netty 核心组件有哪些？分别有什么作用？\r"
+        }
+      ]
+    },
+    {
+      "key": "e94926b4-1043-4fec-bcd7-4e41a178dcc1",
+      "parentKey": "3ae5b0e3-a64d-4246-8088-569294624a62",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Channel"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

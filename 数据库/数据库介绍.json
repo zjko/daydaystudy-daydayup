@@ -1,0 +1,460 @@
+{
+  "rootTopicKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+  "editorRootTopicKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+  "focusKey": null,
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {
+        "b78db0d3-32b4-4969-8280-b8782d0d67f9": {
+          "keyList": [
+            "e7b54453-d953-43af-aa61-fb549828408d"
+          ],
+          "dataMap": {}
+        },
+        "1294fdfd-a88c-447a-a049-7722e152d4b2": {
+          "keyList": [
+            "2caafaa6-c9e3-4fea-998c-b4a6c4d97262"
+          ],
+          "dataMap": {}
+        }
+      }
+    }
+  },
+  "topics": [
+    {
+      "key": "1c6ff622-fa38-42b8-958d-607d6b5f54aa",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "sql server"
+        }
+      ]
+    },
+    {
+      "key": "e7b54453-d953-43af-aa61-fb549828408d",
+      "parentKey": "8a01f942-27a2-459b-a295-c9f1a5472967",
+      "subKeys": [
+        "0a9cbe00-aa0f-4127-9aeb-80e06234daf1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "OLAP"
+        }
+      ]
+    },
+    {
+      "key": "8a01f942-27a2-459b-a295-c9f1a5472967",
+      "parentKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+      "subKeys": [
+        "2caafaa6-c9e3-4fea-998c-b4a6c4d97262",
+        "e7b54453-d953-43af-aa61-fb549828408d",
+        "565cbee3-69d5-492d-b20d-2b967f0f40fe"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "从应用性质上"
+        }
+      ]
+    },
+    {
+      "key": "df8fe64c-bc89-4a35-9153-c55a4ad304ec",
+      "parentKey": "a39e57d6-95b4-4976-8b79-43968bfff504",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* redis"
+        }
+      ]
+    },
+    {
+      "key": "2caafaa6-c9e3-4fea-998c-b4a6c4d97262",
+      "parentKey": "8a01f942-27a2-459b-a295-c9f1a5472967",
+      "subKeys": [
+        "2c3ad7e6-ea23-428a-b214-a9e850c05352"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "OLTP"
+        }
+      ]
+    },
+    {
+      "key": "8b77f68f-9d1b-49f2-84e1-1dbaa56e18b6",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [
+        "6c9145de-fe86-4c49-b399-bc0086a24b74",
+        "927f5957-a881-43ef-b493-fe4799f100a4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "mysql"
+        }
+      ]
+    },
+    {
+      "key": "3c5d280c-7dd3-4158-9e0b-1ba0d05188aa",
+      "parentKey": "25a01dcc-3143-4e66-a22e-ab8e4b940730",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "时序处理"
+        }
+      ]
+    },
+    {
+      "key": "c88a381a-07fe-4e5e-aad7-a2cd400f8d50",
+      "parentKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "从性质上"
+        }
+      ]
+    },
+    {
+      "key": "6c9145de-fe86-4c49-b399-bc0086a24b74",
+      "parentKey": "8b77f68f-9d1b-49f2-84e1-1dbaa56e18b6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "特点"
+        }
+      ]
+    },
+    {
+      "key": "2c3ad7e6-ea23-428a-b214-a9e850c05352",
+      "parentKey": "2caafaa6-c9e3-4fea-998c-b4a6c4d97262",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "侧重事务能力"
+        }
+      ]
+    },
+    {
+      "key": "96cd5c7d-8808-4da0-8f45-368b45b5c481",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tidb"
+        }
+      ]
+    },
+    {
+      "key": "565cbee3-69d5-492d-b20d-2b967f0f40fe",
+      "parentKey": "8a01f942-27a2-459b-a295-c9f1a5472967",
+      "subKeys": [
+        "adc777cc-7da3-4e6b-9d26-24a90f580ab2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "HATP"
+        }
+      ]
+    },
+    {
+      "key": "0a9cbe00-aa0f-4127-9aeb-80e06234daf1",
+      "parentKey": "e7b54453-d953-43af-aa61-fb549828408d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "侧重查询能力"
+        }
+      ]
+    },
+    {
+      "key": "1d3d8232-3b2b-4117-90ba-b164092bebee",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "postgresql"
+        }
+      ]
+    },
+    {
+      "key": "25a01dcc-3143-4e66-a22e-ab8e4b940730",
+      "parentKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+      "subKeys": [
+        "3c5d280c-7dd3-4158-9e0b-1ba0d05188aa",
+        "ba361616-17ee-4a76-86f3-6c2fcb406a36"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "从具体应用上"
+        }
+      ]
+    },
+    {
+      "key": "ba361616-17ee-4a76-86f3-6c2fcb406a36",
+      "parentKey": "25a01dcc-3143-4e66-a22e-ab8e4b940730",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "空间地理运算"
+        }
+      ]
+    },
+    {
+      "key": "927f5957-a881-43ef-b493-fe4799f100a4",
+      "parentKey": "8b77f68f-9d1b-49f2-84e1-1dbaa56e18b6",
+      "subKeys": [
+        "b78db0d3-32b4-4969-8280-b8782d0d67f9",
+        "1294fdfd-a88c-447a-a049-7722e152d4b2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "存储引擎"
+        }
+      ]
+    },
+    {
+      "key": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+      "parentKey": null,
+      "subKeys": [
+        "25a01dcc-3143-4e66-a22e-ab8e4b940730",
+        "c88a381a-07fe-4e5e-aad7-a2cd400f8d50",
+        "0d49d624-c650-4a2b-a9b2-bac1b78c28a9",
+        "8a01f942-27a2-459b-a295-c9f1a5472967"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据库分类"
+        }
+      ]
+    },
+    {
+      "key": "b78db0d3-32b4-4969-8280-b8782d0d67f9",
+      "parentKey": "927f5957-a881-43ef-b493-fe4799f100a4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "myisam"
+        }
+      ]
+    },
+    {
+      "key": "5c15f1c2-9730-47d4-853f-7798a4a26aa3",
+      "parentKey": "a39e57d6-95b4-4976-8b79-43968bfff504",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "* tablestore"
+        }
+      ]
+    },
+    {
+      "key": "1294fdfd-a88c-447a-a049-7722e152d4b2",
+      "parentKey": "927f5957-a881-43ef-b493-fe4799f100a4",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "innodb"
+        }
+      ]
+    },
+    {
+      "key": "a39e57d6-95b4-4976-8b79-43968bfff504",
+      "parentKey": "0d49d624-c650-4a2b-a9b2-bac1b78c28a9",
+      "subKeys": [
+        "df8fe64c-bc89-4a35-9153-c55a4ad304ec",
+        "5c15f1c2-9730-47d4-853f-7798a4a26aa3"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "nosql"
+        }
+      ]
+    },
+    {
+      "key": "adc777cc-7da3-4e6b-9d26-24a90f580ab2",
+      "parentKey": "565cbee3-69d5-492d-b20d-2b967f0f40fe",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "两种都支持"
+        }
+      ]
+    },
+    {
+      "key": "c0adc803-cde1-4036-a07e-7b2a22acae75",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "polardb"
+        }
+      ]
+    },
+    {
+      "key": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "parentKey": "0d49d624-c650-4a2b-a9b2-bac1b78c28a9",
+      "subKeys": [
+        "8b77f68f-9d1b-49f2-84e1-1dbaa56e18b6",
+        "85a3f2bd-e69e-4be7-af57-3b033faf0f47",
+        "1c6ff622-fa38-42b8-958d-607d6b5f54aa",
+        "1d3d8232-3b2b-4117-90ba-b164092bebee",
+        "96cd5c7d-8808-4da0-8f45-368b45b5c481",
+        "c0adc803-cde1-4036-a07e-7b2a22acae75"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "sql"
+        }
+      ]
+    },
+    {
+      "key": "85a3f2bd-e69e-4be7-af57-3b033faf0f47",
+      "parentKey": "21eff2fe-3e89-49f5-8454-a531be7c3409",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "oracle"
+        }
+      ]
+    },
+    {
+      "key": "0d49d624-c650-4a2b-a9b2-bac1b78c28a9",
+      "parentKey": "cb2f3d23-b8d7-4bf3-81f8-23cc42d181ab",
+      "subKeys": [
+        "a39e57d6-95b4-4976-8b79-43968bfff504",
+        "21eff2fe-3e89-49f5-8454-a531be7c3409"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "从实现上"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
