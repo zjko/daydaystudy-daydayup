@@ -1,0 +1,134 @@
+{
+  "rootTopicKey": "77a76dc9-c6bd-47c6-9acc-8960ea4615b3",
+  "editorRootTopicKey": "77a76dc9-c6bd-47c6-9acc-8960ea4615b3",
+  "focusKey": "e0a103fe-99ac-492d-9096-c015bae2d2e4",
+  "extData": {},
+  "topics": [
+    {
+      "key": "77a76dc9-c6bd-47c6-9acc-8960ea4615b3",
+      "parentKey": null,
+      "subKeys": [
+        "f91ce47d-099a-463d-a9ef-7433406a0e04",
+        "e0a103fe-99ac-492d-9096-c015bae2d2e4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "jvm知识点"
+        }
+      ]
+    },
+    {
+      "key": "f91ce47d-099a-463d-a9ef-7433406a0e04",
+      "parentKey": "77a76dc9-c6bd-47c6-9acc-8960ea4615b3",
+      "subKeys": [
+        "5e817468-5f54-4ba9-bbc3-84ad9040cbf7",
+        "c3f09521-b0d3-484b-90f8-ddbbeb8abee9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "垃圾收集器"
+        }
+      ]
+    },
+    {
+      "key": "5e817468-5f54-4ba9-bbc3-84ad9040cbf7",
+      "parentKey": "f91ce47d-099a-463d-a9ef-7433406a0e04",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "cms"
+        },
+        {
+          "type": "DESC",
+          "data": "简介 以获取最短回收停顿时间为目标的收集器，它是一种并发收集器，采用的是 Mark\\-Sweep 算法。\n场景 如果你的应用需要更快的响应，不希望有长时间的停顿，同时你的 CPU 资源也比较丰富，就适合适用 CMS 收集器。\n垃圾回收步骤\n初始标记 \\(Stop the World 事件 CPU 停顿， 很短\\) 初始标记仅标记一下 GC Roots 能直接关联到的对象，速度很快；\n并发标记 \\(收集垃圾跟用户线程一起执行\\) 并发标记过程就是进行 GC Roots 查找的过程；\n重新标记 \\(Stop the World 事件 CPU 停顿，比初始标记稍微长，远比并发标记短\\) 修正由于并发标记时应用运行产生变化的标记。\n并发清理，标记清除算法；\n缺点\n并发标记时和应用程序同时进行，占用一部分线程，所以吞吐量有所下降。\n并发清除时和应用程序同时进行，这段时间产生的垃圾就要等下一次 GC 再清除。\n采用的标记清除算法，产生内存碎片，如果要新建大对象，会提前触发 Full GC 。\n————————————————\n版权声明：本文为CSDN博主「AYSAML」的原创文章，遵循CC 4.0 BY\\-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/qq\\_23696693/article/details/108406217"
+        }
+      ]
+    },
+    {
+      "key": "c3f09521-b0d3-484b-90f8-ddbbeb8abee9",
+      "parentKey": "f91ce47d-099a-463d-a9ef-7433406a0e04",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "g1"
+        },
+        {
+          "type": "DESC",
+          "data": "简介 是一款面向服务端应用的收集器，它能充分利用多 CPU、多核环境。因此它是一款并行与并发收集器，并且它能建立可预测的停顿时间模型，即可以设置 STW 的时间。\n垃圾回收步骤 1、初始标记\\(stop the world 事件 CPU 停顿只处理垃圾\\)； 2、并发标记\\(与用户线程并发执行\\)； 3、最终标记\\(stop the world 事件 ,CPU 停顿处理垃圾\\)； 4、筛选回收\\(stop the world 事件 根据用户期望的 GC 停顿时间回收\\)\n特点\n并发与并行 充分利用多核 CPU ，使用多核来缩短 STW 时间，部分需要停顿应用线程的操作，仍然可以通过并发保证应用程序的执行。\n分代回收 新生代，幸存带，老年代\n空间整合 总体看是采用标记整理算法回收，每个 Region 大小相等，通过复制来回收。\n可预测的停顿时间 使用 \\-XX:MaxGCPauseMillis=200 设置最长目标暂停值。\n————————————————\n版权声明：本文为CSDN博主「AYSAML」的原创文章，遵循CC 4.0 BY\\-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/qq\\_23696693/article/details/108406217"
+        }
+      ]
+    },
+    {
+      "key": "e0a103fe-99ac-492d-9096-c015bae2d2e4",
+      "parentKey": "77a76dc9-c6bd-47c6-9acc-8960ea4615b3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "jvm常用参数"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
