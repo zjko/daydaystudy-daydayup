@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
   "editorRootTopicKey": "be5dc699-db9d-4db4-8c39-9cabddeb60be",
-  "focusKey": "cbbe0cc9-2ad1-4e29-b8a5-93aad26fd94a",
+  "focusKey": "999aacde-9cef-4434-aac6-6f082372b299",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {
@@ -76,7 +76,7 @@
         "618641f6-98c9-46cf-9867-ab9ff776a19a",
         "80c5d8e7-2fd4-4da6-8dfe-e7b869a2f908"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -91,7 +91,7 @@
       "subKeys": [
         "52c27118-fd19-4fdb-972d-ec7d79bc5168"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -210,7 +210,7 @@
       "subKeys": [
         "57007d78-5464-41d5-a545-c7d6654347ee"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -242,6 +242,22 @@
         {
           "type": "CONTENT",
           "data": "MongoDB"
+        }
+      ]
+    },
+    {
+      "key": "de9c0632-bebd-4062-8849-0c56e5c2eff5",
+      "parentKey": "c7d78193-2269-42ac-a150-e30efa8ea0a3",
+      "subKeys": [
+        "d67d8846-f21e-499d-82de-f2056eeed76b",
+        "999aacde-9cef-4434-aac6-6f082372b299"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "locks"
         }
       ]
     },
@@ -338,7 +354,7 @@
         "60d48f62-8b3c-45af-a62b-c9a4da204c3d",
         "bad76db1-82f5-400b-9121-0450cfefbf4a"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -367,7 +383,7 @@
         "6411be60-0835-48a8-a529-d50a6c784fe3",
         "d3a33a31-bec3-4e3a-aa3c-dde8c99fe737"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -439,7 +455,7 @@
         "988ec886-52a3-42b2-9312-c26033607322",
         "2f6b3a9d-ad45-4098-a60b-3061ff4adf13"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -480,7 +496,7 @@
       "subKeys": [
         "39c68aa1-372d-4a29-b77a-a565ffe4f76b"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -584,7 +600,7 @@
         "cccef76c-0b83-4591-9c44-e10247c5439a",
         "c4c2aba2-22bd-44e9-aae1-19ccaf3cb59b"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1000,7 +1016,7 @@
       "subKeys": [
         "349a7d96-2f89-433a-b07b-0aa71ad0b904"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1136,6 +1152,19 @@
         {
           "type": "CONTENT",
           "data": "垃圾回收算法"
+        }
+      ]
+    },
+    {
+      "key": "575ae8bd-2841-475e-9f19-8ca2484ddea8",
+      "parentKey": "c7d78193-2269-42ac-a150-e30efa8ea0a3",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ConcurrentHashMap"
         }
       ]
     },
@@ -1950,7 +1979,7 @@
         "6ae6f444-5393-456c-b4ce-036aecc8039a",
         "b1b680a9-99ff-40ac-a470-a310212cd0b4"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -2273,8 +2302,10 @@
     {
       "key": "14e8a81f-fde0-444d-a9ea-3f721ea64687",
       "parentKey": "c6d55a98-62d1-4580-a8f4-7744a6874ec6",
-      "subKeys": [],
-      "collapse": true,
+      "subKeys": [
+        "54f0ee36-ad1e-431a-8361-9bcd83f45593"
+      ],
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -2552,7 +2583,7 @@
         "258817f2-2408-444e-9e10-bed0f67a05a6",
         "a36b6645-37bc-4bb1-b057-fb538db6e2d6"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -2852,7 +2883,7 @@
         "8688f47d-6922-48f2-b52e-a9eeba984045",
         "404a75ed-87d8-46a5-ad1f-191c3cfbbb33"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -2885,7 +2916,7 @@
         "470d8cf2-eeb5-4970-91e7-8416f7745977",
         "d8672d7e-6519-456a-9379-067b6938ef34"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3213,12 +3244,12 @@
         "d5669475-329c-45a3-95ea-5cab77e3bdcd",
         "5e4131b8-af29-4914-b8c5-4088b5d5a810"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "基础工具类"
+          "data": "JDK"
         }
       ]
     },
@@ -3254,7 +3285,7 @@
       "subKeys": [
         "9122a158-12a5-4518-a8c2-d6c4b7dfeec2"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3359,7 +3390,7 @@
       "subKeys": [
         "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3425,6 +3456,19 @@
         {
           "type": "CONTENT",
           "data": "编译原理"
+        }
+      ]
+    },
+    {
+      "key": "999aacde-9cef-4434-aac6-6f082372b299",
+      "parentKey": "de9c0632-bebd-4062-8849-0c56e5c2eff5",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
         }
       ]
     },
@@ -3658,7 +3702,7 @@
         "9209cac0-d45c-4d79-827d-b7d636a57f15",
         "1a052b6c-6b13-4923-9f24-342384691266"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -3749,7 +3793,7 @@
         "9871768d-61b0-4ec7-9906-4f2242d4c746",
         "186adff0-72d3-4f4b-a865-c1003ae2606a"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -3981,6 +4025,19 @@
       ]
     },
     {
+      "key": "d67d8846-f21e-499d-82de-f2056eeed76b",
+      "parentKey": "de9c0632-bebd-4062-8849-0c56e5c2eff5",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Lock接口"
+        }
+      ]
+    },
+    {
       "key": "436d2835-cfc1-4531-ad7f-42e28c8333b5",
       "parentKey": "6940869e-6c00-4d49-b9fa-69572aad6cdf",
       "subKeys": [],
@@ -4103,6 +4160,19 @@
       ]
     },
     {
+      "key": "71b22275-1384-4c58-9240-9c231247d3b3",
+      "parentKey": "e9e7826b-7f40-4218-aecb-2c287c6466c6",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "管理有明确访问次数限制的资源，常用语限流"
+        }
+      ]
+    },
+    {
       "key": "e8072d13-45ef-4eb1-8420-647c4a6b2421",
       "parentKey": "8f458a8f-bc5c-4166-93b1-0adf9de2ee67",
       "subKeys": [],
@@ -4209,7 +4279,7 @@
         "41973934-e53b-4fcf-b35c-a48c4aae943f",
         "aa83e4a9-b94b-48d5-91c9-e9fffd0ad7d9"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -4263,6 +4333,25 @@
       ]
     },
     {
+      "key": "e9e7826b-7f40-4218-aecb-2c287c6466c6",
+      "parentKey": "c7d78193-2269-42ac-a150-e30efa8ea0a3",
+      "subKeys": [
+        "71b22275-1384-4c58-9240-9c231247d3b3"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Semaphore"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://zhuanlan.zhihu.com/p/98593407](https://zhuanlan.zhihu.com/p/98593407)"
+        }
+      ]
+    },
+    {
       "key": "404a75ed-87d8-46a5-ad1f-191c3cfbbb33",
       "parentKey": "67ed6c6d-cbc1-4c28-b630-38ec19ef6f24",
       "subKeys": [
@@ -4298,7 +4387,7 @@
         "e8e26def-09cc-490f-a031-8569670bb767",
         "f74236d0-09aa-4337-8fd4-2dcd3ca52083"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4349,8 +4438,12 @@
     {
       "key": "c7d78193-2269-42ac-a150-e30efa8ea0a3",
       "parentKey": "974909ea-2099-4c5b-9440-57fc3ff32da2",
-      "subKeys": [],
-      "collapse": true,
+      "subKeys": [
+        "575ae8bd-2841-475e-9f19-8ca2484ddea8",
+        "e9e7826b-7f40-4218-aecb-2c287c6466c6",
+        "de9c0632-bebd-4062-8849-0c56e5c2eff5"
+      ],
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4429,7 +4522,7 @@
         "eae1115c-681d-4910-b5e6-2e433523c02c",
         "a85d0940-c4cb-4a57-85d0-455de8bc32b7"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4557,7 +4650,7 @@
         "d72910dc-ee1a-4ffa-8f03-54477d65ccc5",
         "085f0d0d-9b87-4705-9256-3825506f8d81"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -4938,7 +5031,7 @@
       "subKeys": [
         "330f52ef-f847-46d8-80eb-045dc865d2c5"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5058,6 +5151,23 @@
       ]
     },
     {
+      "key": "54f0ee36-ad1e-431a-8361-9bcd83f45593",
+      "parentKey": "14e8a81f-fde0-444d-a9ea-3f721ea64687",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "一级缓存二级缓存的区别"
+        },
+        {
+          "type": "DESC",
+          "data": "[https://blog.csdn.net/qq\\_38905818/article/details/104806413](https://blog.csdn.net/qq_38905818/article/details/104806413)\n\n\n1）一级缓存 Mybatis的一级缓存是指SQLSession，一级缓存的作用域是SQlSession, Mabits默认开启一级缓存。 在同一个SqlSession中，执行相同的SQL查询时；第一次会去查询数据库，并写在缓存中，第二次会直接从缓存中取。 当执行SQL时候两次查询中间发生了增删改的操作，则SQLSession的缓存会被清空。 每次查询会先去缓存中找，如果找不到，再去数据库查询，然后把结果写到缓存中。 Mybatis的内部缓存使用一个HashMap，key为hashcode\\+statementId\\+sql语句。Value为查询出来的结果集映射成的java对象。 SqlSession执行insert、update、delete等操作commit后会清空该SQLSession缓存。\n\n2）二级缓存 二级缓存是mapper级别的，Mybatis默认是没有开启二级缓存的。 第一次调用mapper下的SQL去查询用户的信息，查询到的信息会存放代该mapper对应的二级缓存区域。 第二次调用namespace下的mapper映射文件中，相同的sql去查询用户信息，会去对应的二级缓存内取结果。"
+        }
+      ]
+    },
+    {
       "key": "cf9366c6-463a-45e6-bda9-e4082688b390",
       "parentKey": "8688f47d-6922-48f2-b52e-a9eeba984045",
       "subKeys": [],
@@ -5164,7 +5274,7 @@
         "b3c121f7-5e58-4df6-bdb8-851e8135949c",
         "700372af-1d5f-470c-ad62-59e29d3c787c"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -5179,7 +5289,7 @@
       "subKeys": [
         "1b83d034-6cf6-4ab0-90a0-7a61ef07e1b3"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5267,7 +5377,7 @@
         "4c21fad8-a05b-42da-ba8e-c567c201cef1",
         "17fc267a-eae8-4d1d-886b-ea0836f47fbf"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5282,7 +5392,7 @@
       "subKeys": [
         "8cb1e776-2552-4d03-9999-3057bdc54826"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5421,7 +5531,7 @@
       "subKeys": [
         "c8a665de-6d6e-4f70-9762-4396495aaec5"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5567,7 +5677,7 @@
         "fe0190ef-86ec-4c46-a319-93eea0adcfe2",
         "69dbd8bd-3752-4a1c-a1c2-c21807a26f3c"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5586,7 +5696,7 @@
         "f5a72ea2-5f2c-4a1f-a469-ab2830c39ee6",
         "06c6f258-57f9-49d8-85df-cb499f47f2f9"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -5630,7 +5740,7 @@
         "c8ae851d-b44d-43b8-aa22-6c18fd45d25c",
         "9d5e6ea4-c5a1-466f-b968-2cbb3556c782"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {

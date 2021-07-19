@@ -1,91 +1,76 @@
 {
-  "rootTopicKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
-  "editorRootTopicKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
-  "focusKey": "c43c1969-cced-421e-b16f-9497c558621d",
+  "rootTopicKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
+  "editorRootTopicKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
+  "focusKey": "240ee126-2116-41bc-bf6d-05a422730651",
   "extData": {},
   "topics": [
     {
-      "key": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
+      "key": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
       "parentKey": null,
       "subKeys": [
-        "b4400c47-9725-4adb-a59f-f36690e9d05a",
-        "f58eb5aa-9ef0-4838-aac5-0c9823c13f84",
-        "d8bbb9ac-1843-4954-aa3d-73851f0d1482",
-        "c43c1969-cced-421e-b16f-9497c558621d"
+        "a0d9aa64-b767-4235-9d85-8d94a76a4395",
+        "2466eb1a-578a-4435-b441-86849bb54eb1",
+        "33e9db9d-b574-4534-85ac-e1bab98a308d",
+        "240ee126-2116-41bc-bf6d-05a422730651"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "阿里云常用技术方案"
+          "data": "jdk"
         }
       ]
     },
     {
-      "key": "b4400c47-9725-4adb-a59f-f36690e9d05a",
-      "parentKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
-      "subKeys": [
-        "c40ef4bc-d995-41dc-a4b4-24dd0bc27088"
-      ],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "Darabonba"
-        }
-      ]
-    },
-    {
-      "key": "c40ef4bc-d995-41dc-a4b4-24dd0bc27088",
-      "parentKey": "b4400c47-9725-4adb-a59f-f36690e9d05a",
+      "key": "a0d9aa64-b767-4235-9d85-8d94a76a4395",
+      "parentKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "多语言SDK解决方案"
+          "data": " 集合类"
         }
       ]
     },
     {
-      "key": "f58eb5aa-9ef0-4838-aac5-0c9823c13f84",
-      "parentKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
+      "key": "2466eb1a-578a-4435-b441-86849bb54eb1",
+      "parentKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "dubbo"
+          "data": " 多线程"
         }
       ]
     },
     {
-      "key": "d8bbb9ac-1843-4954-aa3d-73851f0d1482",
-      "parentKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
+      "key": "33e9db9d-b574-4534-85ac-e1bab98a308d",
+      "parentKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "hsf"
+          "data": "锁"
         }
       ]
     },
     {
-      "key": "c43c1969-cced-421e-b16f-9497c558621d",
-      "parentKey": "09fd1cfc-b299-4304-b871-2e7b8ddbcb17",
+      "key": "240ee126-2116-41bc-bf6d-05a422730651",
+      "parentKey": "0520bca6-59cc-45c3-b236-2f2383e9f5f9",
       "subKeys": [],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "edas"
+          "data": "线程池"
         }
       ]
     }
